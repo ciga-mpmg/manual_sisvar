@@ -1,0 +1,25 @@
+/* css styles */
+
+/* alterar fonte do título */
+h1.title {
+  font-size: 32px;
+  font-family: arial;
+  font-weight: bold;
+  color: #00353E;
+  text-align: left;
+}
+
+h2.title {
+  font-size: 24px;
+  font-family: arial;
+  font-weight: bold;
+  color: #00BED6;
+  text-align: left;
+}
+
+/* change Font
+@font-face {
+  font-family: "FiraCode";
+  src: url("font/FiraCode-Regular.ttf");
+}
+*/
