@@ -1,0 +1,49 @@
+project:
+  type: book
+  # output-dir: images
+execute: 
+  echo: false
+  warning: false
+  message: false
+
+book:
+  title:  Sisvar
+  description: Manual do Usuário com exemplos práticos de uso
+  downloads: pdf
+  sidebar:
+    logo: assets/ciga.png
+    align: left
+    collapse-level: 1
+    search: true
+  page-footer:
+    center: CIGA | Sisvar
+
+  chapters:
+    - index.qmd
+    - 01_dicionario.qmd
+    - 02_dashboard.qmd
+    - 03_usuarios.qmd
+    - 04_convidados.qmd
+    - 05_auditorias.qmd
+    - 06_tacs.qmd
+    - 07_estruturas_geotecnicas.qmd
+    - 08_empreendedores.qmd
+
+format:
+  html:
+    theme: [cosmo, assets/custom.scss]
+    mainfont: Arial
+    toc: true
+    toc-title: "Sumário"
+    toc-depth: 2
+    linkcolor: "#00353E"
+    logo: assets/ciga.png
+    css: assets/styles.css
+
+  pdf:
+    toc: true
+    toc-depth: 2
+    papersize: a4
+    mainfont: Arial
+    geometry: [top=30mm, bottom=30mm, left=25mm, right=25mm]
+    linkcolor: "#00353E"
