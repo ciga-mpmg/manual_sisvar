@@ -1,3 +1,33 @@
-# Convidados
+# Convidados {#sec-convidados}
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porta lorem sed diam volutpat efficitur. Cras luctus, velit a auctor dignissim, ex ante ornare augue, et consequat libero ex imperdiet nisl. Ut sit amet mi consequat, pellentesque tortor in, feugiat enim. Ut quis auctor turpis. Ut sed nunc ligula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean augue ligula, ultricies vel risus vel, venenatis imperdiet dolor. Praesent porta vitae quam at elementum. Nunc tincidunt mollis ex sed posuere.
+A tela Convidados exibe uma lista dos usuários que receberam convites para acessar o Sisvar. Nessa tela, é possível gerenciar informações sobre quem enviou o convite, o status do convite (Aceito ou Aguardando) e, quando aplicável, a data de aceitação. Além disso, é possível buscar, excluir e enviar novos convites (@fig-tela).
+
+
+////fazer print da tela geral////
+
+
+## Enviar convite
+
+O usuário com perfil de Instituição Admin pode enviar um **Novo Convite** preenchendo todos os campos obrigatórios do formulário (@fig-tela). 
+
+////fazer print do formulário////
+
+
+No campo "Função", ao escolher a opção Gestor ou Responsável, as opções do campo “Auditoria” serão exibidas conforme cadastradas na tela [5 Auditorias](#sec-auditorias)
+
+
+::: {.callout}
+## Nota
+
+A principal diferença desta tela em relação à tela [3 Usuários](#sec-usuarios) é que, aqui, o convite é enviado para o e-mail cadastrado, e o usuário convidado tem até 7 dias para aceitar o convite e criar sua senha (@figu-email).
+:::
+
+
+::: {#figu-email}
+```{r}
+#| label: figu-email
+#| out-width: ~
+knitr::include_graphics("images/03_usuarios/tela.png")
+```
+E-mail convite
+:::

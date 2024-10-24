@@ -1,3 +1,62 @@
-# Usuários
+# Usuários {#sec-usuarios}
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porta lorem sed diam volutpat efficitur. Cras luctus, velit a auctor dignissim, ex ante ornare augue, et consequat libero ex imperdiet nisl. Ut sit amet mi consequat, pellentesque tortor in, feugiat enim. Ut quis auctor turpis. Ut sed nunc ligula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean augue ligula, ultricies vel risus vel, venenatis imperdiet dolor. Praesent porta vitae quam at elementum. Nunc tincidunt mollis ex sed posuere.
+A tela Usuários exibe uma lista dos usuários cadastrados no Sisvar, organizados por perfil. Nesta tela, é possível gerenciar os usuários cadastrados, incluindo busca, visualização, edição, exclusão e adição de novos usuários @figu-tela.
+
+
+::: {#figu-tela}
+```{r}
+#| label: figu-tela
+#| out-width: ~
+knitr::include_graphics("images/03_usuarios/tela.png")
+```
+Tela Usuários
+:::
+
+
+## Localizar
+O usuário com perfil de Instituição Admin pode localizar um usuário utilizando a opção **Procurar**. Ele pode visualizar os três perfis de usuários disponíveis: Gestor, Responsável e Instituição.
+
+## Exibir
+Ao clicar no botão de ação **Exibir**, o usuário Instituição Admin pode visualizar as informações detalhadas de qualquer usuário, incluindo E-mail, Auditoria, Função e Convite (indicando se o usuário convidado aceitou ou não o convite).
+
+
+::: callout
+## Nota
+
+Se o usuário selecionado for do tipo Instituição, o Administrador também pode revogar ou promover este usuário a administrador.
+:::
+
+
+## Editar
+O botão de ação **Editar** permite ao usuário Instituição Admin modificar as informações de qualquer usuário, com ênfase na alteração da Função. 
+
+No entanto, se o usuário for um Administrador, não é possível alterá-lo para os perfis de Gestor ou Responsável.
+
+## Excluir
+O botão de ação **Excluir** permite ao usuário Instituição Admin remover usuários, incluindo ele próprio. No entanto, não é possível excluir o último usuário Instituição Admin disponível no sistema.
+
+## Criar
+O usuário Instituição Admin pode criar um **Novo Usuário** preenchendo todos os campos obrigatórios do formulário. A senha deve ter no mínimo 6 caracteres e incluir uma combinação de letras e números (@figu-criar-usuario).
+
+
+::: {#figu-criar-usuario}
+```{r}
+#| label: figu-criar-usuario
+#| out-width: ~
+knitr::include_graphics("images/03_usuarios/criar-usuario.png")
+```
+Criar Usuário
+:::
+
+
+Se o novo usuário criado for do tipo Instituição, o Admin também pode revogar o papel de Administrador deste usuário durante o processo de criação (@figu-revogar-usuario).
+
+
+::: {#figu-revogar-usuario}
+```{r}
+#| label: figu-revogar-usuario
+#| out-width: ~
+knitr::include_graphics("images/03_usuarios/revogar-usuario.png")
+```
+Revogar Usuário
+:::

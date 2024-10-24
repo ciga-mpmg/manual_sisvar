@@ -1,6 +1,12 @@
 project:
   type: book
-  # output-dir: images
+number-sections: true
+crossref:
+  fig-prefix: Figura   # (default is "Figure")
+  custom:
+    - kind: float
+      reference-prefix: Figura
+      key: figu
 execute: 
   echo: false
   warning: false
@@ -9,6 +15,7 @@ execute:
 book:
   title:  Sisvar
   description: Manual do Usuário com exemplos práticos de uso
+
   downloads: pdf
   sidebar:
     logo: assets/ciga.png
@@ -39,7 +46,7 @@ format:
     linkcolor: "#00353E"
     logo: assets/ciga.png
     css: assets/styles.css
-
+  
   pdf:
     toc: true
     toc-depth: 2

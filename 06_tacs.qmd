@@ -1,3 +1,20 @@
-# TACs
+# TACs {#sec-tacs}
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porta lorem sed diam volutpat efficitur. Cras luctus, velit a auctor dignissim, ex ante ornare augue, et consequat libero ex imperdiet nisl. Ut sit amet mi consequat, pellentesque tortor in, feugiat enim. Ut quis auctor turpis. Ut sed nunc ligula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean augue ligula, ultricies vel risus vel, venenatis imperdiet dolor. Praesent porta vitae quam at elementum. Nunc tincidunt mollis ex sed posuere.
+## Criar
+- Nome e Códigpos são obrigatórios
+- Código deve conter 3 caracteres, sendo os 2 primeiros uma letra obrigatoriamente.
+
+## Exibir
+
+
+## Editar
+
+
+## Excluir
+
+## Lembrar de:
+No manual, o ideal é que tenhamos no "Submeter uma planilha", a explicação de todos os tipos possíveis daqueles "avisos" que um usuário pode receber, tipo:
+ 
+• Validada
+Finalizada com erros
+etc

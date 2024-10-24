@@ -1,3 +1,29 @@
-# Auditorias
+# Auditorias {#sec-auditorias}
 
-> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porta lorem sed diam volutpat efficitur. Cras luctus, velit a auctor dignissim, ex ante ornare augue, et consequat libero ex imperdiet nisl. Ut sit amet mi consequat, pellentesque tortor in, feugiat enim. Ut quis auctor turpis. Ut sed nunc ligula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean augue ligula, ultricies vel risus vel, venenatis imperdiet dolor. Praesent porta vitae quam at elementum. Nunc tincidunt mollis ex sed posuere.
+A tela Auditorias exibe uma lista das auditorias cadastradas no Sisvar, organizadas em ordem alfabética. Nesta tela, é possível gerenciar as auditorias cadastradas, incluindo busca, edição, exclusão e adição de novas auditorias, além da  exibição dos TACs relacionados a cada auditoria @figu-tela.
+
+::: {#figu-tela}
+```{r}
+#| label: figu-tela
+#| out-width: ~
+knitr::include_graphics("images/05_auditorias/tela.png")
+```
+Tela Auditorias
+:::
+
+
+Ao clicar no campo "TACs", o usuário será redirecionado à tela [6 TACs](#sec-tacs) e serão exibidos os TACs relacionados à auditoria selecionada.
+
+## Criar nova Auditoria
+
+O usuário com perfil de Instituição Admin pode cadastrar uma **Nova Auditoria** preenchendo os campos Nome e Código da auditoria. O código deve conter 3 caracteres, sendo os 2 primeiros obrigatoriamente letras (@figu-criar-auditoria).
+
+
+::: {#figu-criar-auditoria}
+```{r}
+#| label: figu-criar-auditoria
+#| out-width: ~
+knitr::include_graphics("images/05_auditorias/criar-auditoria.png")
+```
+Criar Auditoria
+:::
