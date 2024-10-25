@@ -72,5 +72,5 @@ Localizado no canto superior esquerdo da barra lateral colapsada, o botão CIGA 
 
 knitr::include_graphics("images/01_dicionario/ciga.png")
 ```
-Expandir a sidebar
+Expandir a barra lateral
 :::
