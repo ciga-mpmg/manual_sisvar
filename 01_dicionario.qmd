@@ -59,7 +59,7 @@ Localizado no canto superior direito da barra lateral, o botão Lista permite ao
 #| out-width: "3%"
 knitr::include_graphics("images/01_dicionario/lista.svg")
 ```
-Colapsar a sidebar
+Colapsar a barra lateral
 :::
 
 ## Botão CIGA
