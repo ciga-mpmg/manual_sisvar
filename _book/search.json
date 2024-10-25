@@ -4,9 +4,9 @@
     "href": "index.html",
     "title": "Sisvar",
     "section": "",
-    "text": "Introdução\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porta lorem sed diam volutpat efficitur. Cras luctus, velit a auctor dignissim, ex ante ornare augue, et consequat libero ex imperdiet nisl. Ut sit amet mi consequat, pellentesque tortor in, feugiat enim. Ut quis auctor turpis. Ut sed nunc ligula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean augue ligula, ultricies vel risus vel, venenatis imperdiet dolor. Praesent porta vitae quam at elementum. Nunc tincidunt mollis ex sed posuere.",
+    "text": "Prefácio\n\nO Sistema de Atualização e Validação de Recomendações (Sisvar) foi desenvolvido para simplificar a submissão e validação das planilhas de recomendações das Auditorias Técnicas Independentes. Este manual tem como objetivo apresentar os recursos e funcionalidades do Sisvar aos usuários com perfil de Instituição Admin, por meio de um guia ilustrado passo a passo, proporcionando acesso rápido e fácil às informações.",
     "crumbs": [
-      "Introdução"
+      "Prefácio"
     ]
   },
   {
@@ -14,7 +14,7 @@
     "href": "02_dashboard.html",
     "title": "2  Dashboard",
     "section": "",
-    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis porta lorem sed diam volutpat efficitur. Cras luctus, velit a auctor dignissim, ex ante ornare augue, et consequat libero ex imperdiet nisl. Ut sit amet mi consequat, pellentesque tortor in, feugiat enim. Ut quis auctor turpis. Ut sed nunc ligula. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean augue ligula, ultricies vel risus vel, venenatis imperdiet dolor. Praesent porta vitae quam at elementum. Nunc tincidunt mollis ex sed posuere.",
+    "text": "Nesta tela, são apresentados os principais números de acompanhamento das recomendações emitidas pelas Auditorias Técnicas Independentes (Figura 2.1). O usuário com perfil de Instituição Admin pode consultar as últimas cinco Submissões validadas, o Total de recomendações e o Cálculo de Alerta de forma atualizada a cada nova submissão. O Total de TACs e o Total de Estruturas Geotécnicas são atualizados quando da criação de um novo TAC ou nova estrutura geotécnica, respectivamente.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 2.1: Tela Dashboard",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Dashboard</span>"
     ]
@@ -24,7 +24,7 @@
     "href": "03_usuarios.html",
     "title": "3  Usuários",
     "section": "",
-    "text": "3.1 Localizar\nO usuário com perfil de Instituição Admin pode localizar um usuário utilizando a opção Procurar. Ele pode visualizar os três perfis de usuários disponíveis: Gestor, Responsável e Instituição.",
+    "text": "3.1 Procurar\nO usuário com Função de Instituição Admin pode localizar um usuário utilizando a opção Procurar. Ele pode visualizar as três Funções disponíveis: Gestor, Responsável e Instituição.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Usuários</span>"
     ]
@@ -34,7 +34,7 @@
     "href": "03_usuarios.html#exibir",
     "title": "3  Usuários",
     "section": "3.2 Exibir",
-    "text": "3.2 Exibir\nAo clicar no botão de ação Exibir, o usuário Instituição Admin pode visualizar as informações detalhadas de qualquer usuário, incluindo E-mail, Auditoria, Função e Convite (indicando se o usuário convidado aceitou ou não o convite).\n\n\n\n\n\n\nNota\n\n\n\nSe o usuário selecionado for do tipo Instituição, o Administrador também pode revogar ou promover este usuário a administrador.",
+    "text": "3.2 Exibir\nAo clicar no botão de ação Exibir, o usuário Instituição Admin pode visualizar as informações detalhadas de qualquer usuário, incluindo E-mail, Auditoria, Função e Convite (indicando se o usuário convidado aceitou ou não o convite).\nSe o usuário selecionado for do tipo Instituição, o Administrador também pode revogar ou promover este usuário a administrador.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Usuários</span>"
     ]
@@ -44,7 +44,7 @@
     "href": "03_usuarios.html#editar",
     "title": "3  Usuários",
     "section": "3.3 Editar",
-    "text": "3.3 Editar\nO botão de ação Editar permite ao usuário Instituição Admin modificar as informações de qualquer usuário, com ênfase na alteração da Função.\nNo entanto, se o usuário for um Administrador, não é possível alterá-lo para os perfis de Gestor ou Responsável.",
+    "text": "3.3 Editar\nO botão de ação Editar permite ao usuário Instituição Admin modificar as informações de qualquer usuário, com ênfase na alteração da Função.\n\n\n\n\n\n\nNota\n\n\n\nSe o usuário for um Administrador, não é possível alterá-lo para os perfis de Gestor ou Responsável.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Usuários</span>"
     ]
@@ -54,7 +54,7 @@
     "href": "03_usuarios.html#excluir",
     "title": "3  Usuários",
     "section": "3.4 Excluir",
-    "text": "3.4 Excluir\nO botão de ação Excluir permite ao usuário Instituição Admin remover usuários, incluindo ele próprio. No entanto, não é possível excluir o último usuário Instituição Admin disponível no sistema.",
+    "text": "3.4 Excluir\nO botão de ação Excluir permite ao usuário Instituição Admin remover usuários, incluindo ele próprio.\n\n\n\n\n\n\nNota\n\n\n\nO sistema possui uma segurança para que um eventual último usuário Instituição Admin não possa ser excluído ou ter sua Função substituída.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Usuários</span>"
     ]
@@ -74,7 +74,7 @@
     "href": "04_convidados.html",
     "title": "4  Convidados",
     "section": "",
-    "text": "4.1 Enviar convite\nO usuário com perfil de Instituição Admin pode enviar um Novo Convite preenchendo todos os campos obrigatórios do formulário (?fig-tela).\n////fazer print do formulário////\nNo campo “Função”, ao escolher a opção Gestor ou Responsável, as opções do campo “Auditoria” serão exibidas conforme cadastradas na tela 5 Auditorias",
+    "text": "4.1 Enviar convite\nO usuário com perfil de Instituição Admin pode enviar um Novo Convite preenchendo todos os campos obrigatórios do formulário (Figura 4.2).\nNo campo Função, ao escolher a opção Gestor ou Responsável, as opções do campo Auditoria serão exibidas conforme cadastradas na tela 5 Auditorias",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Convidados</span>"
     ]
@@ -193,8 +193,8 @@
     "objectID": "07_estruturas_geotecnicas.html#exibir",
     "href": "07_estruturas_geotecnicas.html#exibir",
     "title": "7  Estruturas Geotécnicas",
-    "section": "7.2 Exibir",
-    "text": "7.2 Exibir",
+    "section": "7.3 Exibir",
+    "text": "7.3 Exibir",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Estruturas Geotécnicas</span>"
     ]
@@ -203,8 +203,8 @@
     "objectID": "07_estruturas_geotecnicas.html#editar",
     "href": "07_estruturas_geotecnicas.html#editar",
     "title": "7  Estruturas Geotécnicas",
-    "section": "7.3 Editar",
-    "text": "7.3 Editar",
+    "section": "7.4 Editar",
+    "text": "7.4 Editar\nO botão de ação Editar permite ao usuário Instituição Admin modificar as informações de Complexo minerário e Coordenadas de qualquer estrutura geotécnica (?figu-editar-estrutura).",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Estruturas Geotécnicas</span>"
     ]
@@ -224,7 +224,7 @@
     "href": "08_empreendedores.html",
     "title": "8  Empreendedores",
     "section": "",
-    "text": "A tela Empreendedores exibe uma lista dos empreendedores cadastrados no Sisvar, criados respeitando a mesma nomenclatura do Sistema de Gestão de Segurança de Barragem de Mineração (SIGBM). Nesta tela, é possível gerenciar os usuários cadastrados, incluindo busca, visualização, edição, exclusão e adição de novos usuários Figura 5.1.",
+    "text": "8.1 Criar\nO usuário Instituição Admin pode criar um Novo Empreendedor preenchendo o campo obrigatório “Nome” do formulário (Figura 8.2).",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Empreendedores</span>"
     ]
@@ -234,7 +234,7 @@
     "href": "04_convidados.html#enviar-convite",
     "title": "4  Convidados",
     "section": "",
-    "text": "Nota\n\n\n\nA principal diferença desta tela em relação à tela 3 Usuários é que, aqui, o convite é enviado para o e-mail cadastrado, e o usuário convidado tem até 7 dias para aceitar o convite e criar sua senha (Figura 4.1).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 4.1: E-mail convite",
+    "text": "Figura 4.2: Formulário para envio de convite\n\n\n\n\n\n\n\n\n\n\nNota\n\n\n\nA principal diferença desta tela em relação à tela 3 Usuários é que, aqui, o convite é enviado para o e-mail cadastrado, e o usuário convidado tem até 7 dias para aceitar o convite e criar sua senha (Figura 4.3).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 4.3: E-mail convite",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Convidados</span>"
     ]
@@ -297,6 +297,186 @@
     "text": "5.2 Exibir TACs relacionados\nAo clicar no campo “TACs”, o usuário será redirecionado à tela 6 TACs e serão exibidos os TACs relacionados à auditoria selecionada.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Auditorias</span>"
+    ]
+  },
+  {
+    "objectID": "08_empreendedores.html#editar",
+    "href": "08_empreendedores.html#editar",
+    "title": "8  Empreendedores",
+    "section": "8.3 Editar",
+    "text": "8.3 Editar\nO botão de ação Editar permite ao usuário Instituição Admin modificar o nome de qualquer empreendedor.\n\n\n\n\n\n\nNota\n\n\n\nRecomenda-se realizar esta ação somente se o nome do empreendedor foi alterado no SIGBM.",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Empreendedores</span>"
+    ]
+  },
+  {
+    "objectID": "08_empreendedores.html#exibir",
+    "href": "08_empreendedores.html#exibir",
+    "title": "8  Empreendedores",
+    "section": "8.2 Exibir",
+    "text": "8.2 Exibir\nAo clicar no botão de ação Exibir, o usuário Instituição Admin pode criar um Novo Nome Alternativo para o TAC (Figura 8.3). O sistema reconhecerá, durante a validação das planilhas, tanto o nome principal quanto o nome alternativo, sendo possível definir o novo nome criado como principal.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 8.3: Novo Nome Alternativo",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Empreendedores</span>"
+    ]
+  },
+  {
+    "objectID": "08_empreendedores.html#criar",
+    "href": "08_empreendedores.html#criar",
+    "title": "8  Empreendedores",
+    "section": "",
+    "text": "Figura 8.2: Criar Empreendedores",
+    "crumbs": [
+      "<span class='chapter-number'>8</span>  <span class='chapter-title'>Empreendedores</span>"
+    ]
+  },
+  {
+    "objectID": "01_dicionario.html",
+    "href": "01_dicionario.html",
+    "title": "1  Dicionário",
+    "section": "",
+    "text": "1.1 Ícone Exibir\nO ícone Exibir permite ao usuário obter informações detalhadas sobre um item específico (Figura 1.1).",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dicionário</span>"
+    ]
+  },
+  {
+    "objectID": "01_dicionario.html#exibir",
+    "href": "01_dicionario.html#exibir",
+    "title": "1  Dicionário",
+    "section": "",
+    "text": "Figura 1.1: Exibir",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dicionário</span>"
+    ]
+  },
+  {
+    "objectID": "01_dicionario.html#editar",
+    "href": "01_dicionario.html#editar",
+    "title": "1  Dicionário",
+    "section": "1.2 Editar",
+    "text": "1.2 Editar\nO ícone Editar permite ao usuário alterar os dados Figura 1.2.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 1.2: Editar",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dicionário</span>"
+    ]
+  },
+  {
+    "objectID": "01_dicionario.html#excluir",
+    "href": "01_dicionario.html#excluir",
+    "title": "1  Dicionário",
+    "section": "1.3 Excluir",
+    "text": "1.3 Excluir\nO ícone Exibir permite ao usuário deletar os dados Figura 1.3.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 1.3: Excluir",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dicionário</span>"
+    ]
+  },
+  {
+    "objectID": "01_dicionario.html#botão-de-inclusão-de-novo-dado",
+    "href": "01_dicionario.html#botão-de-inclusão-de-novo-dado",
+    "title": "1  Dicionário",
+    "section": "1.4 Botão de Inclusão de Novo Dado",
+    "text": "1.4 Botão de Inclusão de Novo Dado\nLocalizado no canto superior direito de cada página principal, este botão permite a criação de novos itens, como Novo Usuário, Novo Convite, Nova Auditoria, Novo TAC, Nova Estrutura Geotécnica e Novo Empreendedor (Figura 1.4).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 1.4: Inclusão de novo dado",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dicionário</span>"
+    ]
+  },
+  {
+    "objectID": "01_dicionario.html#inclusão-de-novo-dado",
+    "href": "01_dicionario.html#inclusão-de-novo-dado",
+    "title": "1  Dicionário",
+    "section": "1.4 Inclusão de novo dado",
+    "text": "1.4 Inclusão de novo dado\nLocalizado no canto superior direito de tela página principal, este botão permite a criação de Novo usuário, Novo convite, Nova auditoria, Novo TAC, Nova Estrutura geotécnica e Novo Empreendedor Figura 1.4.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 1.4: Inclusão de novo dado",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dicionário</span>"
+    ]
+  },
+  {
+    "objectID": "01_dicionario.html#lista",
+    "href": "01_dicionario.html#lista",
+    "title": "1  Dicionário",
+    "section": "1.5 Lista",
+    "text": "1.5 Lista\nLocalizado no canto superior direito da sidebar, o botão Lista permite ao usuário colapsar a sidebar Figura 1.5.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 1.5: Colapsar a sidebar",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dicionário</span>"
+    ]
+  },
+  {
+    "objectID": "01_dicionario.html#ciga",
+    "href": "01_dicionario.html#ciga",
+    "title": "1  Dicionário",
+    "section": "1.6 CIGA",
+    "text": "1.6 CIGA\nLocalizado no canto superior esquerdo da sidebar colapsada, o botão CIGA permite ao expandir o conteúdo completo da sidebar Figura 1.6.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 1.6: Expandir a sidebar",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dicionário</span>"
+    ]
+  },
+  {
+    "objectID": "01_dicionario.html#ícone-exibir",
+    "href": "01_dicionario.html#ícone-exibir",
+    "title": "1  Dicionário",
+    "section": "",
+    "text": "Figura 1.1: Exibir",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dicionário</span>"
+    ]
+  },
+  {
+    "objectID": "01_dicionario.html#ícone-editar",
+    "href": "01_dicionario.html#ícone-editar",
+    "title": "1  Dicionário",
+    "section": "1.2 Ícone Editar",
+    "text": "1.2 Ícone Editar\nO ícone Editar permite ao usuário alterar os dados de um item (Figura 1.2).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 1.2: Editar",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dicionário</span>"
+    ]
+  },
+  {
+    "objectID": "01_dicionario.html#ícone-excluir",
+    "href": "01_dicionario.html#ícone-excluir",
+    "title": "1  Dicionário",
+    "section": "1.3 Ícone Excluir",
+    "text": "1.3 Ícone Excluir\nO ícone Exibir permite ao usuário deletar um item do sistema (Figura 1.3).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 1.3: Excluir",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dicionário</span>"
+    ]
+  },
+  {
+    "objectID": "01_dicionario.html#botão-lista",
+    "href": "01_dicionario.html#botão-lista",
+    "title": "1  Dicionário",
+    "section": "1.5 Botão Lista",
+    "text": "1.5 Botão Lista\nLocalizado no canto superior direito da barra lateral, o botão Lista permite ao usuário colapsar a barra lateral (Figura 1.5).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 1.5: Colapsar a sidebar",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dicionário</span>"
+    ]
+  },
+  {
+    "objectID": "01_dicionario.html#botão-ciga",
+    "href": "01_dicionario.html#botão-ciga",
+    "title": "1  Dicionário",
+    "section": "1.6 Botão CIGA",
+    "text": "1.6 Botão CIGA\nLocalizado no canto superior esquerdo da barra lateral colapsada, o botão CIGA permite expandir o conteúdo completo da barra lateral (Figura 1.6).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 1.6: Expandir a sidebar",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dicionário</span>"
+    ]
+  },
+  {
+    "objectID": "07_estruturas_geotecnicas.html#criar",
+    "href": "07_estruturas_geotecnicas.html#criar",
+    "title": "7  Estruturas Geotécnicas",
+    "section": "",
+    "text": "7.1.1 Botão Nova Estrutura Geotécnica\nO usuário com Função de Instituição Admin pode criar uma Nova Estrutura Geotécnica preenchendo todos os campos obrigatórios do formulário (Figura 7.2).\n\n\n\n\n\n\nNota\n\n\n\nAo criar uma estrutura geotécnica e não preencher os campos Latitude e Longitude, ela será automaticamente adicionada à lista de estruturas com pendências.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 7.2: Tela Criar Estrutura Geotécnica\n\n\n\n\n\n7.1.2 Preenchimento da planilha-modelo\n\nO usuário da auditoria submete uma planilha com a nova estrutura geotécnica, preenchendo os campos estrutura_nao_cadastrada e municipio_estrutura_nao_cadastrada.\nApós validação, a lista-base de estruturas geotécnicas do Sisvar passa a constar a nova estrutura.\nO usuário da auditoria e o usuário com Função de Instituição Admin recebem um aviso (exclamação vermelha) informando que há estruturas geotécnicas pendentes de revisão (Figura 7.3).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 7.3: Tela aviso\n\n\n\n\nO usuário da auditoria preenche as coordenadas. Há uma validação, numérica, para as coordenadas limites no estado de Minas Gerais;\nO usuário com Função de Instituição Admin verifica manualmente se as coordenadas fazem sentido (é um local de mineração?).\nO usuário com Função de Instituição Admin valida ou não as coordenadas (Figura 7.4):\n\n\nEm caso de não validação, o fluxo retorna automaticamente ao passo 3;\nEm caso de validação, o fluxo segue para o passo 7.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 7.4: Tela Validar/Reprovar estrutura geotécnica\n\n\n\n\nO usuário com Função de Instituição Admin busca a estrutura geotécnica na lista-base e edita suas informações para incluir o complexo minerário/mina.\nObs.: A edição de complexo minerário/mina pode ser realizada a qualquer momento, em qualquer estrutura geotécnica.",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Estruturas Geotécnicas</span>"
+    ]
+  },
+  {
+    "objectID": "07_estruturas_geotecnicas.html#procurar",
+    "href": "07_estruturas_geotecnicas.html#procurar",
+    "title": "7  Estruturas Geotécnicas",
+    "section": "7.2 Procurar",
+    "text": "7.2 Procurar",
+    "crumbs": [
+      "<span class='chapter-number'>7</span>  <span class='chapter-title'>Estruturas Geotécnicas</span>"
     ]
   }
 ]

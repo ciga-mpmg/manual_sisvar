@@ -177,8 +177,8 @@ ul.task-list li input[type="checkbox"] {
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Sumário</h2>
    
-  <ul class="collapse">
-  <li><a href="#localizar" id="toc-localizar" class="nav-link active" data-scroll-target="#localizar"><span class="header-section-number">3.1</span> Localizar</a></li>
+  <ul>
+  <li><a href="#procurar" id="toc-procurar" class="nav-link active" data-scroll-target="#procurar"><span class="header-section-number">3.1</span> Procurar</a></li>
   <li><a href="#exibir" id="toc-exibir" class="nav-link" data-scroll-target="#exibir"><span class="header-section-number">3.2</span> Exibir</a></li>
   <li><a href="#editar" id="toc-editar" class="nav-link" data-scroll-target="#editar"><span class="header-section-number">3.3</span> Editar</a></li>
   <li><a href="#excluir" id="toc-excluir" class="nav-link" data-scroll-target="#excluir"><span class="header-section-number">3.4</span> Excluir</a></li>
@@ -208,32 +208,37 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>A tela Usuários exibe uma lista dos usuários cadastrados no Sisvar, organizados por perfil. Nesta tela, é possível gerenciar os usuários cadastrados, incluindo busca, visualização, edição, exclusão e adição de novos usuários <a href="05_auditorias.html#figu-tela" class="quarto-xref">Figura&nbsp;<span>5.1</span></a>.</p>
-<div id="figu-tela" class="quarto-float quarto-figure quarto-figure-center anchored">
+<p>A tela Usuários exibe uma lista dos usuários cadastrados no Sisvar, organizados por Função. Nesta tela, é possível gerenciar os usuários cadastrados, incluindo busca, visualização, edição, exclusão e adição de novos usuários (<a href="#figu-tela03" class="quarto-xref">Figura&nbsp;<span>3.1</span></a>).</p>
+<div id="figu-tela03" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-figu figure">
-<div aria-describedby="figu-tela-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="figu-tela03-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="images/03_usuarios/tela.png" class="img-fluid figure-img" width="545"></p>
+<p><img src="images/03_usuarios/tela03.png" class="img-fluid figure-img" width="586"></p>
 </figure>
 </div>
 </div>
 </div>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-tela-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-tela03-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figura&nbsp;3.1: Tela Usuários
 </figcaption>
 </figure>
 </div>
-<section id="localizar" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="localizar"><span class="header-section-number">3.1</span> Localizar</h2>
-<p>O usuário com perfil de Instituição Admin pode localizar um usuário utilizando a opção <strong>Procurar</strong>. Ele pode visualizar os três perfis de usuários disponíveis: Gestor, Responsável e Instituição.</p>
+<section id="procurar" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="procurar"><span class="header-section-number">3.1</span> Procurar</h2>
+<p>O usuário com Função de <em>Instituição Admin</em> pode localizar um usuário utilizando a opção <strong>Procurar</strong>. Ele pode visualizar as três Funções disponíveis: <em>Gestor, Responsável e Instituição</em>.</p>
 </section>
 <section id="exibir" class="level2" data-number="3.2">
 <h2 data-number="3.2" class="anchored" data-anchor-id="exibir"><span class="header-section-number">3.2</span> Exibir</h2>
-<p>Ao clicar no botão de ação <strong>Exibir</strong>, o usuário Instituição Admin pode visualizar as informações detalhadas de qualquer usuário, incluindo E-mail, Auditoria, Função e Convite (indicando se o usuário convidado aceitou ou não o convite).</p>
+<p>Ao clicar no botão de ação <strong>Exibir</strong>, o usuário <em>Instituição Admin</em> pode visualizar as informações detalhadas de qualquer usuário, incluindo E-mail, Auditoria, Função e Convite (indicando se o usuário convidado aceitou ou não o convite).</p>
+<p>Se o usuário selecionado for do tipo <em>Instituição</em>, o Administrador também pode revogar ou promover este usuário a administrador.</p>
+</section>
+<section id="editar" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="editar"><span class="header-section-number">3.3</span> Editar</h2>
+<p>O botão de ação <strong>Editar</strong> permite ao usuário <em>Instituição Admin</em> modificar as informações de qualquer usuário, com ênfase na alteração da Função.</p>
 <div class="callout callout-style-simple callout-none no-icon callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -244,22 +249,30 @@ Nota
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Se o usuário selecionado for do tipo Instituição, o Administrador também pode revogar ou promover este usuário a administrador.</p>
+<p>Se o usuário for um Administrador, não é possível alterá-lo para os perfis de <em>Gestor</em> ou <em>Responsável</em>.</p>
 </div>
 </div>
-</section>
-<section id="editar" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="editar"><span class="header-section-number">3.3</span> Editar</h2>
-<p>O botão de ação <strong>Editar</strong> permite ao usuário Instituição Admin modificar as informações de qualquer usuário, com ênfase na alteração da Função.</p>
-<p>No entanto, se o usuário for um Administrador, não é possível alterá-lo para os perfis de Gestor ou Responsável.</p>
 </section>
 <section id="excluir" class="level2" data-number="3.4">
 <h2 data-number="3.4" class="anchored" data-anchor-id="excluir"><span class="header-section-number">3.4</span> Excluir</h2>
-<p>O botão de ação <strong>Excluir</strong> permite ao usuário Instituição Admin remover usuários, incluindo ele próprio. No entanto, não é possível excluir o último usuário Instituição Admin disponível no sistema.</p>
+<p>O botão de ação <strong>Excluir</strong> permite ao usuário <em>Instituição Admin</em> remover usuários, incluindo ele próprio.</p>
+<div class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>O sistema possui uma segurança para que um eventual último usuário <em>Instituição Admin</em> não possa ser excluído ou ter sua Função substituída.</p>
+</div>
+</div>
 </section>
 <section id="criar" class="level2" data-number="3.5">
 <h2 data-number="3.5" class="anchored" data-anchor-id="criar"><span class="header-section-number">3.5</span> Criar</h2>
-<p>O usuário Instituição Admin pode criar um <strong>Novo Usuário</strong> preenchendo todos os campos obrigatórios do formulário. A senha deve ter no mínimo 6 caracteres e incluir uma combinação de letras e números (<a href="#figu-criar-usuario" class="quarto-xref">Figura&nbsp;<span>3.2</span></a>).</p>
+<p>O usuário <em>Instituição Admin</em> pode criar um <strong>Novo Usuário</strong> preenchendo todos os campos obrigatórios do formulário. A senha deve ter no mínimo 6 caracteres e incluir uma combinação de letras e números (<a href="#figu-criar-usuario" class="quarto-xref">Figura&nbsp;<span>3.2</span></a>).</p>
 <div id="figu-criar-usuario" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-figu figure">
 <div aria-describedby="figu-criar-usuario-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -267,7 +280,7 @@ Nota
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="images/03_usuarios/criar-usuario.png" class="img-fluid figure-img" width="652"></p>
+<p><img src="images/03_usuarios/criar-usuario.png" class="img-fluid figure-img" width="585"></p>
 </figure>
 </div>
 </div>
@@ -278,7 +291,7 @@ Figura&nbsp;3.2: Criar Usuário
 </figcaption>
 </figure>
 </div>
-<p>Se o novo usuário criado for do tipo Instituição, o Admin também pode revogar o papel de Administrador deste usuário durante o processo de criação (<a href="#figu-revogar-usuario" class="quarto-xref">Figura&nbsp;<span>3.3</span></a>).</p>
+<p>Se o novo usuário criado for do tipo <em>Instituição</em>, o Admin também pode revogar o papel de Administrador deste usuário durante o processo de criação (<a href="#figu-revogar-usuario" class="quarto-xref">Figura&nbsp;<span>3.3</span></a>).</p>
 <div id="figu-revogar-usuario" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-figu figure">
 <div aria-describedby="figu-revogar-usuario-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -286,7 +299,7 @@ Figura&nbsp;3.2: Criar Usuário
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="images/03_usuarios/revogar-usuario.png" class="img-fluid figure-img" width="646"></p>
+<p><img src="images/03_usuarios/revogar-usuario.png" class="img-fluid figure-img" width="585"></p>
 </figure>
 </div>
 </div>

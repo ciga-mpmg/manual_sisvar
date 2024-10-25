@@ -1,3 +1,43 @@
 # Empreendedores {#sec-empreendedores}
+A tela Empreendedores exibe uma lista dos empreendedores cadastrados no Sisvar, seguindo a nomenclatura do **<a href="https://app.anm.gov.br/SIGBM/Publico/GerenciarPublico' target='_blank'">Sistema de Gestão de Segurança de Barragem de Mineração (SIGBM)</a>**. Nesta tela, é possível gerenciar os empreendedores cadastrados, incluindo busca, visualização, edição, exclusão e adição de novos empreendedores (@figu-tela08).
 
-A tela Empreendedores exibe uma lista dos empreendedores cadastrados no Sisvar, criados respeitando a mesma nomenclatura do **<a href="https://app.anm.gov.br/SIGBM/Publico/GerenciarPublico' target='_blank'">Sistema de Gestão de Segurança de Barragem de Mineração (SIGBM)</a>**. Nesta tela, é possível gerenciar os empreendedores cadastrados, incluindo busca, visualização, edição, exclusão e adição de novos empreendedores @figu-tela.
+::: {#figu-tela08}
+```{r}
+#| label: figu-tela08
+#| out-width: ~
+knitr::include_graphics("images/08_empreendedores/tela08.png")
+```
+Tela Empreendedores
+:::
+
+## Criar
+O usuário Instituição Admin pode criar um **Novo Empreendedor** preenchendo o campo obrigatório "Nome" do formulário (@figu-criar-empreendedor).
+
+::: {#figu-criar-empreendedor}
+```{r}
+#| label: figu-criar-empreendedor
+#| out-width: ~
+knitr::include_graphics("images/08_empreendedores/criar-empreendedor.png")
+```
+Criar Empreendedores
+:::
+
+## Exibir
+Ao clicar no botão de ação **Exibir**, o usuário Instituição Admin pode criar um **Novo Nome Alternativo** para o TAC (@figu-nomealternativo). O sistema reconhecerá, durante a validação das planilhas, tanto o nome principal quanto o nome alternativo, sendo possível definir o novo nome criado como principal.
+
+::: {#figu-nomealternativo}
+```{r}
+#| label: figu-nomealternativo
+#| out-width: ~
+knitr::include_graphics("images/08_empreendedores/nomealternativo.png")
+```
+Novo Nome Alternativo
+:::
+
+## Editar
+O botão de ação **Editar** permite ao usuário Instituição Admin modificar o nome de qualquer empreendedor.
+
+::: callout
+## Nota
+Recomenda-se realizar esta ação somente se o nome do empreendedor foi alterado no SIGBM.
+:::

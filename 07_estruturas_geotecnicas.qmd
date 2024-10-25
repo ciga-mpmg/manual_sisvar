@@ -1,12 +1,24 @@
 # Estruturas Geotécnicas {#sec-estruturas}
+A tela Estruturas Geotécnicas exibe uma lista das estruturas cadastrados no Sisvar. Nesta tela, é possível gerenciar as estruturas geotécnicas, incluindo busca, visualização, edição e adição de novas estruturas (@figu-tela07).
+
+::: {#figu-tela07}
+```{r}
+#| label: figu-tela09
+#| out-width: ~
+knitr::include_graphics("images/07_estruturas_geotecnicas/tela07.png")
+```
+Tela Estruturas Geotécnicas
+:::
 
 ## Criar
+
+
+## Procurar
+
 
 
 ## Exibir
 
 
 ## Editar
-
-
-## Aprovar/Revisar
+O botão de ação **Editar** permite ao usuário *Instituição Admin* modificar as informações de Complexo minerário e Coordenadas de qualquer estrutura geotécnica (@figu-editar-estrutura).

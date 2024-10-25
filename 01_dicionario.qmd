@@ -1,1 +1,76 @@
 # Dicionário {#sec-dicionario}
+Este dicionário fornece uma descrição geral das principais ações disponíveis no sistema, auxiliando os usuários a compreenderem os ícones e botões para navegar e realizar tarefas com facilidade.
+
+## Ícone Exibir
+O ícone Exibir permite ao usuário obter informações detalhadas sobre um item específico (@figu-exibir).
+
+::: {#figu-exibir}
+```{r}
+#| label: figu-exibir
+#| out-width: ~
+knitr::include_graphics("images/01_dicionario/exibir.svg")
+```
+Exibir
+:::
+
+
+## Ícone Editar
+O ícone Editar permite ao usuário alterar os dados de um item (@figu-editar).
+
+::: {#figu-editar}
+```{r}
+#| label: figu-editar
+#| out-width: ~
+knitr::include_graphics("images/01_dicionario/editar.svg")
+```
+Editar
+:::
+  
+## Ícone Excluir
+O ícone Exibir permite ao usuário deletar um item do sistema (@figu-excluir).
+
+::: {#figu-excluir}
+```{r}
+#| label: figu-excluir
+#| out-width: ~
+knitr::include_graphics("images/01_dicionario/excluir.svg")
+```
+Excluir
+:::
+
+## Botão de Inclusão de Novo Dado
+Localizado no canto superior direito de cada página principal, este botão permite a criação de novos itens, como Novo Usuário, Novo Convite, Nova Auditoria, Novo TAC, Nova Estrutura Geotécnica e Novo Empreendedor (@figu-novo).
+
+::: {#figu-novo}
+```{r}
+#| label: figu-novo
+#| out-width: ~
+knitr::include_graphics("images/01_dicionario/novo.svg")
+```
+Inclusão de novo dado
+:::
+
+## Botão Lista
+Localizado no canto superior direito da barra lateral, o botão Lista permite ao usuário colapsar a barra lateral (@figu-lista).
+
+::: {#figu-lista}
+```{r}
+#| label: figu-lista
+#| out-width: "3%"
+knitr::include_graphics("images/01_dicionario/lista.svg")
+```
+Colapsar a sidebar
+:::
+
+## Botão CIGA
+Localizado no canto superior esquerdo da barra lateral colapsada, o botão CIGA permite expandir o conteúdo completo da barra lateral (@figu-ciga).
+
+::: {#figu-ciga}
+```{r}
+#| label: figu-ciga
+#| out-width: "5%"
+
+knitr::include_graphics("images/01_dicionario/ciga.png")
+```
+Expandir a sidebar
+:::

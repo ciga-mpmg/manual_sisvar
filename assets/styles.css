@@ -1,7 +1,5 @@
 /* css styles */
 
-
-
 /* alterar fonte do título */
 h1.title {
   font-size: 32px;
@@ -25,26 +23,16 @@ h2.title {
 }
 
 .figure-img {
-  margin-bottom: 3px !important;
+  margin-bottom: 1px !important;
 }
 
-.callout.callout-style-default.callout-tip.callout-titled {
-  border: 1px solid #00BED6;
-  /* Borda vermelha */
-  background-color: white;
-  /* Fundo do texto*/
-  color: #343a40;
-  /* Texto */
-}
-
-.callout.callout-style-default.callout-tip.callout-titled .callout-header {
-  background-color: #00BED6;
-  /* Fundo do cabeçalho */
-}
-
-.callout.callout-style-default.callout-tip.callout-titled .callout-title-container {
-  color: #003B4d;
-  /* Texto do título */
+p {
+  display: block;
+  margin-block-start: 5px;
+  margin-block-end: 8px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
 }
 
 

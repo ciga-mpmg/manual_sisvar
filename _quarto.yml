@@ -42,7 +42,7 @@ format:
     mainfont: Arial
     toc: true
     toc-title: "Sumário"
-    toc-depth: 2
+    toc-depth: 3
     linkcolor: "#00353E"
     logo: assets/ciga.png
     css: assets/styles.css
