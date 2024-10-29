@@ -22,7 +22,7 @@ knitr::include_graphics("images/04_convidados/convite.png")
 Formulário para envio de convite
 :::
 
-No campo Função, ao escolher a opção *Gestor ou Responsável*, as opções do campo Auditoria serão exibidas conforme cadastradas na tela [5 Auditorias](#sec-auditorias)
+No campo Função, ao escolher a opção *Gestor ou Responsável*, as opções do campo Auditoria serão exibidas conforme cadastradas na tela [5 Auditorias](#sec-auditorias).
 
 ::: {.callout}
 ## Nota

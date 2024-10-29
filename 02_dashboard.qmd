@@ -1,7 +1,8 @@
 # Dashboard  {#sec-dashboard}
 
-Nesta tela, são apresentados os principais números de acompanhamento das recomendações emitidas pelas Auditorias Técnicas Independentes (@figu-tela02). O usuário com perfil de Instituição Admin pode consultar as últimas cinco **Submissões validadas**, o **Total de recomendações** e o **Cálculo de Alerta** de forma atualizada a cada nova submissão. O **Total de TACs** e o **Total de Estruturas Geotécnicas** são atualizados quando da criação de um novo TAC ou nova estrutura geotécnica, respectivamente.
+Nesta tela, são apresentados os principais números de acompanhamento das recomendações emitidas pelas Auditorias Técnicas Independentes (@figu-tela02). 
 
+O usuário com perfil de *Instituição Admin* pode consultar as últimas cinco **Submissões validadas**, o **Total de recomendações** e o **Cálculo de Alerta** de forma atualizada a cada nova submissão. O **Total de TACs** e o **Total de Estruturas Geotécnicas** são atualizados quando da criação de um novo TAC ou nova estrutura geotécnica, respectivamente.
 
 ::: {#figu-tela02}
 ```{r}

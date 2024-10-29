@@ -14,7 +14,7 @@
     "href": "02_dashboard.html",
     "title": "2  Dashboard",
     "section": "",
-    "text": "Nesta tela, são apresentados os principais números de acompanhamento das recomendações emitidas pelas Auditorias Técnicas Independentes (Figura 2.1). O usuário com perfil de Instituição Admin pode consultar as últimas cinco Submissões validadas, o Total de recomendações e o Cálculo de Alerta de forma atualizada a cada nova submissão. O Total de TACs e o Total de Estruturas Geotécnicas são atualizados quando da criação de um novo TAC ou nova estrutura geotécnica, respectivamente.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 2.1: Tela Dashboard",
+    "text": "Nesta tela, são apresentados os principais números de acompanhamento das recomendações emitidas pelas Auditorias Técnicas Independentes (Figura 2.1).\nO usuário com perfil de Instituição Admin pode consultar as últimas cinco Submissões validadas, o Total de recomendações e o Cálculo de Alerta de forma atualizada a cada nova submissão. O Total de TACs e o Total de Estruturas Geotécnicas são atualizados quando da criação de um novo TAC ou nova estrutura geotécnica, respectivamente.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 2.1: Tela Dashboard",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Dashboard</span>"
     ]
@@ -24,7 +24,7 @@
     "href": "03_usuarios.html",
     "title": "3  Usuários",
     "section": "",
-    "text": "3.1 Procurar\nO usuário com Função de Instituição Admin pode localizar um usuário utilizando a opção Procurar. Ele pode visualizar as três Funções disponíveis: Gestor, Responsável e Instituição.",
+    "text": "3.1 Criar\nO usuário com Função de Instituição Admin pode criar um Novo Usuário preenchendo todos os campos obrigatórios do formulário. A senha deve ter no mínimo 6 caracteres e incluir uma combinação de letras e números (Figura 3.2).\nSe o novo usuário criado for do tipo Instituição, o Admin também pode revogar o papel de Administrador deste usuário durante o processo de criação (Figura 3.3).",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Usuários</span>"
     ]
@@ -33,8 +33,8 @@
     "objectID": "03_usuarios.html#exibir",
     "href": "03_usuarios.html#exibir",
     "title": "3  Usuários",
-    "section": "3.2 Exibir",
-    "text": "3.2 Exibir\nAo clicar no botão de ação Exibir, o usuário Instituição Admin pode visualizar as informações detalhadas de qualquer usuário, incluindo E-mail, Auditoria, Função e Convite (indicando se o usuário convidado aceitou ou não o convite).\nSe o usuário selecionado for do tipo Instituição, o Administrador também pode revogar ou promover este usuário a administrador.",
+    "section": "3.3 Exibir",
+    "text": "3.3 Exibir\nAo clicar no botão de ação Exibir, o usuário Instituição Admin pode visualizar as informações detalhadas de qualquer usuário, incluindo E-mail, Auditoria, Função e Convite (indicando se o usuário convidado aceitou ou não o convite).\nSe o usuário selecionado for do tipo Instituição, o Administrador também pode revogar ou promover este usuário a Administrador do sistema.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Usuários</span>"
     ]
@@ -43,8 +43,8 @@
     "objectID": "03_usuarios.html#editar",
     "href": "03_usuarios.html#editar",
     "title": "3  Usuários",
-    "section": "3.3 Editar",
-    "text": "3.3 Editar\nO botão de ação Editar permite ao usuário Instituição Admin modificar as informações de qualquer usuário, com ênfase na alteração da Função.\n\n\n\n\n\n\nNota\n\n\n\nSe o usuário for um Administrador, não é possível alterá-lo para os perfis de Gestor ou Responsável.",
+    "section": "3.4 Editar",
+    "text": "3.4 Editar\nO botão de ação Editar permite ao usuário Instituição Admin modificar as informações de qualquer usuário, com ênfase na alteração da Função.\n\n\n\n\n\n\nNota\n\n\n\nSe o usuário for um Administrador, não é possível alterá-lo para os perfis de Gestor ou Responsável.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Usuários</span>"
     ]
@@ -53,8 +53,8 @@
     "objectID": "03_usuarios.html#excluir",
     "href": "03_usuarios.html#excluir",
     "title": "3  Usuários",
-    "section": "3.4 Excluir",
-    "text": "3.4 Excluir\nO botão de ação Excluir permite ao usuário Instituição Admin remover usuários, incluindo ele próprio.\n\n\n\n\n\n\nNota\n\n\n\nO sistema possui uma segurança para que um eventual último usuário Instituição Admin não possa ser excluído ou ter sua Função substituída.",
+    "section": "3.5 Excluir",
+    "text": "3.5 Excluir\nO botão de ação Excluir permite ao usuário Instituição Admin remover usuários, incluindo ele próprio.\n\n\n\n\n\n\nNota\n\n\n\nO sistema possui uma segurança para que um eventual último usuário Instituição Admin não possa ser excluído ou ter sua Função substituída.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Usuários</span>"
     ]
@@ -63,8 +63,8 @@
     "objectID": "03_usuarios.html#criar",
     "href": "03_usuarios.html#criar",
     "title": "3  Usuários",
-    "section": "3.5 Criar",
-    "text": "3.5 Criar\nO usuário Instituição Admin pode criar um Novo Usuário preenchendo todos os campos obrigatórios do formulário. A senha deve ter no mínimo 6 caracteres e incluir uma combinação de letras e números (Figura 3.2).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 3.2: Criar Usuário\n\n\n\nSe o novo usuário criado for do tipo Instituição, o Admin também pode revogar o papel de Administrador deste usuário durante o processo de criação (Figura 3.3).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 3.3: Revogar Usuário",
+    "section": "",
+    "text": "Figura 3.2: Criar Usuário\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 3.3: Revogar Usuário",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Usuários</span>"
     ]
@@ -74,7 +74,7 @@
     "href": "04_convidados.html",
     "title": "4  Convidados",
     "section": "",
-    "text": "4.1 Enviar convite\nO usuário com perfil de Instituição Admin pode enviar um Novo Convite preenchendo todos os campos obrigatórios do formulário (Figura 4.2).\nNo campo Função, ao escolher a opção Gestor ou Responsável, as opções do campo Auditoria serão exibidas conforme cadastradas na tela 5 Auditorias",
+    "text": "4.1 Enviar convite\nO usuário com perfil de Instituição Admin pode enviar um Novo Convite preenchendo todos os campos obrigatórios do formulário (Figura 4.2).\nNo campo Função, ao escolher a opção Gestor ou Responsável, as opções do campo Auditoria serão exibidas conforme cadastradas na tela 5 Auditorias.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Convidados</span>"
     ]
@@ -84,7 +84,7 @@
     "href": "05_auditorias.html",
     "title": "5  Auditorias",
     "section": "",
-    "text": "5.1 Criar nova Auditoria\nO usuário com perfil de Instituição Admin pode cadastrar uma Nova Auditoria preenchendo os campos Nome e Código da auditoria. O código deve conter 3 caracteres, sendo os 2 primeiros obrigatoriamente letras (Figura 5.2).",
+    "text": "5.1 Criar nova Auditoria\nO usuário com Função de Instituição Admin pode cadastrar uma Nova Auditoria preenchendo os campos Nome e Código da auditoria. O código deve conter 3 caracteres, sendo os 2 primeiros obrigatoriamente letras (Figura 5.2).",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Auditorias</span>"
     ]
@@ -124,7 +124,7 @@
     "href": "06_tacs.html",
     "title": "6  TACs",
     "section": "",
-    "text": "6.1 Criar",
+    "text": "6.1 Criar\nO usuário com Função de Instituição Admin pode criar um Novo TAC preenchendo todos os campos obrigatórios do formulário. O código deve conter 3 caracteres, sendo os 2 primeiros obrigatoriamente letras (Figura 6.2).\nO campo Data de Assinatura será exibido após o preenchimento deste campo no Sistema de Cadastro de TACs. Quando preenchido, o sistema validará se a data de abertura da recomendação é anterior à data de assinatura do TAC.\nO campo TAC Referência também é exibido de acordo com o nome preenchido no Sistema de Cadastro de TACs. Ele serve para, caso necessário, juntar todos os dados de um TAC. Por exemplo, se tivermos um TAC Gongo Soco (RIZZO) e um TAC Gongo Soco (SLR), ambos são provenientes do mesmo TAC. Portanto, ambos teriam a seleção, em TAC Referência, por TAC Gongo Soco. Assim, conseguiríamos fazer uma busca apenas por “Gongo Soco”, que juntaria o histórico das duas auditorias dentro desse mesmo TAC.",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>TACs</span>"
     ]
@@ -134,7 +134,7 @@
     "href": "06_tacs.html#criar",
     "title": "6  TACs",
     "section": "",
-    "text": "Nome e Códigpos são obrigatórios\nCódigo deve conter 3 caracteres, sendo os 2 primeiros uma letra obrigatoriamente.",
+    "text": "Figura 6.2: Criar TAC",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>TACs</span>"
     ]
@@ -144,7 +144,7 @@
     "href": "06_tacs.html#exibir",
     "title": "6  TACs",
     "section": "6.2 Exibir",
-    "text": "6.2 Exibir",
+    "text": "6.2 Exibir\nAo clicar no botão de ação Exibir, o usuário Instituição Admin pode visualizar as informações detalhadas dos TACs, incluindo 6.2.1 Submissões, 6.2.2 Responsáveis, 6.2.3 Nomes alternativos, 6.2.4 Planilhas, 6.2.5 Histórico do TAC.\n\n6.2.1 Submissões\nO usuário Instituição Admin pode submeter e validar planilhas-modelo quando necessário (Figura 6.3).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 6.3: Tela Submissões\n\n\n\nNo campo Descrição as planilhas submetidas podem apresentar três diferentes resultados:\n\nCancelada: quando uma submissão é cancelada antes da finalização do processo de validação.\nDescartada: quando uma submissão é descartada após a conclusão do processo de validação devido a erros que impedem sua validação.\nValidada: quando uma submissão é validada após a conclusão do processo de validação sem erros impeditivos.\n\nO processo de validação das planilhas submetidas passa por uma avaliação criteriosa, desde a estrutura do cabeçalho até a última coluna da planilha. As inconsistências encontradas podem ser classificadas como:\n\nAviso: permite que a submissão seja validada, após o usuário checar todos os avisos apresentados;\nErro: impede que a submissão seja validada. A submissão deve ser descartada e outra submissão deve ser realizada para nova rodada de validação.\n\n\n\n\n\n\n\nNota\n\n\n\nEm caso de recomendações com inconsistências do tipo Aviso e Erro na mesma submissão, o procedimento segue o caso mais restritivo, ou seja, Erro.\n\n\n\n\n6.2.2 Responsáveis\nNesta aba, o usuário Instituição Admin pode visualizar os responsáveis ou criar um Novo Responsável que será adicionado à lista de usuários aptos a enviar planilhas para determinado TAC (Figura 6.4).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 6.4: Tela Responsáveis\n\n\n\n\n\n6.2.3 Nomes alternativos\nNesta aba, o usuário Instituição Admin pode visualizar os nomes alternativos do TAC (quando houver) ou criar um Novo Nome Alternativo e definí-lo como principal (Figura 6.5).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 6.5: Tela Nomes alternativos\n\n\n\nPor padrão, não existe um “nome fantasia” para um TAC. O CIGA criou esses nomes para facilitar a identificação. As auditorias também criaram seus próprios “nomes fantasia”, o que pode resultar em discrepâncias entre os nomes dos TACs cadastrados no CIGA e os utilizados pelas auditorias (que podem usar nomes muito longos, sem acentuação ou até mesmo em inglês).\nNeste sentido, para evitar que a validação seja impedida de ocorrer devido a diferenças nos “nomes fantasia”, é possível criar nomes alternativos (conhecidos como “alias” em inglês).;\n\n\n\n\n\n\nNota\n\n\n\nO nome alternativo, assim como o nome fantasia, é único. Portanto, é importante orientar as auditorias sobre essa questão. Por exemplo, se a RIZZO utilizasse “TAC Gongo Soco” em sua planilha e já tivesse criado esse nome alternativo, a SLR, ao assumir Gongo Soco, não conseguiria utilizar “TAC Gongo Soco” em sua planilha.\n\n\n\n\n6.2.4 Planilhas\nNesta aba, o usuário Instituição Admin pode baixar três tipos de planilhas (Figura 6.6):\n\nPlanilha-modelo em branco: versão mais recente da planilha-modelo em branco;\nPlanilha mais recente validada com sucesso: planilha mais recente com submissão validada;\nPlanilha de conversão de IDs: planilha que relaciona o ID do TAC com o ID CIGA.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 6.6: Tela Planilhas\n\n\n\n\n\n6.2.5 Histórico do TAC\nNesta aba, o usuário Instituição Admin pode visualizar o histórico do TAC, incluindo alterações na situação do TAC (Figura 6.7).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 6.7: Tela Histórico do TAC",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>TACs</span>"
     ]
@@ -154,7 +154,7 @@
     "href": "06_tacs.html#editar",
     "title": "6  TACs",
     "section": "6.3 Editar",
-    "text": "6.3 Editar",
+    "text": "6.3 Editar\nO botão de ação Editar permite ao usuário Instituição Admin modificar as informações de qualquer TAC, com ênfase na alteração da Situação(Figura 6.8).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 6.8: Tela Editar",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>TACs</span>"
     ]
@@ -164,7 +164,7 @@
     "href": "06_tacs.html#excluir",
     "title": "6  TACs",
     "section": "6.4 Excluir",
-    "text": "6.4 Excluir",
+    "text": "6.4 Excluir\nO botão de ação Excluir permite ao usuário Instituição Admin remover TACs. Não é possível excluir um TAC com recomendações em aberto (Figura 6.9).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 6.9: Tela Excluir",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>TACs</span>"
     ]
@@ -224,7 +224,7 @@
     "href": "08_empreendedores.html",
     "title": "8  Empreendedores",
     "section": "",
-    "text": "8.1 Criar\nO usuário Instituição Admin pode criar um Novo Empreendedor preenchendo o campo obrigatório “Nome” do formulário (Figura 8.2).",
+    "text": "8.1 Criar\nO usuário com Função de Instituição Admin pode criar um Novo Empreendedor preenchendo o campo obrigatório “Nome” do formulário (Figura 8.2).",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Empreendedores</span>"
     ]
@@ -434,7 +434,7 @@
     "href": "01_dicionario.html#ícone-excluir",
     "title": "1  Dicionário",
     "section": "1.3 Ícone Excluir",
-    "text": "1.3 Ícone Excluir\nO ícone Exibir permite ao usuário deletar um item do sistema (Figura 1.3).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 1.3: Excluir",
+    "text": "1.3 Ícone Excluir\nO ícone Excluir permite ao usuário deletar um item do sistema (Figura 1.3).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 1.3: Excluir",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dicionário</span>"
     ]
@@ -444,7 +444,7 @@
     "href": "01_dicionario.html#botão-lista",
     "title": "1  Dicionário",
     "section": "1.5 Botão Lista",
-    "text": "1.5 Botão Lista\nLocalizado no canto superior direito da barra lateral, o botão Lista permite ao usuário colapsar a barra lateral (Figura 1.5).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 1.5: Colapsar a sidebar",
+    "text": "1.5 Botão Lista\nLocalizado no canto superior direito da barra lateral, o botão Lista permite ao usuário colapsar a barra lateral (Figura 1.5).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 1.5: Colapsar a barra lateral",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dicionário</span>"
     ]
@@ -454,7 +454,7 @@
     "href": "01_dicionario.html#botão-ciga",
     "title": "1  Dicionário",
     "section": "1.6 Botão CIGA",
-    "text": "1.6 Botão CIGA\nLocalizado no canto superior esquerdo da barra lateral colapsada, o botão CIGA permite expandir o conteúdo completo da barra lateral (Figura 1.6).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 1.6: Expandir a sidebar",
+    "text": "1.6 Botão CIGA\nLocalizado no canto superior esquerdo da barra lateral colapsada, o botão CIGA permite expandir o conteúdo completo da barra lateral (Figura 1.6).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 1.6: Expandir a barra lateral",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dicionário</span>"
     ]
@@ -474,9 +474,39 @@
     "href": "07_estruturas_geotecnicas.html#procurar",
     "title": "7  Estruturas Geotécnicas",
     "section": "7.2 Procurar",
-    "text": "7.2 Procurar\nO usuário com Função de Instituição Admin pode localizar uma estrutura geotécnica utilizando a opção Procurar e filtrar por: Status, TAC, Nome, Município e Empreendedor (Figura 7.5).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 7.5: Tela Procurar estrutura geotécnica",
+    "text": "7.2 Procurar\nO usuário Instituição Admin pode localizar uma estrutura geotécnica utilizando a opção Procurar e filtrar por: Status, TAC, Nome, Município e Empreendedor (Figura 7.5).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 7.5: Tela Procurar estrutura geotécnica",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Estruturas Geotécnicas</span>"
+    ]
+  },
+  {
+    "objectID": "03_usuarios.html#procurar",
+    "href": "03_usuarios.html#procurar",
+    "title": "3  Usuários",
+    "section": "3.2 Procurar",
+    "text": "3.2 Procurar\nO usuário Instituição Admin pode localizar um usuário utilizando a opção Procurar. Ele pode visualizar as três Funções disponíveis: Gestor, Responsável e Instituição.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Usuários</span>"
+    ]
+  },
+  {
+    "objectID": "01_dicionario.html#botão-colapsar-menu",
+    "href": "01_dicionario.html#botão-colapsar-menu",
+    "title": "1  Dicionário",
+    "section": "1.5 Botão Colapsar Menu",
+    "text": "1.5 Botão Colapsar Menu\nLocalizado no canto superior direito da barra lateral, o botão Colapsar Menu permite ao usuário colapsar a barra de menu (Figura 1.5).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 1.5: Colapsar a barra de menu",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dicionário</span>"
+    ]
+  },
+  {
+    "objectID": "01_dicionario.html#botão-expandir-menu",
+    "href": "01_dicionario.html#botão-expandir-menu",
+    "title": "1  Dicionário",
+    "section": "1.6 Botão Expandir Menu",
+    "text": "1.6 Botão Expandir Menu\nLocalizado no canto superior esquerdo da barra lateral colapsada, o botão Expandir Menu permite expandir o conteúdo completo da barra de menu (Figura 1.6).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 1.6: Expandir a barra de menu",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dicionário</span>"
     ]
   }
 ]

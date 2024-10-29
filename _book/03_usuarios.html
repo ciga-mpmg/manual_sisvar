@@ -178,11 +178,11 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Sumário</h2>
    
   <ul>
-  <li><a href="#procurar" id="toc-procurar" class="nav-link active" data-scroll-target="#procurar"><span class="header-section-number">3.1</span> Procurar</a></li>
-  <li><a href="#exibir" id="toc-exibir" class="nav-link" data-scroll-target="#exibir"><span class="header-section-number">3.2</span> Exibir</a></li>
-  <li><a href="#editar" id="toc-editar" class="nav-link" data-scroll-target="#editar"><span class="header-section-number">3.3</span> Editar</a></li>
-  <li><a href="#excluir" id="toc-excluir" class="nav-link" data-scroll-target="#excluir"><span class="header-section-number">3.4</span> Excluir</a></li>
-  <li><a href="#criar" id="toc-criar" class="nav-link" data-scroll-target="#criar"><span class="header-section-number">3.5</span> Criar</a></li>
+  <li><a href="#criar" id="toc-criar" class="nav-link active" data-scroll-target="#criar"><span class="header-section-number">3.1</span> Criar</a></li>
+  <li><a href="#procurar" id="toc-procurar" class="nav-link" data-scroll-target="#procurar"><span class="header-section-number">3.2</span> Procurar</a></li>
+  <li><a href="#exibir" id="toc-exibir" class="nav-link" data-scroll-target="#exibir"><span class="header-section-number">3.3</span> Exibir</a></li>
+  <li><a href="#editar" id="toc-editar" class="nav-link" data-scroll-target="#editar"><span class="header-section-number">3.4</span> Editar</a></li>
+  <li><a href="#excluir" id="toc-excluir" class="nav-link" data-scroll-target="#excluir"><span class="header-section-number">3.5</span> Excluir</a></li>
   </ul>
 </nav>
     </div>
@@ -208,7 +208,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>A tela Usuários exibe uma lista dos usuários cadastrados no Sisvar, organizados por Função. Nesta tela, é possível gerenciar os usuários cadastrados, incluindo busca, visualização, edição, exclusão e adição de novos usuários (<a href="#figu-tela03" class="quarto-xref">Figura&nbsp;<span>3.1</span></a>).</p>
+<p>A tela Usuários exibe uma lista dos usuários cadastrados no Sisvar, organizados por Função. Nesta tela, é possível gerenciar os usuários, incluindo busca, visualização, edição, exclusão e adição de novos usuários (<a href="#figu-tela03" class="quarto-xref">Figura&nbsp;<span>3.1</span></a>).</p>
 <div id="figu-tela03" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-figu figure">
 <div aria-describedby="figu-tela03-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -227,52 +227,9 @@ Figura&nbsp;3.1: Tela Usuários
 </figcaption>
 </figure>
 </div>
-<section id="procurar" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="procurar"><span class="header-section-number">3.1</span> Procurar</h2>
-<p>O usuário com Função de <em>Instituição Admin</em> pode localizar um usuário utilizando a opção <strong>Procurar</strong>. Ele pode visualizar as três Funções disponíveis: <em>Gestor, Responsável e Instituição</em>.</p>
-</section>
-<section id="exibir" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="exibir"><span class="header-section-number">3.2</span> Exibir</h2>
-<p>Ao clicar no botão de ação <strong>Exibir</strong>, o usuário <em>Instituição Admin</em> pode visualizar as informações detalhadas de qualquer usuário, incluindo E-mail, Auditoria, Função e Convite (indicando se o usuário convidado aceitou ou não o convite).</p>
-<p>Se o usuário selecionado for do tipo <em>Instituição</em>, o Administrador também pode revogar ou promover este usuário a administrador.</p>
-</section>
-<section id="editar" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="editar"><span class="header-section-number">3.3</span> Editar</h2>
-<p>O botão de ação <strong>Editar</strong> permite ao usuário <em>Instituição Admin</em> modificar as informações de qualquer usuário, com ênfase na alteração da Função.</p>
-<div class="callout callout-style-simple callout-none no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Nota
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>Se o usuário for um Administrador, não é possível alterá-lo para os perfis de <em>Gestor</em> ou <em>Responsável</em>.</p>
-</div>
-</div>
-</section>
-<section id="excluir" class="level2" data-number="3.4">
-<h2 data-number="3.4" class="anchored" data-anchor-id="excluir"><span class="header-section-number">3.4</span> Excluir</h2>
-<p>O botão de ação <strong>Excluir</strong> permite ao usuário <em>Instituição Admin</em> remover usuários, incluindo ele próprio.</p>
-<div class="callout callout-style-simple callout-none no-icon callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Nota
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>O sistema possui uma segurança para que um eventual último usuário <em>Instituição Admin</em> não possa ser excluído ou ter sua Função substituída.</p>
-</div>
-</div>
-</section>
-<section id="criar" class="level2" data-number="3.5">
-<h2 data-number="3.5" class="anchored" data-anchor-id="criar"><span class="header-section-number">3.5</span> Criar</h2>
-<p>O usuário <em>Instituição Admin</em> pode criar um <strong>Novo Usuário</strong> preenchendo todos os campos obrigatórios do formulário. A senha deve ter no mínimo 6 caracteres e incluir uma combinação de letras e números (<a href="#figu-criar-usuario" class="quarto-xref">Figura&nbsp;<span>3.2</span></a>).</p>
+<section id="criar" class="level2" data-number="3.1">
+<h2 data-number="3.1" class="anchored" data-anchor-id="criar"><span class="header-section-number">3.1</span> Criar</h2>
+<p>O usuário com Função de <em>Instituição Admin</em> pode criar um <strong>Novo Usuário</strong> preenchendo todos os campos obrigatórios do formulário. A senha deve ter no mínimo 6 caracteres e incluir uma combinação de letras e números (<a href="#figu-criar-usuario" class="quarto-xref">Figura&nbsp;<span>3.2</span></a>).</p>
 <div id="figu-criar-usuario" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-figu figure">
 <div aria-describedby="figu-criar-usuario-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -309,6 +266,49 @@ Figura&nbsp;3.2: Criar Usuário
 Figura&nbsp;3.3: Revogar Usuário
 </figcaption>
 </figure>
+</div>
+</section>
+<section id="procurar" class="level2" data-number="3.2">
+<h2 data-number="3.2" class="anchored" data-anchor-id="procurar"><span class="header-section-number">3.2</span> Procurar</h2>
+<p>O usuário <em>Instituição Admin</em> pode localizar um usuário utilizando a opção <strong>Procurar</strong>. Ele pode visualizar as três Funções disponíveis: <em>Gestor</em>, <em>Responsável</em> e <em>Instituição</em>.</p>
+</section>
+<section id="exibir" class="level2" data-number="3.3">
+<h2 data-number="3.3" class="anchored" data-anchor-id="exibir"><span class="header-section-number">3.3</span> Exibir</h2>
+<p>Ao clicar no botão de ação <strong>Exibir</strong>, o usuário <em>Instituição Admin</em> pode visualizar as informações detalhadas de qualquer usuário, incluindo E-mail, Auditoria, Função e Convite (indicando se o usuário convidado aceitou ou não o convite).</p>
+<p>Se o usuário selecionado for do tipo <em>Instituição</em>, o Administrador também pode revogar ou promover este usuário a Administrador do sistema.</p>
+</section>
+<section id="editar" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="editar"><span class="header-section-number">3.4</span> Editar</h2>
+<p>O botão de ação <strong>Editar</strong> permite ao usuário <em>Instituição Admin</em> modificar as informações de qualquer usuário, com ênfase na alteração da Função.</p>
+<div class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Se o usuário for um Administrador, não é possível alterá-lo para os perfis de <em>Gestor</em> ou <em>Responsável</em>.</p>
+</div>
+</div>
+</section>
+<section id="excluir" class="level2" data-number="3.5">
+<h2 data-number="3.5" class="anchored" data-anchor-id="excluir"><span class="header-section-number">3.5</span> Excluir</h2>
+<p>O botão de ação <strong>Excluir</strong> permite ao usuário <em>Instituição Admin</em> remover usuários, incluindo ele próprio.</p>
+<div class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>O sistema possui uma segurança para que um eventual último usuário <em>Instituição Admin</em> não possa ser excluído ou ter sua Função substituída.</p>
+</div>
 </div>
 
 

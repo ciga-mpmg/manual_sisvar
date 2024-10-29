@@ -179,10 +179,16 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#criar" id="toc-criar" class="nav-link active" data-scroll-target="#criar"><span class="header-section-number">6.1</span> Criar</a></li>
-  <li><a href="#exibir" id="toc-exibir" class="nav-link" data-scroll-target="#exibir"><span class="header-section-number">6.2</span> Exibir</a></li>
+  <li><a href="#exibir" id="toc-exibir" class="nav-link" data-scroll-target="#exibir"><span class="header-section-number">6.2</span> Exibir</a>
+  <ul class="collapse">
+  <li><a href="#sec-submissoes" id="toc-sec-submissoes" class="nav-link" data-scroll-target="#sec-submissoes"><span class="header-section-number">6.2.1</span> Submissões</a></li>
+  <li><a href="#sec-responsaveis" id="toc-sec-responsaveis" class="nav-link" data-scroll-target="#sec-responsaveis"><span class="header-section-number">6.2.2</span> Responsáveis</a></li>
+  <li><a href="#sec-nomes" id="toc-sec-nomes" class="nav-link" data-scroll-target="#sec-nomes"><span class="header-section-number">6.2.3</span> Nomes alternativos</a></li>
+  <li><a href="#sec-planilhas" id="toc-sec-planilhas" class="nav-link" data-scroll-target="#sec-planilhas"><span class="header-section-number">6.2.4</span> Planilhas</a></li>
+  <li><a href="#sec-historico" id="toc-sec-historico" class="nav-link" data-scroll-target="#sec-historico"><span class="header-section-number">6.2.5</span> Histórico do TAC</a></li>
+  </ul></li>
   <li><a href="#editar" id="toc-editar" class="nav-link" data-scroll-target="#editar"><span class="header-section-number">6.3</span> Editar</a></li>
   <li><a href="#excluir" id="toc-excluir" class="nav-link" data-scroll-target="#excluir"><span class="header-section-number">6.4</span> Excluir</a></li>
-  <li><a href="#lembrar-de" id="toc-lembrar-de" class="nav-link" data-scroll-target="#lembrar-de"><span class="header-section-number">6.5</span> Lembrar de:</a></li>
   </ul>
 </nav>
     </div>
@@ -208,26 +214,250 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>A tela TACs exibe uma lista dos TACs cadastrados no Sisvar, organizadas em ordem alfabética. Nesta tela, é possível gerenciar os TACs, incluindo busca, edição, exclusão e adição de novos TACs, além da exibição para o envio e validação de planilhas-modelo (<a href="#figu-tela06" class="quarto-xref">Figura&nbsp;<span>6.1</span></a>).</p>
+<div id="figu-tela06" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-figu figure">
+<div aria-describedby="figu-tela06-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="images/06_tacs/tela06.png" class="img-fluid figure-img" width="616"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-tela06-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;6.1: Tela TACs
+</figcaption>
+</figure>
+</div>
 <section id="criar" class="level2" data-number="6.1">
 <h2 data-number="6.1" class="anchored" data-anchor-id="criar"><span class="header-section-number">6.1</span> Criar</h2>
-<ul>
-<li>Nome e Códigpos são obrigatórios</li>
-<li>Código deve conter 3 caracteres, sendo os 2 primeiros uma letra obrigatoriamente.</li>
-</ul>
+<p>O usuário com Função de <em>Instituição Admin</em> pode criar um <strong>Novo TAC</strong> preenchendo todos os campos obrigatórios do formulário. O código deve conter 3 caracteres, sendo os 2 primeiros obrigatoriamente letras (<a href="#figu-criar-tac" class="quarto-xref">Figura&nbsp;<span>6.2</span></a>).</p>
+<div id="figu-criar-tac" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-figu figure">
+<div aria-describedby="figu-criar-tac-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="images/06_tacs/criar-tac.png" class="img-fluid figure-img" width="623"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-criar-tac-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;6.2: Criar TAC
+</figcaption>
+</figure>
+</div>
+<p>O campo <strong>Data de Assinatura</strong> será exibido após o preenchimento deste campo no Sistema de Cadastro de TACs. Quando preenchido, o sistema validará se a data de abertura da recomendação é anterior à data de assinatura do TAC.</p>
+<p>O campo <strong>TAC Referência</strong> também é exibido de acordo com o nome preenchido no Sistema de Cadastro de TACs. Ele serve para, caso necessário, juntar todos os dados de um TAC. Por exemplo, se tivermos um TAC Gongo Soco (RIZZO) e um TAC Gongo Soco (SLR), ambos são provenientes do mesmo TAC. Portanto, ambos teriam a seleção, em TAC Referência, por TAC Gongo Soco. Assim, conseguiríamos fazer uma busca apenas por “Gongo Soco”, que juntaria o histórico das duas auditorias dentro desse mesmo TAC.</p>
 </section>
 <section id="exibir" class="level2" data-number="6.2">
 <h2 data-number="6.2" class="anchored" data-anchor-id="exibir"><span class="header-section-number">6.2</span> Exibir</h2>
+<p>Ao clicar no botão de ação <strong>Exibir</strong>, o usuário <em>Instituição Admin</em> pode visualizar as informações detalhadas dos TACs, incluindo <a href="#sec-submissoes">6.2.1 Submissões</a>, <a href="#sec-responsaveis">6.2.2 Responsáveis</a>, <a href="#sec-nomes">6.2.3 Nomes alternativos</a>, <a href="#sec-planilhas">6.2.4 Planilhas</a>, <a href="#sec-historico">6.2.5 Histórico do TAC</a>.</p>
+<section id="sec-submissoes" class="level3" data-number="6.2.1">
+<h3 data-number="6.2.1" class="anchored" data-anchor-id="sec-submissoes"><span class="header-section-number">6.2.1</span> Submissões</h3>
+<p>O usuário <em>Instituição Admin</em> pode submeter e validar planilhas-modelo quando necessário (<a href="#figu-submissoes" class="quarto-xref">Figura&nbsp;<span>6.3</span></a>).</p>
+<div id="figu-submissoes" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-figu figure">
+<div aria-describedby="figu-submissoes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="images/06_tacs/submissoes.png" class="img-fluid figure-img" width="659"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-submissoes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;6.3: Tela Submissões
+</figcaption>
+</figure>
+</div>
+<p>No campo <strong>Descrição</strong> as planilhas submetidas podem apresentar três diferentes resultados:</p>
+<ul>
+<li>Cancelada: quando uma submissão é cancelada antes da finalização do processo de validação.</li>
+<li>Descartada: quando uma submissão é descartada após a conclusão do processo de validação devido a erros que impedem sua validação.</li>
+<li>Validada: quando uma submissão é validada após a conclusão do processo de validação sem erros impeditivos.</li>
+</ul>
+<p>O processo de validação das planilhas submetidas passa por uma avaliação criteriosa, desde a estrutura do cabeçalho até a última coluna da planilha. As inconsistências encontradas podem ser classificadas como:</p>
+<ul>
+<li>Aviso: permite que a submissão seja validada, após o usuário checar todos os avisos apresentados;</li>
+<li>Erro: impede que a submissão seja validada. A submissão deve ser descartada e outra submissão deve ser realizada para nova rodada de validação.</li>
+</ul>
+<div class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Em caso de recomendações com inconsistências do tipo Aviso e Erro na mesma submissão, o procedimento segue o caso mais restritivo, ou seja, <strong>Erro</strong>.</p>
+</div>
+</div>
+</section>
+<section id="sec-responsaveis" class="level3" data-number="6.2.2">
+<h3 data-number="6.2.2" class="anchored" data-anchor-id="sec-responsaveis"><span class="header-section-number">6.2.2</span> Responsáveis</h3>
+<p>Nesta aba, o usuário <em>Instituição Admin</em> pode visualizar os responsáveis ou criar um <strong>Novo Responsável</strong> que será adicionado à lista de usuários aptos a enviar planilhas para determinado TAC (<a href="#figu-responsaveis" class="quarto-xref">Figura&nbsp;<span>6.4</span></a>).</p>
+<div id="figu-responsaveis" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-figu figure">
+<div aria-describedby="figu-responsaveis-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="images/06_tacs/responsaveis.png" class="img-fluid figure-img" width="668"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-responsaveis-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;6.4: Tela Responsáveis
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="sec-nomes" class="level3" data-number="6.2.3">
+<h3 data-number="6.2.3" class="anchored" data-anchor-id="sec-nomes"><span class="header-section-number">6.2.3</span> Nomes alternativos</h3>
+<p>Nesta aba, o usuário <em>Instituição Admin</em> pode visualizar os nomes alternativos do TAC (quando houver) ou criar um <strong>Novo Nome Alternativo</strong> e definí-lo como principal (<a href="#figu-nomes" class="quarto-xref">Figura&nbsp;<span>6.5</span></a>).</p>
+<div id="figu-nomes" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-figu figure">
+<div aria-describedby="figu-nomes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="images/06_tacs/nomes.png" class="img-fluid figure-img" width="668"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-nomes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;6.5: Tela Nomes alternativos
+</figcaption>
+</figure>
+</div>
+<p>Por padrão, não existe um “nome fantasia” para um TAC. O CIGA criou esses nomes para facilitar a identificação. As auditorias também criaram seus próprios “nomes fantasia”, o que pode resultar em discrepâncias entre os nomes dos TACs cadastrados no CIGA e os utilizados pelas auditorias (que podem usar nomes muito longos, sem acentuação ou até mesmo em inglês).</p>
+<p>Neste sentido, para evitar que a validação seja impedida de ocorrer devido a diferenças nos “nomes fantasia”, é possível criar nomes alternativos (conhecidos como “alias” em inglês).;</p>
+<div class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon no-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>O nome alternativo, assim como o nome fantasia, é único. Portanto, é importante orientar as auditorias sobre essa questão. Por exemplo, se a RIZZO utilizasse “TAC Gongo Soco” em sua planilha e já tivesse criado esse nome alternativo, a SLR, ao assumir Gongo Soco, não conseguiria utilizar “TAC Gongo Soco” em sua planilha.</p>
+</div>
+</div>
+</section>
+<section id="sec-planilhas" class="level3" data-number="6.2.4">
+<h3 data-number="6.2.4" class="anchored" data-anchor-id="sec-planilhas"><span class="header-section-number">6.2.4</span> Planilhas</h3>
+<p>Nesta aba, o usuário <em>Instituição Admin</em> pode baixar três tipos de planilhas (<a href="#figu-planilhas" class="quarto-xref">Figura&nbsp;<span>6.6</span></a>):</p>
+<ul>
+<li>Planilha-modelo em branco: versão mais recente da planilha-modelo em branco;</li>
+<li>Planilha mais recente validada com sucesso: planilha mais recente com submissão validada;</li>
+<li>Planilha de conversão de IDs: planilha que relaciona o ID do TAC com o ID CIGA.</li>
+</ul>
+<div id="figu-planilhas" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-figu figure">
+<div aria-describedby="figu-planilhas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="images/06_tacs/planilhas.png" class="img-fluid figure-img" width="670"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-planilhas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;6.6: Tela Planilhas
+</figcaption>
+</figure>
+</div>
+</section>
+<section id="sec-historico" class="level3" data-number="6.2.5">
+<h3 data-number="6.2.5" class="anchored" data-anchor-id="sec-historico"><span class="header-section-number">6.2.5</span> Histórico do TAC</h3>
+<p>Nesta aba, o usuário <em>Instituição Admin</em> pode visualizar o histórico do TAC, incluindo alterações na situação do TAC (<a href="#figu-historico" class="quarto-xref">Figura&nbsp;<span>6.7</span></a>).</p>
+<div id="figu-historico" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-figu figure">
+<div aria-describedby="figu-historico-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="images/06_tacs/historico.png" class="img-fluid figure-img" width="683"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-historico-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;6.7: Tela Histórico do TAC
+</figcaption>
+</figure>
+</div>
+</section>
 </section>
 <section id="editar" class="level2" data-number="6.3">
 <h2 data-number="6.3" class="anchored" data-anchor-id="editar"><span class="header-section-number">6.3</span> Editar</h2>
+<p>O botão de ação <strong>Editar</strong> permite ao usuário <em>Instituição Admin</em> modificar as informações de qualquer TAC, com ênfase na alteração da Situação(<a href="#figu-editar-tac" class="quarto-xref">Figura&nbsp;<span>6.8</span></a>).</p>
+<div id="figu-editar-tac" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-figu figure">
+<div aria-describedby="figu-editar-tac-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="images/06_tacs/editar-tac.png" class="img-fluid figure-img" width="716"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-editar-tac-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;6.8: Tela Editar
+</figcaption>
+</figure>
+</div>
 </section>
 <section id="excluir" class="level2" data-number="6.4">
 <h2 data-number="6.4" class="anchored" data-anchor-id="excluir"><span class="header-section-number">6.4</span> Excluir</h2>
-</section>
-<section id="lembrar-de" class="level2" data-number="6.5">
-<h2 data-number="6.5" class="anchored" data-anchor-id="lembrar-de"><span class="header-section-number">6.5</span> Lembrar de:</h2>
-<p>No manual, o ideal é que tenhamos no “Submeter uma planilha”, a explicação de todos os tipos possíveis daqueles “avisos” que um usuário pode receber, tipo:</p>
-<p>• Validada Finalizada com erros etc</p>
+<p>O botão de ação <strong>Excluir</strong> permite ao usuário <em>Instituição Admin</em> remover TACs. Não é possível excluir um TAC com recomendações em aberto (<a href="#figu-excluir-tac" class="quarto-xref">Figura&nbsp;<span>6.9</span></a>).</p>
+<div id="figu-excluir-tac" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-figu figure">
+<div aria-describedby="figu-excluir-tac-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="images/06_tacs/excluir-tac.png" class="img-fluid figure-img" width="666"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-excluir-tac-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;6.9: Tela Excluir
+</figcaption>
+</figure>
+</div>
 
 
 </section>

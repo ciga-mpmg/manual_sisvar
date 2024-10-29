@@ -1,4 +1,5 @@
 # Dicionário {#sec-dicionario}
+
 Este dicionário fornece uma descrição geral das principais ações disponíveis no sistema, auxiliando os usuários a compreenderem os ícones e botões para navegar e realizar tarefas com facilidade.
 
 ## Ícone Exibir
@@ -13,7 +14,6 @@ knitr::include_graphics("images/01_dicionario/exibir.svg")
 Exibir
 :::
 
-
 ## Ícone Editar
 O ícone Editar permite ao usuário alterar os dados de um item (@figu-editar).
 
@@ -27,7 +27,7 @@ Editar
 :::
   
 ## Ícone Excluir
-O ícone Exibir permite ao usuário deletar um item do sistema (@figu-excluir).
+O ícone Excluir permite ao usuário deletar um item do sistema (@figu-excluir).
 
 ::: {#figu-excluir}
 ```{r}
@@ -50,8 +50,8 @@ knitr::include_graphics("images/01_dicionario/novo.svg")
 Inclusão de novo dado
 :::
 
-## Botão Lista
-Localizado no canto superior direito da barra lateral, o botão Lista permite ao usuário colapsar a barra lateral (@figu-lista).
+## Botão Colapsar Menu
+Localizado no canto superior direito da barra lateral, o botão Colapsar Menu permite ao usuário colapsar a barra de menu (@figu-lista).
 
 ::: {#figu-lista}
 ```{r}
@@ -59,11 +59,11 @@ Localizado no canto superior direito da barra lateral, o botão Lista permite ao
 #| out-width: "3%"
 knitr::include_graphics("images/01_dicionario/lista.svg")
 ```
-Colapsar a barra lateral
+Colapsar a barra de menu
 :::
 
-## Botão CIGA
-Localizado no canto superior esquerdo da barra lateral colapsada, o botão CIGA permite expandir o conteúdo completo da barra lateral (@figu-ciga).
+## Botão Expandir Menu
+Localizado no canto superior esquerdo da barra lateral colapsada, o botão Expandir Menu permite expandir o conteúdo completo da barra de menu (@figu-ciga).
 
 ::: {#figu-ciga}
 ```{r}
@@ -72,5 +72,5 @@ Localizado no canto superior esquerdo da barra lateral colapsada, o botão CIGA 
 
 knitr::include_graphics("images/01_dicionario/ciga.png")
 ```
-Expandir a barra lateral
+Expandir a barra de menu
 :::

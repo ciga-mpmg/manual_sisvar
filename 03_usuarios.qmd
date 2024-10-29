@@ -1,6 +1,6 @@
 # Usuários {#sec-usuarios}
 
-A tela Usuários exibe uma lista dos usuários cadastrados no Sisvar, organizados por Função. Nesta tela, é possível gerenciar os usuários cadastrados, incluindo busca, visualização, edição, exclusão e adição de novos usuários (@figu-tela03).
+A tela Usuários exibe uma lista dos usuários cadastrados no Sisvar, organizados por Função. Nesta tela, é possível gerenciar os usuários, incluindo busca, visualização, edição, exclusão e adição de novos usuários (@figu-tela03).
 
 ::: {#figu-tela03}
 ```{r}
@@ -11,13 +11,36 @@ knitr::include_graphics("images/03_usuarios/tela03.png")
 Tela Usuários
 :::
 
+## Criar
+O usuário com Função de *Instituição Admin* pode criar um **Novo Usuário** preenchendo todos os campos obrigatórios do formulário. A senha deve ter no mínimo 6 caracteres e incluir uma combinação de letras e números (@figu-criar-usuario).
+
+::: {#figu-criar-usuario}
+```{r}
+#| label: figu-criar-usuario
+#| out-width: ~
+knitr::include_graphics("images/03_usuarios/criar-usuario.png")
+```
+Criar Usuário
+:::
+
+Se o novo usuário criado for do tipo *Instituição*, o Admin também pode revogar o papel de Administrador deste usuário durante o processo de criação (@figu-revogar-usuario).
+
+::: {#figu-revogar-usuario}
+```{r}
+#| label: figu-revogar-usuario
+#| out-width: ~
+knitr::include_graphics("images/03_usuarios/revogar-usuario.png")
+```
+Revogar Usuário
+:::
+
 ## Procurar
-O usuário com Função de *Instituição Admin* pode localizar um usuário utilizando a opção **Procurar**. Ele pode visualizar as três Funções disponíveis: *Gestor, Responsável e Instituição*.
+O usuário *Instituição Admin* pode localizar um usuário utilizando a opção **Procurar**. Ele pode visualizar as três Funções disponíveis: *Gestor*, *Responsável* e *Instituição*.
 
 ## Exibir
 Ao clicar no botão de ação **Exibir**, o usuário *Instituição Admin* pode visualizar as informações detalhadas de qualquer usuário, incluindo E-mail, Auditoria, Função e Convite (indicando se o usuário convidado aceitou ou não o convite).
 
-Se o usuário selecionado for do tipo *Instituição*, o Administrador também pode revogar ou promover este usuário a administrador.
+Se o usuário selecionado for do tipo *Instituição*, o Administrador também pode revogar ou promover este usuário a Administrador do sistema.
 
 ## Editar
 O botão de ação **Editar** permite ao usuário *Instituição Admin* modificar as informações de qualquer usuário, com ênfase na alteração da Função.
@@ -33,28 +56,4 @@ O botão de ação **Excluir** permite ao usuário *Instituição Admin* remover
 ::: callout
 ## Nota
 O sistema possui uma segurança para que um eventual último usuário *Instituição Admin* não possa ser excluído ou ter sua Função substituída.
-:::
-
-## Criar
-O usuário *Instituição Admin* pode criar um **Novo Usuário** preenchendo todos os campos obrigatórios do formulário. A senha deve ter no mínimo 6 caracteres e incluir uma combinação de letras e números (@figu-criar-usuario).
-
-::: {#figu-criar-usuario}
-```{r}
-#| label: figu-criar-usuario
-#| out-width: ~
-knitr::include_graphics("images/03_usuarios/criar-usuario.png")
-```
-Criar Usuário
-:::
-
-
-Se o novo usuário criado for do tipo *Instituição*, o Admin também pode revogar o papel de Administrador deste usuário durante o processo de criação (@figu-revogar-usuario).
-
-::: {#figu-revogar-usuario}
-```{r}
-#| label: figu-revogar-usuario
-#| out-width: ~
-knitr::include_graphics("images/03_usuarios/revogar-usuario.png")
-```
-Revogar Usuário
 :::
