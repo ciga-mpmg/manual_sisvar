@@ -26,3 +26,9 @@ Criar Auditoria
 
 ## Detalhar
 O usuário com Função de *Instituição Admin* pode visualizar os datalhes dos TACs de uma auditoria em forma de lista ao clicar no botão Detalhar.
+
+## Editar
+O botão de ação **Editar** permite ao usuário *Instituição Admin* modificar o nome da auditoria.
+
+## Excluir
+O botão de ação **Excluir** permite ao usuário *Instituição Admin* remover uma auditoria.
