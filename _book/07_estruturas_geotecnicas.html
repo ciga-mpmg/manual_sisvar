@@ -211,7 +211,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>A tela Estruturas Geotécnicas exibe uma lista das estruturas cadastrados no Sisvar. Nesta tela, é possível gerenciar as estruturas geotécnicas, incluindo busca, visualização, edição e adição de novas estruturas (<a href="#figu-tela07" class="quarto-xref">Figura&nbsp;<span>7.1</span></a>).</p>
+<p>A tela Estruturas Geotécnicas exibe uma lista das estruturas cadastradas no Sisvar. Nesta tela, é possível gerenciar as estruturas geotécnicas, incluindo pesquisa, visualização, edição e adição de estruturas (<a href="#figu-tela07" class="quarto-xref">Figura&nbsp;<span>7.1</span></a>).</p>
 <div id="figu-tela07" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-figu figure">
 <div aria-describedby="figu-tela07-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -232,14 +232,14 @@ Figura&nbsp;7.1: Tela Estruturas Geotécnicas
 </div>
 <section id="criar" class="level2" data-number="7.1">
 <h2 data-number="7.1" class="anchored" data-anchor-id="criar"><span class="header-section-number">7.1</span> Criar</h2>
-<p>Para adicionar uma nova estrutura geotécnica à lista, é imprescindível que os dados estejam corretos, especialmente as coordenadas geográficas. O fluxo de criação de uma nova estrutura geotécnica pode seguir dois caminhos:</p>
+<p>Para adicionar uma estrutura geotécnica à lista, é imprescindível que os dados estejam corretos, especialmente as coordenadas geográficas. O fluxo de criação de uma nova estrutura geotécnica pode seguir dois caminhos:</p>
 <section id="botão-nova-estrutura-geotécnica" class="level3" data-number="7.1.1">
 <h3 data-number="7.1.1" class="anchored" data-anchor-id="botão-nova-estrutura-geotécnica"><span class="header-section-number">7.1.1</span> Botão Nova Estrutura Geotécnica</h3>
-<p>O usuário com Função de <em>Instituição Admin</em> pode criar uma <strong>Nova Estrutura Geotécnica</strong> preenchendo todos os campos obrigatórios do formulário (<a href="#figu-criar-estrutura" class="quarto-xref">Figura&nbsp;<span>7.2</span></a>).</p>
-<div class="callout callout-style-simple callout-none no-icon callout-titled">
+<p>O usuário com Função de <em>Instituição Admin</em> pode criar uma <strong>Estrutura Geotécnica</strong> preenchendo todos os campos obrigatórios do formulário (<a href="#figu-criar-estrutura" class="quarto-xref">Figura&nbsp;<span>7.2</span></a>).</p>
+<div class="callout callout-style-simple callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
 Nota
@@ -273,7 +273,7 @@ Figura&nbsp;7.2: Tela Criar Estrutura Geotécnica
 <ol type="1">
 <li><p>O usuário da auditoria submete uma planilha com a nova estrutura geotécnica, preenchendo os campos <code>estrutura_nao_cadastrada</code> e <code>municipio_estrutura_nao_cadastrada</code>.</p></li>
 <li><p>Após validação, a lista-base de estruturas geotécnicas do Sisvar passa a constar a nova estrutura.</p></li>
-<li><p>O usuário da auditoria e o usuário com Função de <strong><em>Instituição Admin</em></strong> recebem um aviso (exclamação vermelha) informando que há estruturas geotécnicas pendentes de revisão (<a href="#figu-aviso" class="quarto-xref">Figura&nbsp;<span>7.3</span></a>).</p></li>
+<li><p>O usuário da auditoria e os usuários com Função de <strong><em>Instituição Admin</em></strong> recebem um aviso (exclamação vermelha) informando que há estruturas geotécnicas pendentes de revisão (<a href="#figu-aviso" class="quarto-xref">Figura&nbsp;<span>7.3</span></a>) (ao expandir a barra de menu, um quadrado vermelho com o número de pendências é exibido).</p></li>
 </ol>
 <div id="figu-aviso" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-figu figure">
@@ -294,12 +294,12 @@ Figura&nbsp;7.3: Tela aviso
 </figure>
 </div>
 <ol start="4" type="1">
-<li><p>O usuário da auditoria preenche as coordenadas. Há uma validação, numérica, para as coordenadas limites no estado de Minas Gerais;</p></li>
+<li><p>O usuário da auditoria preenche as coordenadas. Há uma validação, numérica, para as coordenadas referente aos limites do estado de Minas Gerais;</p></li>
 <li><p>O usuário com Função de <strong><em>Instituição Admin</em></strong> verifica manualmente se as coordenadas fazem sentido (é um local de mineração?).</p></li>
 <li><p>O usuário com Função de <strong><em>Instituição Admin</em></strong> valida ou não as coordenadas (<a href="#figu-validar-estrutura" class="quarto-xref">Figura&nbsp;<span>7.4</span></a>):</p></li>
 </ol>
 <ul>
-<li>Em caso de não validação, o fluxo retorna automaticamente ao passo 3;</li>
+<li>Em caso de reprovação, o fluxo retorna automaticamente ao passo 3;</li>
 <li>Em caso de validação, o fluxo segue para o passo 7.</li>
 </ul>
 <div id="figu-validar-estrutura" class="quarto-float quarto-figure quarto-figure-center anchored">
@@ -321,9 +321,21 @@ Figura&nbsp;7.4: Tela Validar/Reprovar estrutura geotécnica
 </figure>
 </div>
 <ol start="7" type="1">
-<li><p>O usuário com Função de <strong><em>Instituição Admin</em></strong> busca a estrutura geotécnica na lista-base e edita suas informações para incluir o complexo minerário/mina.</p>
-<p><strong>Obs.:</strong> A edição de complexo minerário/mina pode ser realizada a qualquer momento, em qualquer estrutura geotécnica.</p></li>
+<li>O usuário com Função de <strong><em>Instituição Admin</em></strong> busca a estrutura geotécnica na lista-base e edita suas informações para incluir o complexo minerário/mina.</li>
 </ol>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A edição de complexo minerário/mina pode ser realizada a qualquer momento, em qualquer estrutura geotécnica.</p>
+</div>
+</div>
 </section>
 </section>
 <section id="procurar" class="level2" data-number="7.2">
@@ -350,7 +362,7 @@ Figura&nbsp;7.5: Tela Procurar estrutura geotécnica
 </section>
 <section id="exibir" class="level2" data-number="7.3">
 <h2 data-number="7.3" class="anchored" data-anchor-id="exibir"><span class="header-section-number">7.3</span> Exibir</h2>
-<p>Ao clicar no botão de ação <strong>Exibir</strong>, o usuário <em>Instituição Admin</em> pode visualizar as informações detalhadas da estrutura geotécnica, incluindo, quando aplicável, o motivo, quem e quando a estrutura foi reprovada, os nomes alternativos e o histórico da estrutura geotécnica (<a href="#figu-exibir-estrutura" class="quarto-xref">Figura&nbsp;<span>7.6</span></a>).</p>
+<p>Ao clicar no botão de ação <strong>Exibir</strong>, o usuário <em>Instituição Admin</em> pode visualizar as informações detalhadas da estrutura geotécnica, incluindo, quando aplicável, o motivo da reprovação, quem e quando a reprovou, os nomes alternativos e o histórico da estrutura geotécnica (<a href="#figu-exibir-estrutura" class="quarto-xref">Figura&nbsp;<span>7.6</span></a>).</p>
 <div id="figu-exibir-estrutura" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-figu figure">
 <div aria-describedby="figu-exibir-estrutura-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">

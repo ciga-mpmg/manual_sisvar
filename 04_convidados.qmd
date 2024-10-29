@@ -11,7 +11,7 @@ Tela Convidados
 :::
 
 ## Enviar convite
-O usuário com perfil de *Instituição Admin* pode enviar um **Novo Convite** preenchendo todos os campos obrigatórios do formulário (@figu-convite). Todas as opções de Função estão disponíveis para esse usuário.
+O usuário com perfil de *Instituição Admin* pode enviar um **Convite** preenchendo todos os campos obrigatórios do formulário (@figu-convite). Todas as opções de Função estão disponíveis para esse usuário.
 
 ::: {#figu-convite}
 ```{r}
@@ -24,7 +24,7 @@ Formulário para envio de convite
 
 No campo Função, ao escolher a opção *Gestor ou Responsável*, as opções do campo Auditoria serão exibidas conforme cadastradas na tela [Auditorias](#sec-auditorias).
 
-::: {.callout}
+:::callout-note
 ## Nota
 A principal diferença desta tela em relação à tela [Usuários](#sec-usuarios) é que, aqui, o convite é enviado para o e-mail cadastrado, e o usuário convidado tem até 7 dias para aceitar o convite e criar sua senha (@figu-email).
 :::

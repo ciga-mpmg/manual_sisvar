@@ -7,15 +7,15 @@ crossref:
     - kind: float
       reference-prefix: Figura
       key: figu
-execute: 
+execute:
   echo: false
   warning: false
   message: false
-
+callout-appearance: simple
 book:
-  title:  Sisvar
-  description: Manual do Usuário com exemplos práticos de uso
-
+  title:  Sisvar - Manual do Usuário
+  description: Exemplos práticos de uso
+  favicon: assets/ciga-logo.svg
   downloads: pdf
   sidebar:
     logo: assets/ciga.png
@@ -23,7 +23,7 @@ book:
     collapse-level: 1
     search: true
   page-footer:
-    center: CIGA | Sisvar
+    center: CIGA | Sisvar - Manual do Usuário
 
   chapters:
     - index.qmd
@@ -46,7 +46,7 @@ format:
     linkcolor: "#00353E"
     logo: assets/ciga.png
     css: assets/styles.css
-  
+
   pdf:
     toc: true
     toc-depth: 2

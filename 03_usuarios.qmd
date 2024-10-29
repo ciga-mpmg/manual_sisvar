@@ -12,7 +12,7 @@ Tela Usuários
 :::
 
 ## Criar
-O usuário com Função de *Instituição Admin* pode criar um **Novo Usuário** preenchendo todos os campos obrigatórios do formulário. A senha deve possuir no mínimo 6 caracteres e incluir uma combinação de letras e números (@figu-criar-usuario).
+O usuário com Função de *Instituição Admin* pode criar um **Usuário** preenchendo todos os campos obrigatórios do formulário. A senha deve possuir no mínimo 6 caracteres e incluir uma combinação de letras e números (@figu-criar-usuario).
 
 ::: {#figu-criar-usuario}
 ```{r}
@@ -45,7 +45,7 @@ Se o usuário selecionado for do tipo *Instituição*, o Administrador também p
 ## Editar
 O botão de ação **Editar** permite ao usuário *Instituição Admin* modificar as informações de qualquer usuário, com ênfase na alteração da Função.
 
-::: callout
+::: callout-note
 ## Nota
 Se o usuário for um Administrador, não é possível alterá-lo para os perfis de *Gestor* ou *Responsável*.
 :::
@@ -53,7 +53,7 @@ Se o usuário for um Administrador, não é possível alterá-lo para os perfis 
 ## Excluir
 O botão de ação **Excluir** permite ao usuário *Instituição Admin* remover usuários, incluindo ele próprio.
 
-::: callout
+::: callout-note
 ## Nota
 O sistema possui uma segurança para que um eventual último usuário *Instituição Admin* não possa ser excluído ou ter seu privilégio revogado.
 :::

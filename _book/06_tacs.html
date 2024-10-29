@@ -214,7 +214,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>A tela TACs exibe uma lista dos TACs cadastrados no Sisvar, organizadas em ordem alfabética. Nesta tela, é possível gerenciar os TACs, incluindo busca, edição, exclusão e adição de novos TACs, além da exibição para o envio e validação de planilhas-modelo (<a href="#figu-tela06" class="quarto-xref">Figura&nbsp;<span>6.1</span></a>).</p>
+<p>A tela TACs exibe uma lista dos TACs cadastrados no Sisvar, organizados em ordem alfabética. Nesta tela, é possível gerenciar os TACs, incluindo pesquisa, edição, exclusão e adição de novos TACs, além da exibição para o envio e validação de planilhas-modelo (<a href="#figu-tela06" class="quarto-xref">Figura&nbsp;<span>6.1</span></a>).</p>
 <div id="figu-tela06" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-figu figure">
 <div aria-describedby="figu-tela06-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -235,7 +235,7 @@ Figura&nbsp;6.1: Tela TACs
 </div>
 <section id="criar" class="level2" data-number="6.1">
 <h2 data-number="6.1" class="anchored" data-anchor-id="criar"><span class="header-section-number">6.1</span> Criar</h2>
-<p>O usuário com Função de <em>Instituição Admin</em> pode criar um <strong>Novo TAC</strong> preenchendo todos os campos obrigatórios do formulário. O código deve conter 3 caracteres, sendo os 2 primeiros obrigatoriamente letras (<a href="#figu-criar-tac" class="quarto-xref">Figura&nbsp;<span>6.2</span></a>).</p>
+<p>O usuário com Função de <em>Instituição Admin</em> pode criar um <strong>TAC</strong> preenchendo todos os campos obrigatórios do formulário. O código deve conter 3 caracteres, sendo os 2 primeiros obrigatoriamente letras (<a href="#figu-criar-tac" class="quarto-xref">Figura&nbsp;<span>6.2</span></a>).</p>
 <div id="figu-criar-tac" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-figu figure">
 <div aria-describedby="figu-criar-tac-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -254,12 +254,25 @@ Figura&nbsp;6.2: Criar TAC
 </figcaption>
 </figure>
 </div>
-<p>O campo <strong>Data de Assinatura</strong> será exibido após o preenchimento deste campo no Sistema de Cadastro de TACs. Quando preenchido, o sistema validará se a data de abertura da recomendação é anterior à data de assinatura do TAC.</p>
-<p>O campo <strong>TAC Referência</strong> também é exibido de acordo com o nome preenchido no Sistema de Cadastro de TACs. Ele serve para, caso necessário, juntar todos os dados de um TAC. Por exemplo, se tivermos um TAC Gongo Soco (RIZZO) e um TAC Gongo Soco (SLR), ambos são provenientes do mesmo TAC. Portanto, ambos teriam a seleção, em TAC Referência, por TAC Gongo Soco. Assim, conseguiríamos fazer uma busca apenas por “Gongo Soco”, que juntaria o histórico das duas auditorias dentro desse mesmo TAC.</p>
+<p>O campo <strong>Data de Assinatura</strong> refere-se à data de assinatura do TAC. Quando preenchido, durante o processo de validação das planilhas, o Sisvar checará se a data de abertura da recomendação é anterior à data de assinatura do TAC.</p>
+<p>O campo <strong>TAC Referência</strong> consiste em uma lista de nomes de TACs preenchidos no Sistema de Cadastro de TACs. Ele serve para, caso necessário, juntar todos os dados de um TAC.</p>
+<div class="callout callout-style-simple callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Exemplo - TAC Referência
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Dado um TAC Gongo Soco (RIZZO) e um TAC Gongo Soco (SLR), ambos são provenientes do mesmo documento jurídico. Portanto, ambos teriam a seleção, em TAC Referência, por TAC Gongo Soco. Assim, será possível desenvolver meios, no Painel Gerencial, de modo a juntar a visualização de todos os TACs cujo histórico possuam o mesmo TAC Referência.</p>
+</div>
+</div>
 </section>
 <section id="exibir" class="level2" data-number="6.2">
 <h2 data-number="6.2" class="anchored" data-anchor-id="exibir"><span class="header-section-number">6.2</span> Exibir</h2>
-<p>Ao clicar no botão de ação <strong>Exibir</strong>, o usuário <em>Instituição Admin</em> pode visualizar as informações detalhadas dos TACs, incluindo <a href="#sec-submissoes">6.2.1 Submissões</a>, <a href="#sec-responsaveis">6.2.2 Responsáveis</a>, <a href="#sec-nomes">6.2.3 Nomes alternativos</a>, <a href="#sec-planilhas">6.2.4 Planilhas</a>, <a href="#sec-historico">6.2.5 Histórico do TAC</a>.</p>
+<p>Ao clicar no botão de ação <strong>Exibir</strong>, o usuário <em>Instituição Admin</em> pode visualizar as informações detalhadas dos TACs, incluindo <a href="#sec-submissoes">Submissões</a>, <a href="#sec-responsaveis">Responsáveis</a>, <a href="#sec-nomes">Nomes alternativos</a>, <a href="#sec-planilhas">Planilhas</a>, <a href="#sec-historico">Histórico do TAC</a>.</p>
 <section id="sec-submissoes" class="level3" data-number="6.2.1">
 <h3 data-number="6.2.1" class="anchored" data-anchor-id="sec-submissoes"><span class="header-section-number">6.2.1</span> Submissões</h3>
 <p>O usuário <em>Instituição Admin</em> pode submeter e validar planilhas-modelo quando necessário (<a href="#figu-submissoes" class="quarto-xref">Figura&nbsp;<span>6.3</span></a>).</p>
@@ -283,32 +296,32 @@ Figura&nbsp;6.3: Tela Submissões
 </div>
 <p>No campo <strong>Descrição</strong> as planilhas submetidas podem apresentar três diferentes resultados:</p>
 <ul>
-<li>Cancelada: quando uma submissão é cancelada antes da finalização do processo de validação.</li>
-<li>Descartada: quando uma submissão é descartada após a conclusão do processo de validação devido a erros que impedem sua validação.</li>
-<li>Validada: quando uma submissão é validada após a conclusão do processo de validação sem erros impeditivos.</li>
+<li><em><u>Cancelada</u></em>: quando uma submissão é cancelada antes da finalização do processo de validação.</li>
+<li><em><u>Descartada</u></em>: quando uma submissão é descartada após a conclusão do processo de validação devido a erros que impedem sua validação.</li>
+<li><em><u>Validada</u></em>: quando uma submissão é validada após a conclusão do processo de validação sem erros impeditivos.</li>
 </ul>
 <p>O processo de validação das planilhas submetidas passa por uma avaliação criteriosa, desde a estrutura do cabeçalho até a última coluna da planilha. As inconsistências encontradas podem ser classificadas como:</p>
 <ul>
-<li>Aviso: permite que a submissão seja validada, após o usuário checar todos os avisos apresentados;</li>
-<li>Erro: impede que a submissão seja validada. A submissão deve ser descartada e outra submissão deve ser realizada para nova rodada de validação.</li>
+<li><em><u>Aviso</u></em>: permite que a submissão seja validada, após o usuário checar todos os avisos apresentados;</li>
+<li><em><u>Erro</u></em>: impede que a submissão seja validada. A submissão deve ser descartada e outra submissão deve ser realizada para nova rodada de validação.</li>
 </ul>
-<div class="callout callout-style-simple callout-none no-icon callout-titled">
+<div class="callout callout-style-simple callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
 Nota
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Em caso de recomendações com inconsistências do tipo Aviso e Erro na mesma submissão, o procedimento segue o caso mais restritivo, ou seja, <strong>Erro</strong>.</p>
+<p>Em caso de recomendações com inconsistências do tipo <em>Aviso</em> e <em>Erro</em> na mesma submissão, o procedimento segue o caso mais restritivo, ou seja, <strong><em>Erro</em></strong>.</p>
 </div>
 </div>
 </section>
 <section id="sec-responsaveis" class="level3" data-number="6.2.2">
 <h3 data-number="6.2.2" class="anchored" data-anchor-id="sec-responsaveis"><span class="header-section-number">6.2.2</span> Responsáveis</h3>
-<p>Nesta aba, o usuário <em>Instituição Admin</em> pode visualizar os responsáveis ou criar um <strong>Novo Responsável</strong> que será adicionado à lista de usuários aptos a enviar planilhas para determinado TAC (<a href="#figu-responsaveis" class="quarto-xref">Figura&nbsp;<span>6.4</span></a>).</p>
+<p>Nesta aba, o usuário <em>Instituição Admin</em> pode visualizar os responsáveis, bem como atribuir um <strong>Responsável</strong> para determinado TAC (<a href="#figu-responsaveis" class="quarto-xref">Figura&nbsp;<span>6.4</span></a>).</p>
 <div id="figu-responsaveis" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-figu figure">
 <div aria-describedby="figu-responsaveis-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -327,10 +340,23 @@ Figura&nbsp;6.4: Tela Responsáveis
 </figcaption>
 </figure>
 </div>
+<div class="callout callout-style-simple callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Nota
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A lista de usuários passíveis de atribuição para determinado TAC corresponde ao rol de usuários <strong>Responsável</strong> de uma Auditoria.</p>
+</div>
+</div>
 </section>
 <section id="sec-nomes" class="level3" data-number="6.2.3">
 <h3 data-number="6.2.3" class="anchored" data-anchor-id="sec-nomes"><span class="header-section-number">6.2.3</span> Nomes alternativos</h3>
-<p>Nesta aba, o usuário <em>Instituição Admin</em> pode visualizar os nomes alternativos do TAC (quando houver) ou criar um <strong>Novo Nome Alternativo</strong> e definí-lo como principal (<a href="#figu-nomes" class="quarto-xref">Figura&nbsp;<span>6.5</span></a>).</p>
+<p>Nesta aba, o usuário <em>Instituição Admin</em> pode visualizar os nomes alternativos do TAC (quando houver) ou criar um <strong>Nome Alternativo</strong>. Também é possível definir um nome alternativo como principal (<a href="#figu-nomes" class="quarto-xref">Figura&nbsp;<span>6.5</span></a>).</p>
 <div id="figu-nomes" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-figu figure">
 <div aria-describedby="figu-nomes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -350,18 +376,18 @@ Figura&nbsp;6.5: Tela Nomes alternativos
 </figure>
 </div>
 <p>Por padrão, não existe um “nome fantasia” para um TAC. O CIGA criou esses nomes para facilitar a identificação. As auditorias também criaram seus próprios “nomes fantasia”, o que pode resultar em discrepâncias entre os nomes dos TACs cadastrados no CIGA e os utilizados pelas auditorias (que podem usar nomes muito longos, sem acentuação ou até mesmo em inglês).</p>
-<p>Neste sentido, para evitar que a validação seja impedida de ocorrer devido a diferenças nos “nomes fantasia”, é possível criar nomes alternativos (conhecidos como “alias” em inglês).;</p>
-<div class="callout callout-style-simple callout-none no-icon callout-titled">
+<p>Neste sentido, para evitar que a validação seja impedida de ocorrer devido a diferenças nos “nomes fantasia”, é possível criar nomes alternativos (conhecidos como “<em>alias</em>” em inglês). O nome alternativo, assim como o nome fantasia, é único, não sendo possível ocorrer repetição desses nomes no Sisvar.</p>
+<div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-Nota
+Exemplo - Nome Alternativo
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>O nome alternativo, assim como o nome fantasia, é único. Portanto, é importante orientar as auditorias sobre essa questão. Por exemplo, se a RIZZO utilizasse “TAC Gongo Soco” em sua planilha e já tivesse criado esse nome alternativo, a SLR, ao assumir Gongo Soco, não conseguiria utilizar “TAC Gongo Soco” em sua planilha.</p>
+<p>Se a RIZZO utilizasse “TAC Gongo Soco” em sua planilha e já tivesse criado um nome alternativo como “Gongo Soco”, a SLR, ao assumir esse TAC, não conseguiria utilizar “TAC Gongo Soco” nem “Gongo Soco” em sua planilha. Um novo nome alternativo - ou o próprio valor do campo TAC, na planilha-modelo - deverão ser criados diferentemente aos nomes já definidos no Sisvar.</p>
 </div>
 </div>
 </section>
@@ -369,9 +395,9 @@ Nota
 <h3 data-number="6.2.4" class="anchored" data-anchor-id="sec-planilhas"><span class="header-section-number">6.2.4</span> Planilhas</h3>
 <p>Nesta aba, o usuário <em>Instituição Admin</em> pode baixar três tipos de planilhas (<a href="#figu-planilhas" class="quarto-xref">Figura&nbsp;<span>6.6</span></a>):</p>
 <ul>
-<li>Planilha-modelo em branco: versão mais recente da planilha-modelo em branco;</li>
-<li>Planilha mais recente validada com sucesso: planilha mais recente com submissão validada;</li>
-<li>Planilha de conversão de IDs: planilha que relaciona o ID do TAC com o ID CIGA.</li>
+<li><em><u>Planilha-modelo em branco</u></em>: versão mais recente da planilha-modelo em branco;</li>
+<li><em><u>Planilha mais recente validada com sucesso</u></em>: planilha mais recente com submissão validada;</li>
+<li><em><u>Planilha de conversão de IDs</u></em>: planilha que relaciona o ID do TAC com o ID CIGA.</li>
 </ul>
 <div id="figu-planilhas" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-figu figure">
@@ -417,7 +443,7 @@ Figura&nbsp;6.7: Tela Histórico do TAC
 </section>
 <section id="editar" class="level2" data-number="6.3">
 <h2 data-number="6.3" class="anchored" data-anchor-id="editar"><span class="header-section-number">6.3</span> Editar</h2>
-<p>O botão de ação <strong>Editar</strong> permite ao usuário <em>Instituição Admin</em> modificar as informações de qualquer TAC, com ênfase na alteração da Situação(<a href="#figu-editar-tac" class="quarto-xref">Figura&nbsp;<span>6.8</span></a>).</p>
+<p>O botão de ação <strong>Editar</strong> permite ao usuário <em>Instituição Admin</em> modificar as informações de qualquer TAC, com ênfase na alteração da Situação (<a href="#figu-editar-tac" class="quarto-xref">Figura&nbsp;<span>6.8</span></a>).</p>
 <div id="figu-editar-tac" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-figu figure">
 <div aria-describedby="figu-editar-tac-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -436,10 +462,23 @@ Figura&nbsp;6.8: Tela Editar
 </figcaption>
 </figure>
 </div>
+<div class="callout callout-style-simple callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Atenção
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>A alteração de Situação para <em>Extinta</em> ou <em>Encerrada</em> é irreversível. Além disso, TACs extintos ou encerrados ficam impossibilitados de receber submissões.</p>
+</div>
+</div>
 </section>
 <section id="excluir" class="level2" data-number="6.4">
 <h2 data-number="6.4" class="anchored" data-anchor-id="excluir"><span class="header-section-number">6.4</span> Excluir</h2>
-<p>O botão de ação <strong>Excluir</strong> permite ao usuário <em>Instituição Admin</em> remover TACs. Não é possível excluir um TAC com recomendações em aberto (<a href="#figu-excluir-tac" class="quarto-xref">Figura&nbsp;<span>6.9</span></a>).</p>
+<p>O botão de ação <strong>Excluir</strong> permite ao usuário <em>Instituição Admin</em> remover TACs. Não é possível excluir um TAC se há recomendações associadas a ele. Assim, só é possível a exclusão caso nenhuma recomendação tenha sido emitida para esse TAC (<a href="#figu-excluir-tac" class="quarto-xref">Figura&nbsp;<span>6.9</span></a>).</p>
 <div id="figu-excluir-tac" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-figu figure">
 <div aria-describedby="figu-excluir-tac-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">

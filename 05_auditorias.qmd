@@ -13,7 +13,7 @@ Tela Auditorias
 :::
 
 ## Criar
-O usuário com Função de *Instituição Admin* pode cadastrar uma **Nova Auditoria** preenchendo os campos Nome e Código da auditoria. O código deve conter 3 caracteres, sendo os 2 primeiros obrigatoriamente letras (@figu-criar-auditoria).
+O usuário com Função de *Instituição Admin* pode cadastrar uma **Auditoria** preenchendo os campos Nome e Código da auditoria. O código deve conter 3 caracteres, sendo os 2 primeiros obrigatoriamente letras (@figu-criar-auditoria).
 
 ::: {#figu-criar-auditoria}
 ```{r}
@@ -25,10 +25,15 @@ Criar Auditoria
 :::
 
 ## Detalhar
-O usuário com Função de *Instituição Admin* pode visualizar os datalhes dos TACs de uma auditoria em forma de lista ao clicar no botão Detalhar.
+O usuário com Função de *Instituição Admin* pode visualizar os detalhes dos TACs de uma auditoria, em forma de lista, ao clicar no botão Detalhar.
 
 ## Editar
 O botão de ação **Editar** permite ao usuário *Instituição Admin* modificar o nome da auditoria.
 
 ## Excluir
 O botão de ação **Excluir** permite ao usuário *Instituição Admin* remover uma auditoria.
+
+:::callout-note
+## Nota
+Não é possível excluir uma auditoria se houver TACs associados a ela.
+:::
