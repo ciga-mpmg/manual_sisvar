@@ -54,7 +54,7 @@
     "href": "03_usuarios.html#excluir",
     "title": "3  Usuários",
     "section": "3.5 Excluir",
-    "text": "3.5 Excluir\nO botão de ação Excluir permite ao usuário Instituição Admin remover usuários, incluindo ele próprio.\n\n\n\n\n\n\nNota\n\n\n\nO sistema possui uma segurança para que um eventual último usuário Instituição Admin não possa ser excluído ou ter sua Função substituída.",
+    "text": "3.5 Excluir\nO botão de ação Excluir permite ao usuário Instituição Admin remover usuários, incluindo ele próprio.\n\n\n\n\n\n\nNota\n\n\n\nO sistema possui uma segurança para que um eventual último usuário Instituição Admin não possa ser excluído ou ter seu privilégio revogado.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Usuários</span>"
     ]
@@ -103,8 +103,8 @@
     "objectID": "05_auditorias.html#editar",
     "href": "05_auditorias.html#editar",
     "title": "5  Auditorias",
-    "section": "5.2 Editar",
-    "text": "5.2 Editar\n\nEditar o nome da auditoria",
+    "section": "5.3 Editar",
+    "text": "5.3 Editar\nO botão de ação Editar permite ao usuário Instituição Admin modificar o nome da auditoria.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Auditorias</span>"
     ]
@@ -113,8 +113,8 @@
     "objectID": "05_auditorias.html#excluir",
     "href": "05_auditorias.html#excluir",
     "title": "5  Auditorias",
-    "section": "5.3 Excluir",
-    "text": "5.3 Excluir",
+    "section": "5.4 Excluir",
+    "text": "5.4 Excluir\nO botão de ação Excluir permite ao usuário Instituição Admin remover uma auditoria.",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Auditorias</span>"
     ]
@@ -484,7 +484,7 @@
     "href": "03_usuarios.html#procurar",
     "title": "3  Usuários",
     "section": "3.2 Procurar",
-    "text": "3.2 Procurar\nO usuário Instituição Admin pode localizar um usuário utilizando a opção Procurar. Ele pode visualizar as três Funções disponíveis: Gestor, Responsável e Instituição.",
+    "text": "3.2 Procurar\nO usuário Instituição Admin pode localizar um usuário utilizando a Barra de Pesquisa Procurar. Ele pode visualizar as três Funções disponíveis: Gestor, Responsável e Instituição.",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Usuários</span>"
     ]
