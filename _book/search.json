@@ -14,7 +14,7 @@
     "href": "02_dashboard.html",
     "title": "2  Dashboard",
     "section": "",
-    "text": "Nesta tela, são apresentados os principais números de acompanhamento das recomendações emitidas pelas Auditorias Técnicas Independentes (Figura 2.1).\nO usuário com perfil de Instituição Admin pode consultar as últimas cinco Submissões validadas, o Total de recomendações e o Cálculo de Alerta de forma atualizada a cada nova submissão. O Total de TACs e o Total de Estruturas Geotécnicas são atualizados quando da criação de um novo TAC ou nova estrutura geotécnica, respectivamente.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 2.1: Tela Dashboard",
+    "text": "Nesta tela, são apresentados os principais números de acompanhamento dos TACs e suas recomendações emitidas pelas Auditorias Técnicas Independentes (Figura 2.1).\nO usuário com perfil Instituição Admin pode consultar a listagem de Submissões validadas, o Total de recomendações por TAC e o Cálculo de Alerta de forma atualizada a cada nova submissão validada. O sumário de dados referente ao Total de TACs por auditoria e ao Total de Estruturas Geotécnicas é atualizado, respectivamente, quando da criação de um novo TAC ou a partir das atualizações de dados de estruturas geotécnicas.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 2.1: Tela Dashboard",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>Dashboard</span>"
     ]
@@ -24,7 +24,7 @@
     "href": "03_usuarios.html",
     "title": "3  Usuários",
     "section": "",
-    "text": "3.1 Criar\nO usuário com Função de Instituição Admin pode criar um Novo Usuário preenchendo todos os campos obrigatórios do formulário. A senha deve ter no mínimo 6 caracteres e incluir uma combinação de letras e números (Figura 3.2).\nSe o novo usuário criado for do tipo Instituição, o Admin também pode revogar o papel de Administrador deste usuário durante o processo de criação (Figura 3.3).",
+    "text": "3.1 Criar\nO usuário com Função de Instituição Admin pode criar um Novo Usuário preenchendo todos os campos obrigatórios do formulário. A senha deve possuir no mínimo 6 caracteres e incluir uma combinação de letras e números (Figura 3.2).\nSe o novo usuário criado for do tipo Instituição, o Admin também pode revogar o privilégio de Administrador deste usuário logo após o processo de criação (Figura 3.3).",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Usuários</span>"
     ]
@@ -64,7 +64,7 @@
     "href": "03_usuarios.html#criar",
     "title": "3  Usuários",
     "section": "",
-    "text": "Figura 3.2: Criar Usuário\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 3.3: Revogar Usuário",
+    "text": "Figura 3.2: Criar Usuário\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 3.3: Revogar privilégio ‘Admin’ de Usuário",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Usuários</span>"
     ]
@@ -74,7 +74,7 @@
     "href": "04_convidados.html",
     "title": "4  Convidados",
     "section": "",
-    "text": "4.1 Enviar convite\nO usuário com perfil de Instituição Admin pode enviar um Novo Convite preenchendo todos os campos obrigatórios do formulário (Figura 4.2).\nNo campo Função, ao escolher a opção Gestor ou Responsável, as opções do campo Auditoria serão exibidas conforme cadastradas na tela 5 Auditorias.",
+    "text": "4.1 Enviar convite\nO usuário com perfil de Instituição Admin pode enviar um Novo Convite preenchendo todos os campos obrigatórios do formulário (Figura 4.2).\nNo campo Função, ao escolher a opção Gestor ou Responsável, as opções do campo Auditoria serão exibidas conforme cadastradas na tela Auditorias.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Convidados</span>"
     ]
@@ -84,7 +84,7 @@
     "href": "05_auditorias.html",
     "title": "5  Auditorias",
     "section": "",
-    "text": "5.1 Criar nova Auditoria\nO usuário com Função de Instituição Admin pode cadastrar uma Nova Auditoria preenchendo os campos Nome e Código da auditoria. O código deve conter 3 caracteres, sendo os 2 primeiros obrigatoriamente letras (Figura 5.2).",
+    "text": "5.1 Criar\nO usuário com Função de Instituição Admin pode cadastrar uma Nova Auditoria preenchendo os campos Nome e Código da auditoria. O código deve conter 3 caracteres, sendo os 2 primeiros obrigatoriamente letras (Figura 5.2).",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Auditorias</span>"
     ]
@@ -94,7 +94,7 @@
     "href": "05_auditorias.html#criar",
     "title": "5  Auditorias",
     "section": "",
-    "text": "Figura 5.2: Criar Auditoria\n\n\n\n\n\nNome e Códigpos são obrigatórios\nCódigo deve conter 3 caracteres, sendo os 2 primeiros uma letra obrigatoriamente.",
+    "text": "Figura 5.2: Criar Auditoria",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Auditorias</span>"
     ]
@@ -234,7 +234,7 @@
     "href": "04_convidados.html#enviar-convite",
     "title": "4  Convidados",
     "section": "",
-    "text": "Figura 4.2: Formulário para envio de convite\n\n\n\n\n\n\n\n\n\n\nNota\n\n\n\nA principal diferença desta tela em relação à tela 3 Usuários é que, aqui, o convite é enviado para o e-mail cadastrado, e o usuário convidado tem até 7 dias para aceitar o convite e criar sua senha (Figura 4.3).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 4.3: E-mail convite",
+    "text": "Figura 4.2: Formulário para envio de convite\n\n\n\n\n\n\n\n\n\n\nNota\n\n\n\nA principal diferença desta tela em relação à tela Usuários é que, aqui, o convite é enviado para o e-mail cadastrado, e o usuário convidado tem até 7 dias para aceitar o convite e criar sua senha (Figura 4.3).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 4.3: E-mail convite",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Convidados</span>"
     ]
@@ -373,8 +373,8 @@
     "objectID": "01_dicionario.html#botão-de-inclusão-de-novo-dado",
     "href": "01_dicionario.html#botão-de-inclusão-de-novo-dado",
     "title": "1  Dicionário",
-    "section": "1.4 Botão de Inclusão de Novo Dado",
-    "text": "1.4 Botão de Inclusão de Novo Dado\nLocalizado no canto superior direito de cada página principal, este botão permite a criação de novos itens, como Novo Usuário, Novo Convite, Nova Auditoria, Novo TAC, Nova Estrutura Geotécnica e Novo Empreendedor (Figura 1.4).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 1.4: Inclusão de novo dado",
+    "section": "1.5 Botão de Inclusão de Novo Dado",
+    "text": "1.5 Botão de Inclusão de Novo Dado\nLocalizado no canto superior direito de cada página principal, este botão permite a criação de novos itens, como Novo Usuário, Novo Convite, Nova Auditoria, Novo TAC, Nova Estrutura Geotécnica e Novo Empreendedor (Figura 1.5).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 1.5: Inclusão de novo dado",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dicionário</span>"
     ]
@@ -493,8 +493,8 @@
     "objectID": "01_dicionario.html#botão-colapsar-menu",
     "href": "01_dicionario.html#botão-colapsar-menu",
     "title": "1  Dicionário",
-    "section": "1.5 Botão Colapsar Menu",
-    "text": "1.5 Botão Colapsar Menu\nLocalizado no canto superior direito da barra lateral, o botão Colapsar Menu permite ao usuário colapsar a barra de menu (Figura 1.5).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 1.5: Colapsar a barra de menu",
+    "section": "1.7 Botão Colapsar Menu",
+    "text": "1.7 Botão Colapsar Menu\nLocalizado no canto superior direito da barra lateral, o botão Colapsar Menu permite ao usuário colapsar a barra de menu (Figura 1.7).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 1.7: Colapsar a barra de menu",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dicionário</span>"
     ]
@@ -503,10 +503,50 @@
     "objectID": "01_dicionario.html#botão-expandir-menu",
     "href": "01_dicionario.html#botão-expandir-menu",
     "title": "1  Dicionário",
-    "section": "1.6 Botão Expandir Menu",
-    "text": "1.6 Botão Expandir Menu\nLocalizado no canto superior esquerdo da barra lateral colapsada, o botão Expandir Menu permite expandir o conteúdo completo da barra de menu (Figura 1.6).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 1.6: Expandir a barra de menu",
+    "section": "1.8 Botão Expandir Menu",
+    "text": "1.8 Botão Expandir Menu\nLocalizado no canto superior esquerdo da barra lateral colapsada, o botão Expandir Menu permite expandir o conteúdo completo da barra de menu (Figura 1.8).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 1.8: Expandir a barra de menu",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dicionário</span>"
+    ]
+  },
+  {
+    "objectID": "01_dicionario.html#ícone-detalhar",
+    "href": "01_dicionario.html#ícone-detalhar",
+    "title": "1  Dicionário",
+    "section": "1.4 Ícone Detalhar",
+    "text": "1.4 Ícone Detalhar\nO ícone Detalhar permite ao usuário detalhar informações acerca de um item do sistema (Figura 1.4).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 1.4: Detalhar",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dicionário</span>"
+    ]
+  },
+  {
+    "objectID": "05_auditorias.html#criar-1",
+    "href": "05_auditorias.html#criar-1",
+    "title": "5  Auditorias",
+    "section": "5.2 Criar",
+    "text": "5.2 Criar\nO usuário com Função de Instituição Admin pode cadastrar uma Nova Auditoria preenchendo os campos Nome e Código da auditoria. O código deve conter 3 caracteres, sendo os 2 primeiros obrigatoriamente letras (Figura 5.2).",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Auditorias</span>"
+    ]
+  },
+  {
+    "objectID": "01_dicionario.html#barra-de-pesquisa",
+    "href": "01_dicionario.html#barra-de-pesquisa",
+    "title": "1  Dicionário",
+    "section": "1.6 Barra de Pesquisa",
+    "text": "1.6 Barra de Pesquisa\nLocalizado no canto superior esquerdo de páginas onde existe possibilidade de realizar pesquisas (Figura 1.6).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 1.6: Barra de pesquisa",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dicionário</span>"
+    ]
+  },
+  {
+    "objectID": "05_auditorias.html#detalhar",
+    "href": "05_auditorias.html#detalhar",
+    "title": "5  Auditorias",
+    "section": "5.2 Detalhar",
+    "text": "5.2 Detalhar\nO usuário com Função de Instituição Admin pode visualizar os datalhes dos TACs de uma auditoria em forma de lista ao clicar no botão Detalhar.",
+    "crumbs": [
+      "<span class='chapter-number'>5</span>  <span class='chapter-title'>Auditorias</span>"
     ]
   }
 ]

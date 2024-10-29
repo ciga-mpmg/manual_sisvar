@@ -38,6 +38,18 @@ knitr::include_graphics("images/01_dicionario/excluir.svg")
 Excluir
 :::
 
+## Ícone Detalhar
+O ícone Detalhar permite ao usuário detalhar informações acerca de um item do sistema (@figu-detalhar).
+
+::: {#figu-detalhar}
+```{r}
+#| label: figu-detalhar
+#| out-width: ~
+knitr::include_graphics("images/01_dicionario/detalhar.svg")
+```
+Detalhar
+:::
+
 ## Botão de Inclusão de Novo Dado
 Localizado no canto superior direito de cada página principal, este botão permite a criação de novos itens, como Novo Usuário, Novo Convite, Nova Auditoria, Novo TAC, Nova Estrutura Geotécnica e Novo Empreendedor (@figu-novo).
 
@@ -48,6 +60,18 @@ Localizado no canto superior direito de cada página principal, este botão perm
 knitr::include_graphics("images/01_dicionario/novo.svg")
 ```
 Inclusão de novo dado
+:::
+
+## Barra de Pesquisa
+Localizado no canto superior esquerdo de páginas onde existe possibilidade de realizar pesquisas (@figu-pesquisar).
+
+::: {#figu-pesquisar}
+```{r}
+#| label: figu-pesquisar
+#| out-width: "30%"
+knitr::include_graphics("images/01_dicionario/pesquisar.svg")
+```
+Barra de pesquisa
 :::
 
 ## Botão Colapsar Menu
