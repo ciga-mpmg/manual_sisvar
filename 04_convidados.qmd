@@ -1,5 +1,5 @@
 # Convidados {#sec-convidados}
-A tela Convidados exibe uma lista dos usuários que receberam convites para acessar o Sisvar. Nessa tela, é possível gerenciar informações sobre quem enviou o convite, o status do convite (Aceito ou Aguardando) e, quando aplicável, a data de aceitação. Além disso, é possível buscar, excluir e enviar novos convites (@figu-tela04).
+A tela Convidados exibe uma lista dos usuários que receberam convites para acessar o Sisvar. Nessa tela, é possível gerenciar informações sobre quem enviou o convite, o status do convite (Aceito ou Aguardando) e, quando aplicável, a data de aceite. Além disso, é possível pesquisar, excluir e enviar convites (@figu-tela04).
 
 ::: {#figu-tela04}
 ```{r}
@@ -11,7 +11,7 @@ Tela Convidados
 :::
 
 ## Enviar convite
-O usuário com perfil de *Instituição Admin* pode enviar um **Novo Convite** preenchendo todos os campos obrigatórios do formulário (@figu-convite). 
+O usuário com perfil de *Instituição Admin* pode enviar um **Novo Convite** preenchendo todos os campos obrigatórios do formulário (@figu-convite). Todas as opções de Função estão disponíveis para esse usuário.
 
 ::: {#figu-convite}
 ```{r}
@@ -22,11 +22,11 @@ knitr::include_graphics("images/04_convidados/convite.png")
 Formulário para envio de convite
 :::
 
-No campo Função, ao escolher a opção *Gestor ou Responsável*, as opções do campo Auditoria serão exibidas conforme cadastradas na tela [5 Auditorias](#sec-auditorias).
+No campo Função, ao escolher a opção *Gestor ou Responsável*, as opções do campo Auditoria serão exibidas conforme cadastradas na tela [Auditorias](#sec-auditorias).
 
 ::: {.callout}
 ## Nota
-A principal diferença desta tela em relação à tela [3 Usuários](#sec-usuarios) é que, aqui, o convite é enviado para o e-mail cadastrado, e o usuário convidado tem até 7 dias para aceitar o convite e criar sua senha (@figu-email).
+A principal diferença desta tela em relação à tela [Usuários](#sec-usuarios) é que, aqui, o convite é enviado para o e-mail cadastrado, e o usuário convidado tem até 7 dias para aceitar o convite e criar sua senha (@figu-email).
 :::
 
 ::: {#figu-email}
@@ -37,3 +37,6 @@ knitr::include_graphics("images/04_convidados/email.png")
 ```
 E-mail convite
 :::
+
+## Excluir convite
+O usuário com perfil de *Instituição Admin* pode excluir qualquer convite da listagem, independentemente do seu status, ao clicar no ícone Excluir.
