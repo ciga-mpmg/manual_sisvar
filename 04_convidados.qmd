@@ -24,9 +24,11 @@ Formulário para envio de convite
 
 No campo Função, ao escolher a opção *Gestor ou Responsável*, as opções do campo Auditoria serão exibidas conforme cadastradas na tela [Auditorias](#sec-auditorias).
 
+A principal diferença desta tela em relação à tela [Usuários](#sec-usuarios) é que, aqui, o convite é enviado para o e-mail cadastrado, de forma que existe o histórico acerca da inserção do usuário no Sisvar.
+
 :::callout-note
 ## Nota
-A principal diferença desta tela em relação à tela [Usuários](#sec-usuarios) é que, aqui, o convite é enviado para o e-mail cadastrado, e o usuário convidado tem até 7 dias para aceitar o convite e criar sua senha (@figu-email).
+O usuário convidado tem até 7 dias para aceitar o convite e criar sua senha.
 :::
 
 ::: {#figu-email}
