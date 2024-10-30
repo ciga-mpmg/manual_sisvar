@@ -1,0 +1,47 @@
+# Empreendedores {#sec-empreendedores}
+
+A tela Empreendedores exibe uma lista dos empreendedores cadastrados no Sisvar, seguindo a nomenclatura do [**Sistema de Gestão de Segurança de Barragem de Mineração (SIGBM)**](https://app.anm.gov.br/SIGBM/Publico/GerenciarPublico){.external target="_blank"}. Nesta tela, é possível gerenciar os empreendedores, incluindo pesquisa, visualização, edição, exclusão e adição de empreendedores (@figu-tela08).
+
+::: {#figu-tela08}
+```{r}
+#| label: figu-tela08
+#| out-width: ~
+knitr::include_graphics("images/08_empreendedores/tela08.png")
+```
+Tela Empreendedores
+:::
+
+## Criar
+O usuário com Função de *Instituição Admin* pode criar um **Empreendedor** preenchendo o campo obrigatório "Nome" do formulário (@figu-criar-empreendedor).
+
+::: {#figu-criar-empreendedor}
+```{r}
+#| label: figu-criar-empreendedor
+#| out-width: ~
+knitr::include_graphics("images/08_empreendedores/criar-empreendedor.png")
+```
+Criar Empreendedores
+:::
+
+## Exibir
+Ao clicar no botão de ação **Exibir**, o usuário *Instituição Admin* pode criar um **Nome Alternativo** para o TAC (@figu-nomealternativo). O sistema reconhecerá, durante a validação das planilhas, tanto o nome principal quanto o nome alternativo, sendo possível definir o novo nome criado como o principal.
+
+::: {#figu-nomealternativo}
+```{r}
+#| label: figu-nomealternativo
+#| out-width: ~
+knitr::include_graphics("images/08_empreendedores/nomealternativo.png")
+```
+Novo Nome Alternativo
+:::
+
+## Editar
+O botão de ação **Editar** permite ao usuário *Instituição Admin* modificar o nome de qualquer empreendedor.
+
+::: callout-important
+## Atenção
+Não é recomendável alterar o nome do empreendedor. Caso o empreendedor tenha seu nome alterado no SIGBM, recomenda-se realizar esta ação utilizando nomes alternativos. 
+:::
+
+## Excluir
+O botão de ação **Excluir** permite ao usuário *Instituição Admin* remover um empreendedor.

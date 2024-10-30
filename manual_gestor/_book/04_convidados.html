@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Manual do Usuário com exemplos práticos de uso">
+<meta name="description" content="Exemplos práticos de uso">
 
-<title>7&nbsp; Estruturas Geotécnicas – Sisvar</title>
+<title>4&nbsp; Convidados – Sisvar - Manual do Usuário</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,8 +31,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./08_empreendedores.html" rel="next">
-<link href="./06_tacs.html" rel="prev">
+<link href="./05_auditorias.html" rel="next">
+<link href="./03_usuarios.html" rel="prev">
+<link href="./assets/ciga-logo.svg" rel="icon" type="image/svg+xml">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -83,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./07_estruturas_geotecnicas.html"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Estruturas Geotécnicas</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./04_convidados.html"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Convidados</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -101,9 +102,9 @@ ul.task-list li input[type="checkbox"] {
       <img src="./assets/ciga.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
       </a>
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Sisvar</a> 
+      <a href="./">Sisvar - Manual do Usuário</a> 
         <div class="sidebar-tools-main">
-    <a href="./Sisvar.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
+    <a href="./Sisvar---Manual-do-Usuário.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
 </div>
     </div>
       </div>
@@ -140,7 +141,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./04_convidados.html" class="sidebar-item-text sidebar-link">
+  <a href="./04_convidados.html" class="sidebar-item-text sidebar-link active">
  <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Convidados</span></span></a>
   </div>
 </li>
@@ -158,7 +159,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./07_estruturas_geotecnicas.html" class="sidebar-item-text sidebar-link active">
+  <a href="./07_estruturas_geotecnicas.html" class="sidebar-item-text sidebar-link">
  <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Estruturas Geotécnicas</span></span></a>
   </div>
 </li>
@@ -178,14 +179,8 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Sumário</h2>
    
   <ul>
-  <li><a href="#criar" id="toc-criar" class="nav-link active" data-scroll-target="#criar"><span class="header-section-number">7.1</span> Criar</a>
-  <ul class="collapse">
-  <li><a href="#botão-nova-estrutura-geotécnica" id="toc-botão-nova-estrutura-geotécnica" class="nav-link" data-scroll-target="#botão-nova-estrutura-geotécnica"><span class="header-section-number">7.1.1</span> Botão Nova Estrutura Geotécnica</a></li>
-  <li><a href="#preenchimento-da-planilha-modelo" id="toc-preenchimento-da-planilha-modelo" class="nav-link" data-scroll-target="#preenchimento-da-planilha-modelo"><span class="header-section-number">7.1.2</span> Preenchimento da planilha-modelo</a></li>
-  </ul></li>
-  <li><a href="#procurar" id="toc-procurar" class="nav-link" data-scroll-target="#procurar"><span class="header-section-number">7.2</span> Procurar</a></li>
-  <li><a href="#exibir" id="toc-exibir" class="nav-link" data-scroll-target="#exibir"><span class="header-section-number">7.3</span> Exibir</a></li>
-  <li><a href="#editar" id="toc-editar" class="nav-link" data-scroll-target="#editar"><span class="header-section-number">7.4</span> Editar</a></li>
+  <li><a href="#enviar-convite" id="toc-enviar-convite" class="nav-link active" data-scroll-target="#enviar-convite"><span class="header-section-number">4.1</span> Enviar convite</a></li>
+  <li><a href="#excluir-convite" id="toc-excluir-convite" class="nav-link" data-scroll-target="#excluir-convite"><span class="header-section-number">4.2</span> Excluir convite</a></li>
   </ul>
 </nav>
     </div>
@@ -194,7 +189,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-estruturas" class="quarto-section-identifier"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Estruturas Geotécnicas</span></span></h1>
+<h1 class="title"><span id="sec-convidados" class="quarto-section-identifier"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Convidados</span></span></h1>
 </div>
 
 
@@ -211,31 +206,47 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>A tela Estruturas Geotécnicas exibe uma lista das estruturas cadastradas no Sisvar. Nesta tela, é possível gerenciar as estruturas geotécnicas, incluindo pesquisa, visualização, edição e adição de estruturas (<a href="#figu-tela07" class="quarto-xref">Figura&nbsp;<span>7.1</span></a>).</p>
-<div id="figu-tela07" class="quarto-float quarto-figure quarto-figure-center anchored">
+<p>A tela Convidados exibe uma lista dos usuários que receberam convites para acessar o Sisvar. Nessa tela, é possível gerenciar informações sobre quem enviou o convite, o status do convite (Aceito ou Aguardando) e, quando aplicável, a data de aceite. Além disso, é possível pesquisar, excluir e enviar convites (<a href="#figu-tela04" class="quarto-xref">Figura&nbsp;<span>4.1</span></a>).</p>
+<div id="figu-tela04" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-figu figure">
-<div aria-describedby="figu-tela07-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="figu-tela04-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="images/07_estruturas_geotecnicas/tela07.png" class="img-fluid figure-img" width="551"></p>
+<p><img src="images/04_convidados/tela04.png" class="img-fluid figure-img" width="584"></p>
 </figure>
 </div>
 </div>
 </div>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-tela07-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;7.1: Tela Estruturas Geotécnicas
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-tela04-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;4.1: Tela Convidados
 </figcaption>
 </figure>
 </div>
-<section id="criar" class="level2" data-number="7.1">
-<h2 data-number="7.1" class="anchored" data-anchor-id="criar"><span class="header-section-number">7.1</span> Criar</h2>
-<p>Para adicionar uma estrutura geotécnica à lista, é imprescindível que os dados estejam corretos, especialmente as coordenadas geográficas. O fluxo de criação de uma nova estrutura geotécnica pode seguir dois caminhos:</p>
-<section id="botão-nova-estrutura-geotécnica" class="level3" data-number="7.1.1">
-<h3 data-number="7.1.1" class="anchored" data-anchor-id="botão-nova-estrutura-geotécnica"><span class="header-section-number">7.1.1</span> Botão Nova Estrutura Geotécnica</h3>
-<p>O usuário com Função de <em>Instituição Admin</em> pode criar uma <strong>Estrutura Geotécnica</strong> preenchendo todos os campos obrigatórios do formulário (<a href="#figu-criar-estrutura" class="quarto-xref">Figura&nbsp;<span>7.2</span></a>).</p>
+<section id="enviar-convite" class="level2" data-number="4.1">
+<h2 data-number="4.1" class="anchored" data-anchor-id="enviar-convite"><span class="header-section-number">4.1</span> Enviar convite</h2>
+<p>O usuário com perfil de <em>Instituição Admin</em> pode enviar um <strong>Convite</strong> preenchendo todos os campos obrigatórios do formulário (<a href="#figu-convite" class="quarto-xref">Figura&nbsp;<span>4.2</span></a>). Todas as opções de Função estão disponíveis para esse usuário.</p>
+<div id="figu-convite" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-figu figure">
+<div aria-describedby="figu-convite-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="images/04_convidados/convite.png" class="img-fluid figure-img" width="584"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-convite-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;4.2: Formulário para envio de convite
+</figcaption>
+</figure>
+</div>
+<p>No campo Função, ao escolher a opção <em>Gestor ou Responsável</em>, as opções do campo Auditoria serão exibidas conforme cadastradas na tela <a href="05_auditorias.html">Auditorias</a>.</p>
 <div class="callout callout-style-simple callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -246,163 +257,31 @@ Nota
 </div>
 </div>
 <div class="callout-body-container callout-body">
-<p>Ao criar uma estrutura geotécnica e não preencher os campos Latitude e Longitude, ela será automaticamente adicionada à lista de estruturas com pendências.</p>
+<p>A principal diferença desta tela em relação à tela <a href="03_usuarios.html">Usuários</a> é que, aqui, o convite é enviado para o e-mail cadastrado, e o usuário convidado tem até 7 dias para aceitar o convite e criar sua senha (<a href="#figu-email" class="quarto-xref">Figura&nbsp;<span>4.3</span></a>).</p>
 </div>
 </div>
-<div id="figu-criar-estrutura" class="quarto-float quarto-figure quarto-figure-center anchored">
+<div id="figu-email" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-figu figure">
-<div aria-describedby="figu-criar-estrutura-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="figu-email-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="images/07_estruturas_geotecnicas/criar-estrutura.png" class="img-fluid figure-img" width="596"></p>
+<p><img src="images/04_convidados/email.png" class="img-fluid figure-img" width="468"></p>
 </figure>
 </div>
 </div>
 </div>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-criar-estrutura-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;7.2: Tela Criar Estrutura Geotécnica
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-email-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;4.3: E-mail convite
 </figcaption>
 </figure>
 </div>
 </section>
-<section id="preenchimento-da-planilha-modelo" class="level3" data-number="7.1.2">
-<h3 data-number="7.1.2" class="anchored" data-anchor-id="preenchimento-da-planilha-modelo"><span class="header-section-number">7.1.2</span> Preenchimento da planilha-modelo</h3>
-<ol type="1">
-<li><p>O usuário da auditoria submete uma planilha com a nova estrutura geotécnica, preenchendo os campos <code>estrutura_nao_cadastrada</code> e <code>municipio_estrutura_nao_cadastrada</code>.</p></li>
-<li><p>Após validação, a lista-base de estruturas geotécnicas do Sisvar passa a constar a nova estrutura.</p></li>
-<li><p>O usuário da auditoria e os usuários com Função de <strong><em>Instituição Admin</em></strong> recebem um aviso (exclamação vermelha) informando que há estruturas geotécnicas pendentes de revisão (<a href="#figu-aviso" class="quarto-xref">Figura&nbsp;<span>7.3</span></a>) (ao expandir a barra de menu, um quadrado vermelho com o número de pendências é exibido).</p></li>
-</ol>
-<div id="figu-aviso" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-figu figure">
-<div aria-describedby="figu-aviso-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/07_estruturas_geotecnicas/aviso.png" class="img-fluid figure-img" width="626"></p>
-</figure>
-</div>
-</div>
-</div>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-aviso-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;7.3: Tela aviso
-</figcaption>
-</figure>
-</div>
-<ol start="4" type="1">
-<li><p>O usuário da auditoria preenche as coordenadas. Há uma validação, numérica, para as coordenadas referente aos limites do estado de Minas Gerais;</p></li>
-<li><p>O usuário com Função de <strong><em>Instituição Admin</em></strong> verifica manualmente se as coordenadas fazem sentido (é um local de mineração?).</p></li>
-<li><p>O usuário com Função de <strong><em>Instituição Admin</em></strong> valida ou não as coordenadas (<a href="#figu-validar-estrutura" class="quarto-xref">Figura&nbsp;<span>7.4</span></a>):</p></li>
-</ol>
-<ul>
-<li>Em caso de reprovação, o fluxo retorna automaticamente ao passo 3;</li>
-<li>Em caso de validação, o fluxo segue para o passo 7.</li>
-</ul>
-<div id="figu-validar-estrutura" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-figu figure">
-<div aria-describedby="figu-validar-estrutura-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/07_estruturas_geotecnicas/validar-estrutura.png" class="img-fluid figure-img" width="597"></p>
-</figure>
-</div>
-</div>
-</div>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-validar-estrutura-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;7.4: Tela Validar/Reprovar estrutura geotécnica
-</figcaption>
-</figure>
-</div>
-<ol start="7" type="1">
-<li>O usuário com Função de <strong><em>Instituição Admin</em></strong> busca a estrutura geotécnica na lista-base e edita suas informações para incluir o complexo minerário/mina.</li>
-</ol>
-<div class="callout callout-style-simple callout-note callout-titled">
-<div class="callout-header d-flex align-content-center">
-<div class="callout-icon-container">
-<i class="callout-icon"></i>
-</div>
-<div class="callout-title-container flex-fill">
-Nota
-</div>
-</div>
-<div class="callout-body-container callout-body">
-<p>A edição de complexo minerário/mina pode ser realizada a qualquer momento, em qualquer estrutura geotécnica.</p>
-</div>
-</div>
-</section>
-</section>
-<section id="procurar" class="level2" data-number="7.2">
-<h2 data-number="7.2" class="anchored" data-anchor-id="procurar"><span class="header-section-number">7.2</span> Procurar</h2>
-<p>O usuário <em>Instituição Admin</em> pode localizar uma estrutura geotécnica utilizando a opção <strong>Procurar</strong> e filtrar por: Status, TAC, Nome, Município e Empreendedor (<a href="#figu-procurar-estrutura" class="quarto-xref">Figura&nbsp;<span>7.5</span></a>).</p>
-<div id="figu-procurar-estrutura" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-figu figure">
-<div aria-describedby="figu-procurar-estrutura-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/07_estruturas_geotecnicas/procurar-estrutura.png" class="img-fluid figure-img" width="584"></p>
-</figure>
-</div>
-</div>
-</div>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-procurar-estrutura-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;7.5: Tela Procurar estrutura geotécnica
-</figcaption>
-</figure>
-</div>
-</section>
-<section id="exibir" class="level2" data-number="7.3">
-<h2 data-number="7.3" class="anchored" data-anchor-id="exibir"><span class="header-section-number">7.3</span> Exibir</h2>
-<p>Ao clicar no botão de ação <strong>Exibir</strong>, o usuário <em>Instituição Admin</em> pode visualizar as informações detalhadas da estrutura geotécnica, incluindo, quando aplicável, o motivo da reprovação, quem e quando a reprovou, os nomes alternativos e o histórico da estrutura geotécnica (<a href="#figu-exibir-estrutura" class="quarto-xref">Figura&nbsp;<span>7.6</span></a>).</p>
-<div id="figu-exibir-estrutura" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-figu figure">
-<div aria-describedby="figu-exibir-estrutura-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/07_estruturas_geotecnicas/exibir-estrutura.png" class="img-fluid figure-img" width="584"></p>
-</figure>
-</div>
-</div>
-</div>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-exibir-estrutura-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;7.6: Tela Exibir estrutura geotécnica
-</figcaption>
-</figure>
-</div>
-</section>
-<section id="editar" class="level2" data-number="7.4">
-<h2 data-number="7.4" class="anchored" data-anchor-id="editar"><span class="header-section-number">7.4</span> Editar</h2>
-<p>O botão de ação <strong>Editar</strong> permite ao usuário <em>Instituição Admin</em> modificar as informações de Complexo minerário e Coordenadas de qualquer estrutura geotécnica (<a href="#figu-editar-estrutura" class="quarto-xref">Figura&nbsp;<span>7.7</span></a>).</p>
-<div id="figu-editar-estrutura" class="quarto-float quarto-figure quarto-figure-center anchored">
-<figure class="quarto-float quarto-float-figu figure">
-<div aria-describedby="figu-editar-estrutura-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-<div class="cell">
-<div class="cell-output-display">
-<div>
-<figure class="figure">
-<p><img src="images/07_estruturas_geotecnicas/editar-estrutura.png" class="img-fluid figure-img" width="581"></p>
-</figure>
-</div>
-</div>
-</div>
-</div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-editar-estrutura-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;7.7: Tela Editar estrutura geotécnica
-</figcaption>
-</figure>
-</div>
+<section id="excluir-convite" class="level2" data-number="4.2">
+<h2 data-number="4.2" class="anchored" data-anchor-id="excluir-convite"><span class="header-section-number">4.2</span> Excluir convite</h2>
+<p>O usuário com perfil de <em>Instituição Admin</em> pode excluir qualquer convite da listagem, independentemente do seu status, ao clicar no ícone Excluir.</p>
 
 
 </section>
@@ -830,13 +709,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./06_tacs.html" class="pagination-link" aria-label="TACs">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">TACs</span></span>
+      <a href="./03_usuarios.html" class="pagination-link" aria-label="Usuários">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Usuários</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./08_empreendedores.html" class="pagination-link" aria-label="Empreendedores">
-        <span class="nav-page-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Empreendedores</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./05_auditorias.html" class="pagination-link" aria-label="Auditorias">
+        <span class="nav-page-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Auditorias</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
@@ -847,7 +726,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p>CIGA | Sisvar</p>
+<p>CIGA | Sisvar - Manual do Usuário</p>
 </div>
     <div class="nav-footer-right">
       &nbsp;
