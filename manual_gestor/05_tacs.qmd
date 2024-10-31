@@ -1,0 +1,114 @@
+# TACs {#sec-tacs}
+
+A tela TACs exibe uma lista dos TACs relacionados à auditoria do *Gestor*, organizados em ordem alfabética. Nesta tela, é possível gerenciar os TACs, incluindo pesquisa e edição de TACs, além da exibição para o envio e validação de planilhas-modelo (@figu-tela06).
+
+::: {#figu-tela06}
+```{r}
+#| label: figu-tela06
+#| out-width: ~
+knitr::include_graphics("images/05_tacs/tela06.png")
+```
+Tela TACs
+:::
+
+## Exibir
+Ao clicar no botão de ação **Exibir**, o usuário com Função de *Gestor* pode visualizar as informações detalhadas dos TACs, incluindo [Submissões](#sec-submissoes), [Responsáveis](#sec-responsaveis), [Nomes alternativos](#sec-nomes) e [Planilhas](#sec-planilhas).
+
+### Submissões {#sec-submissoes}
+O usuário *Gestor* pode submeter e validar planilhas-modelo (@figu-submissoes). 
+
+::: {#figu-submissoes}
+```{r}
+#| label: figu-submissoes
+#| out-width: ~
+knitr::include_graphics("images/05_tacs/submissoes.png")
+```
+Tela Submissões
+:::
+
+No campo **Descrição** as planilhas submetidas podem apresentar três diferentes resultados:
+
+- *<u>Cancelada</u>*: quando uma submissão é cancelada antes da finalização do processo de validação.
+- *<u>Descartada</u>*: quando uma submissão é descartada após a conclusão do processo de validação devido a erros que impedem sua validação.
+- *<u>Validada</u>*: quando uma submissão é validada após a conclusão do processo de validação sem erros impeditivos.
+
+O processo de validação das planilhas submetidas passa por uma avaliação criteriosa, desde a estrutura do cabeçalho até a última coluna da planilha. As inconsistências encontradas podem ser classificadas como:
+
+- *<u>Aviso</u>*: permite que a submissão seja validada, após o usuário checar todos os avisos apresentados;
+- *<u>Erro</u>*: impede que a submissão seja validada. A submissão deve ser descartada e outra submissão deve ser realizada para nova rodada de validação.
+
+:::callout-note
+## Nota
+Em caso de recomendações com inconsistências do tipo *Aviso* e *Erro* na mesma submissão, o procedimento segue o caso mais restritivo, ou seja, ***Erro***.
+:::
+
+### Responsáveis {#sec-responsaveis}
+Nesta aba, o usuário *Gestor* pode visualizar os responsáveis, bem como atribuir um **Responsável** para o TAC (@figu-responsaveis).
+
+::: {#figu-responsaveis}
+```{r}
+#| label: figu-responsaveis
+#| out-width: ~
+knitr::include_graphics("images/05_tacs/responsaveis.png")
+```
+Tela Responsáveis
+:::
+
+:::callout-note
+## Nota
+A lista de usuários passíveis de atribuição para determinado TAC corresponde ao rol de usuários **Responsável** relacionados à auditoria do *Gestor*. 
+:::
+
+### Nomes alternativos {#sec-nomes}
+Nesta aba, o usuário *Gestor* pode visualizar os nomes alternativos do TAC (quando houver) ou criar um **Nome Alternativo**. Também é possível definir um nome alternativo como principal (@figu-nomes).
+
+::: {#figu-nomes}
+```{r}
+#| label: figu-nomes
+#| out-width: ~
+knitr::include_graphics("images/05_tacs/nomes.png")
+```
+Tela Nomes alternativos
+:::
+
+Por padrão, não existe um "nome fantasia" para um TAC. O CIGA criou esses nomes para facilitar a identificação. As auditorias também criaram seus próprios “nomes fantasia”, o que pode resultar em discrepâncias entre os nomes dos TACs cadastrados no CIGA e os utilizados pelas auditorias (que podem usar nomes muito longos, sem acentuação ou até mesmo em inglês).
+
+Neste sentido, para evitar que a validação seja impedida de ocorrer devido a diferenças nos "nomes fantasia", é possível criar nomes alternativos (conhecidos como "_alias_" em inglês). O nome alternativo, assim como o nome fantasia, é único, não sendo possível ocorrer repetição desses nomes no Sisvar.
+
+:::callout-tip
+## Exemplo - Nome Alternativo
+Se a RIZZO utilizasse "TAC Gongo Soco" em sua planilha e já tivesse criado um nome alternativo como "Gongo Soco", a SLR, ao assumir esse TAC, não conseguiria utilizar "TAC Gongo Soco" nem "Gongo Soco" em sua planilha. Um novo nome alternativo - ou o próprio valor do campo TAC, na planilha-modelo - deverão ser criados diferentemente aos nomes já definidos no Sisvar.
+:::
+
+### Planilhas {#sec-planilhas}
+Nesta aba, o usuário *Gestor* pode baixar três tipos de planilhas (@figu-planilhas):
+
+- *<u>Planilha-modelo em branco</u>*: versão mais recente da planilha-modelo em branco;
+- *<u>Planilha mais recente validada com sucesso</u>*: planilha mais recente com submissão validada;
+- *<u>Planilha de conversão de IDs</u>*: planilha que relaciona o ID do TAC com o ID CIGA.
+
+::: {#figu-planilhas}
+```{r}
+#| label: figu-planilhas
+#| out-width: ~
+knitr::include_graphics("images/05_tacs/planilhas.png")
+```
+Tela Planilhas
+:::
+
+## Editar
+O botão de ação **Editar** permite ao usuário *Gestor* modificar as informações de qualquer TAC, com ênfase na alteração da Situação (@figu-editar-tac). 
+
+::: {#figu-editar-tac}
+```{r}
+#| label: figu-editar-tac
+#| out-width: ~
+knitr::include_graphics("images/05_tacs/editar-tac.png")
+```
+Tela Editar
+:::
+
+:::callout-important
+## Atenção
+A alteração de Situação para *Extinta* ou *Encerrada* é irreversível. Além disso, TACs extintos ou encerrados ficam impossibilitados de receber submissões.
+:::

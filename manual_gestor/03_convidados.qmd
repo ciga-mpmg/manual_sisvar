@@ -1,0 +1,40 @@
+# Convidados {#sec-convidados}
+A tela Convidados exibe uma lista dos usuários relacionados à auditoria do *Gestor* que receberam convites para acessar o Sisvar. Nessa tela, é possível gerenciar informações sobre quem enviou o convite, o status do convite (Aceito ou Aguardando) e, quando aplicável, a data de aceite. Além disso, é possível pesquisar, excluir e enviar convites (@figu-tela04).
+
+::: {#figu-tela04}
+```{r}
+#| label: figu-tela04
+#| out-width: ~
+knitr::include_graphics("images/03_convidados/tela04.png")
+```
+Tela Convidados
+:::
+
+## Enviar convite
+O usuário com perfil de *Gestor* pode enviar um **Convite** para as Funções *Gestor* e *Responsável*, preenchendo todos os campos obrigatórios do formulário (@figu-convite).
+
+::: {#figu-convite}
+```{r}
+#| label: figu-convite
+#| out-width: ~
+knitr::include_graphics("images/03_convidados/convite.png")
+```
+Formulário para envio de convite
+:::
+
+:::callout-note
+## Nota
+O usuário convidado tem até 7 dias para aceitar o convite e criar sua senha.
+:::
+
+::: {#figu-email}
+```{r}
+#| label: figu-email
+#| out-width: ~
+knitr::include_graphics("images/03_convidados/email.png")
+```
+E-mail convite
+:::
+
+## Excluir convite
+O usuário com perfil de *Gestor* pode excluir qualquer convite da listagem, independentemente do seu status, ao clicar no ícone Excluir.

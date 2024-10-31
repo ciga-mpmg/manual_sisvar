@@ -15,7 +15,7 @@ Tela Estruturas Geotécnicas
 Para adicionar uma estrutura geotécnica à lista, é imprescindível que os dados estejam corretos, especialmente as coordenadas geográficas. O fluxo de criação de uma nova estrutura geotécnica pode seguir dois caminhos:
 
 ### Botão Nova Estrutura Geotécnica
-O usuário com Função de *Instituição Admin* pode criar uma **Estrutura Geotécnica** preenchendo todos os campos obrigatórios do formulário (@figu-criar-estrutura).
+O usuário com Função de *Instituição Admin* pode clicar no botão **Nova Estrutura Geotécnica** e criar uma estrutura preenchendo todos os campos obrigatórios do formulário (@figu-criar-estrutura).
 
 ::: callout-note
 ## Nota
@@ -34,7 +34,7 @@ Tela Criar Estrutura Geotécnica
 ### Preenchimento da planilha-modelo
 1. O usuário da auditoria submete uma planilha com a nova estrutura geotécnica, preenchendo os campos `estrutura_nao_cadastrada` e `municipio_estrutura_nao_cadastrada`.
 
-2. Após validação, a lista-base de estruturas geotécnicas do Sisvar passa a constar a nova estrutura.
+2. Após validação da planilha, a lista-base de estruturas geotécnicas do Sisvar passa a constar a nova estrutura.
 
 3. O usuário da auditoria e os usuários com Função de ***Instituição Admin*** recebem um aviso (exclamação vermelha) informando que há estruturas geotécnicas pendentes de revisão (@figu-aviso) (ao expandir a barra de menu, um quadrado vermelho com o número de pendências é exibido).
 

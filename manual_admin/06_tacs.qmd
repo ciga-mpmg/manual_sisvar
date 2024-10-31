@@ -12,7 +12,7 @@ Tela TACs
 :::
 
 ## Criar
-O usuário com Função de *Instituição Admin* pode criar um **TAC** preenchendo todos os campos obrigatórios do formulário. O código deve conter 3 caracteres, sendo os 2 primeiros obrigatoriamente letras (@figu-criar-tac).
+O usuário com Função de *Instituição Admin* pode clicar no botão **Novo TAC** e criar um TAC preenchendo todos os campos obrigatórios do formulário. O código deve conter 3 caracteres, sendo os 2 primeiros obrigatoriamente letras (@figu-criar-tac).
 
 ::: {#figu-criar-tac}
 ```{r}
@@ -33,7 +33,7 @@ Dado um TAC Gongo Soco (RIZZO) e um TAC Gongo Soco (SLR), ambos são proveniente
 :::
 
 ## Exibir
-Ao clicar no botão de ação **Exibir**, o usuário *Instituição Admin* pode visualizar as informações detalhadas dos TACs, incluindo [Submissões](#sec-submissoes), [Responsáveis](#sec-responsaveis), [Nomes alternativos](#sec-nomes), [Planilhas](#sec-planilhas), [Histórico do TAC](#sec-historico).
+Ao clicar no botão de ação **Exibir**, o usuário *Instituição Admin* pode visualizar as informações detalhadas dos TACs, incluindo [Submissões](#sec-submissoes), [Responsáveis](#sec-responsaveis), [Nomes alternativos](#sec-nomes), [Planilhas](#sec-planilhas) e [Histórico do TAC](#sec-historico).
 
 ### Submissões {#sec-submissoes}
 O usuário *Instituição Admin* pode submeter e validar planilhas-modelo quando necessário (@figu-submissoes). 
@@ -60,7 +60,7 @@ O processo de validação das planilhas submetidas passa por uma avaliação cri
 
 :::callout-note
 ## Nota
-Em caso de recomendações com inconsistências do tipo _Aviso_ e _Erro_ na mesma submissão, o procedimento segue o caso mais restritivo, ou seja, ***Erro***.
+Em caso de recomendações com inconsistências do tipo *Aviso* e *Erro* na mesma submissão, o procedimento segue o caso mais restritivo, ou seja, ***Erro***.
 :::
 
 ### Responsáveis {#sec-responsaveis}

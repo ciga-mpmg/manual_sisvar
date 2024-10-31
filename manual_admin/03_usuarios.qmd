@@ -12,7 +12,7 @@ Tela Usuários
 :::
 
 ## Criar
-O usuário com Função de *Instituição Admin* pode criar um **Usuário** preenchendo todos os campos obrigatórios do formulário. A senha deve possuir no mínimo 6 caracteres e incluir uma combinação de letras e números (@figu-criar-usuario).
+O usuário com Função de *Instituição Admin* pode clicar no botão **Novo Usuário** para criar um usuário preenchendo os campos obrigatórios do formulário. A senha deve possuir no mínimo 6 caracteres e incluir uma combinação de letras e números (@figu-criar-usuario).
 
 ::: {#figu-criar-usuario}
 ```{r}

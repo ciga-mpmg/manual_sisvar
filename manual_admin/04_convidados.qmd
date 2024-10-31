@@ -11,7 +11,7 @@ Tela Convidados
 :::
 
 ## Enviar convite
-O usuário com perfil de *Instituição Admin* pode enviar um **Convite** preenchendo todos os campos obrigatórios do formulário (@figu-convite). Todas as opções de Função estão disponíveis para esse usuário.
+O usuário com perfil de *Instituição Admin* pode clicar no botão **Novo convite** e enviar o convite preenchendo os campos obrigatórios do formulário (@figu-convite). Todas as opções de Função estão disponíveis para esse usuário.
 
 ::: {#figu-convite}
 ```{r}

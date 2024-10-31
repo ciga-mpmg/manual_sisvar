@@ -12,7 +12,7 @@ Tela Empreendedores
 :::
 
 ## Criar
-O usuário com Função de *Instituição Admin* pode criar um **Empreendedor** preenchendo o campo obrigatório "Nome" do formulário (@figu-criar-empreendedor).
+O usuário com Função de *Instituição Admin* pode clicar no botão **Novo Empreendedor** e criar um empreendedor preenchendo o campo obrigatório "Nome" do formulário (@figu-criar-empreendedor).
 
 ::: {#figu-criar-empreendedor}
 ```{r}

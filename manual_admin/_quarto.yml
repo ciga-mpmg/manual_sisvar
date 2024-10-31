@@ -48,6 +48,7 @@ format:
     css: assets/styles.css
 
   pdf:
+    documentclass: book
     toc: true
     toc-depth: 2
     papersize: a4

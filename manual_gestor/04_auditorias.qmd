@@ -1,0 +1,13 @@
+# Auditoria {#sec-auditorias}
+A tela Auditoria exibe o quantitativo de TACs e Usuários relacionados à auditoria do *Gestor* (@figu-tela05).
+
+::: {#figu-tela05}
+```{r}
+#| label: figu-tela05
+#| out-width: ~
+knitr::include_graphics("images/04_auditorias/tela05.png")
+```
+Tela Auditoria
+:::
+
+Ao clicar no botão **Conferir**, o usuário será redirecionado à tela [TACs](#sec-tacs) e serão exibidos os TACs relacionados à auditoria do *Gestor* ou à tela [Usuários](#sec-usuarios) e serão exibidos os Usuários relacionados à auditoria do *Gestor* (@figu-tela05).

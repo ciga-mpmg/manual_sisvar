@@ -28,13 +28,11 @@ book:
   chapters:
     - index.qmd
     - 01_dicionario.qmd
-    - 02_dashboard.qmd
-    - 03_usuarios.qmd
-    - 04_convidados.qmd
-    - 05_auditorias.qmd
-    - 06_tacs.qmd
-    - 07_estruturas_geotecnicas.qmd
-    - 08_empreendedores.qmd
+    - 02_usuarios.qmd
+    - 03_convidados.qmd
+    - 04_auditorias.qmd
+    - 05_tacs.qmd
+    - 06_estruturas_geotecnicas.qmd
 
 format:
   html:
