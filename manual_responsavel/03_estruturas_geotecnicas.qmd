@@ -1,6 +1,6 @@
 # Estruturas Geotécnicas {#sec-estruturas}
 
-A tela Estruturas Geotécnicas exibe uma lista das estruturas relacionadas a(os) TAC(s) do *Responsável*. Nesta tela, é possível gerenciar as estruturas geotécnicas, incluindo pesquisa, visualização, edição e adição de coordenadas das estruturas (@figu-tela03).
+A tela Estruturas Geotécnicas exibe uma lista das estruturas relacionadas ao(s) TAC(s) do *Responsável*. Nesta tela, é possível gerenciar as estruturas geotécnicas, incluindo pesquisa, visualização, edição e adição de coordenadas das estruturas (@figu-tela03).
 
 ::: {#figu-tela03}
 ```{r}
