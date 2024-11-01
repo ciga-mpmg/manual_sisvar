@@ -164,7 +164,7 @@
     "href": "03_estruturas_geotecnicas.html#editar",
     "title": "3  Estruturas Geotécnicas",
     "section": "3.4 Editar",
-    "text": "3.4 Editar\nO botão de ação Editar permite ao usuário Responsável modificar as informações de coordenadas de qualquer estrutura geotécnica (Figura 3.6).\n\n\n\n\n\n\nNota\n\n\n\nO usuário Responsável poderá editar as coordenadas; no entanto, isso depende da aprovação do administrador do sistema.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 3.6: Tela Editar estrutura geotécnica",
+    "text": "3.4 Editar\nO botão de ação Editar permite ao usuário Responsável modificar as informações de coordenadas de qualquer estrutura geotécnica (Figura 3.6).\n\n\n\n\n\n\nNota\n\n\n\nO usuário Responsável poderá editar as coordenadas; no entanto, a aprovação depende do administrador do sistema.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 3.6: Tela Editar estrutura geotécnica",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Estruturas Geotécnicas</span>"
     ]
