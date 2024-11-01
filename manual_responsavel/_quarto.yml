@@ -29,11 +29,8 @@ book:
   chapters:
     - index.qmd
     - 01_dicionario.qmd
-    - 02_usuarios.qmd
-    - 03_convidados.qmd
-    - 04_auditorias.qmd
-    - 05_tacs.qmd
-    - 06_estruturas_geotecnicas.qmd
+    - 02_tacs.qmd
+    - 03_estruturas_geotecnicas.qmd
 
 format:
   html:

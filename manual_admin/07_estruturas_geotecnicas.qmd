@@ -96,7 +96,7 @@ Tela Exibir estrutura geotécnica
 :::
 
 ## Editar
-O botão de ação **Editar** permite ao usuário *Instituição Admin* modificar as informações de Complexo minerário e Coordenadas de qualquer estrutura geotécnica (@figu-editar-estrutura).
+O botão de ação **Editar** permite ao usuário *Instituição Admin* modificar as informações de complexo minerário e coordenadas de qualquer estrutura geotécnica (@figu-editar-estrutura).
 
 ::: {#figu-editar-estrutura}
 ```{r}

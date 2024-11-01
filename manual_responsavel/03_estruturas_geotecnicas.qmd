@@ -1,12 +1,12 @@
 # Estruturas Geotécnicas {#sec-estruturas}
 
-A tela Estruturas Geotécnicas exibe uma lista das estruturas relacionadas à auditoria do *Gestor*. Nesta tela, é possível gerenciar as estruturas geotécnicas, incluindo pesquisa, visualização, edição e adição de coordenadas das estruturas (@figu-tela07).
+A tela Estruturas Geotécnicas exibe uma lista das estruturas relacionadas a(os) TAC(s) do *Responsável*. Nesta tela, é possível gerenciar as estruturas geotécnicas, incluindo pesquisa, visualização, edição e adição de coordenadas das estruturas (@figu-tela03).
 
-::: {#figu-tela07}
+::: {#figu-tela03}
 ```{r}
-#| label: figu-tela09
+#| label: figu-tela03
 #| out-width: ~
-knitr::include_graphics("images/06_estruturas_geotecnicas/tela07.png")
+knitr::include_graphics("images/03_estruturas_geotecnicas/tela03.png")
 ```
 Tela Estruturas Geotécnicas
 :::
@@ -24,7 +24,7 @@ Para adicionar uma estrutura geotécnica à lista, é imprescindível que os dad
 ```{r}
 #| label: figu-aviso
 #| out-width: ~
-knitr::include_graphics("images/06_estruturas_geotecnicas/aviso.png")
+knitr::include_graphics("images/03_estruturas_geotecnicas/aviso.png")
 ```
 Tela aviso
 :::
@@ -35,7 +35,7 @@ Tela aviso
 ```{r}
 #| label: figu-criar-estrutura
 #| out-width: ~
-knitr::include_graphics("images/06_estruturas_geotecnicas/criar-estrutura.png")
+knitr::include_graphics("images/03_estruturas_geotecnicas/criar-estrutura.png")
 ```
 Tela adicionar coordenadas
 :::
@@ -49,42 +49,42 @@ Tela adicionar coordenadas
 7. O administrador do sistema busca a estrutura geotécnica na lista-base e edita suas informações para incluir o complexo minerário/mina.
 
 ## Procurar
-O usuário *Gestor* pode localizar uma estrutura geotécnica utilizando a opção **Procurar** e filtrar por: Status, TAC, Nome, Município e Empreendedor (@figu-procurar-estrutura). 
+O usuário *Responsável* pode localizar uma estrutura geotécnica utilizando a opção **Procurar** e filtrar por: Status, TAC, Nome, Município e Empreendedor (@figu-procurar-estrutura). 
 
 ::: {#figu-procurar-estrutura}
 ```{r}
 #| label: figu-procurar-estrutura
 #| out-width: ~
-knitr::include_graphics("images/06_estruturas_geotecnicas/procurar-estrutura.png")
+knitr::include_graphics("images/03_estruturas_geotecnicas/procurar-estrutura.png")
 ```
 Tela Procurar estrutura geotécnica
 :::
 
 ## Exibir
-Ao clicar no botão de ação **Exibir**, o usuário *Gestor* pode visualizar as informações detalhadas da estrutura geotécnica, incluindo, quando aplicável, o motivo da reprovação, quem e quando a reprovou (@figu-exibir-estrutura). 
+Ao clicar no botão de ação **Exibir**, o usuário *Responsável* pode visualizar as informações detalhadas da estrutura geotécnica, incluindo, quando aplicável, o motivo da reprovação, quem e quando a reprovou (@figu-exibir-estrutura). 
 
 ::: {#figu-exibir-estrutura}
 ```{r}
 #| label: figu-exibir-estrutura
 #| out-width: ~
-knitr::include_graphics("images/06_estruturas_geotecnicas/exibir-estrutura.png")
+knitr::include_graphics("images/03_estruturas_geotecnicas/exibir-estrutura.png")
 ```
 Tela Exibir estrutura geotécnica
 :::
 
 ## Editar
-O botão de ação **Editar** permite ao usuário *Gestor* modificar as informações de coordenadas de qualquer estrutura geotécnica (@figu-editar-estrutura). 
+O botão de ação **Editar** permite ao usuário *Responsável* modificar as informações de coordenadas de qualquer estrutura geotécnica (@figu-editar-estrutura). 
 
 :::callout-note
 ## Nota
-O usuário *Gestor* poderá editar as coordenadas; no entanto, a aprovação depende do administrador do sistema.
+O usuário *Responsável* poderá editar as coordenadas; no entanto, a aprovação depende do administrador do sistema.
 :::
 
 ::: {#figu-editar-estrutura}
 ```{r}
 #| label: figu-editar-estrutura
 #| out-width: ~
-knitr::include_graphics("images/06_estruturas_geotecnicas/editar-estrutura.png")
+knitr::include_graphics("images/03_estruturas_geotecnicas/editar-estrutura.png")
 ```
 Tela Editar estrutura geotécnica
 :::

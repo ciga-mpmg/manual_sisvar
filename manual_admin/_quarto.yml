@@ -1,5 +1,6 @@
 project:
   type: book
+  output-dir: output
 number-sections: true
 crossref:
   fig-prefix: Figura

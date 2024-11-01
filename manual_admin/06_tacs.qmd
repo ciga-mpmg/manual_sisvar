@@ -1,6 +1,6 @@
 # TACs {#sec-tacs}
 
-A tela TACs exibe uma lista dos TACs cadastrados no Sisvar, organizados em ordem alfabética. Nesta tela, é possível gerenciar os TACs, incluindo pesquisa, edição, exclusão e adição de novos TACs, além da exibição para o envio e validação de planilhas-modelo (@figu-tela06).
+A tela TACs exibe uma lista dos TACs cadastrados no Sisvar, organizados em ordem alfabética. Nesta tela, é possível gerenciar os TACs, incluindo pesquisa, edição, exclusão e adição de novos TACs, além da exibição para o envio e validação de planilhas (@figu-tela06).
 
 ::: {#figu-tela06}
 ```{r}
@@ -36,7 +36,7 @@ Dado um TAC Gongo Soco (RIZZO) e um TAC Gongo Soco (SLR), ambos são proveniente
 Ao clicar no botão de ação **Exibir**, o usuário *Instituição Admin* pode visualizar as informações detalhadas dos TACs, incluindo [Submissões](#sec-submissoes), [Responsáveis](#sec-responsaveis), [Nomes alternativos](#sec-nomes), [Planilhas](#sec-planilhas) e [Histórico do TAC](#sec-historico).
 
 ### Submissões {#sec-submissoes}
-O usuário *Instituição Admin* pode submeter e validar planilhas-modelo quando necessário (@figu-submissoes). 
+O usuário *Instituição Admin* pode submeter e validar planilhas quando necessário (@figu-submissoes). 
 
 ::: {#figu-submissoes}
 ```{r}
@@ -81,7 +81,7 @@ A lista de usuários passíveis de atribuição para determinado TAC corresponde
 :::
 
 ### Nomes alternativos {#sec-nomes}
-Nesta aba, o usuário *Instituição Admin* pode visualizar os nomes alternativos do TAC (quando houver) ou criar um **Nome Alternativo**. Também é possível definir um nome alternativo como principal (@figu-nomes).
+Nesta aba, o usuário *Instituição Admin* pode visualizar os nomes alternativos do TAC (quando houver) ou clicar no botão **Novo Nome Alternativo** e criar outro nome para o TAC. Também é possível definir um nome alternativo como principal (@figu-nomes).
 
 ::: {#figu-nomes}
 ```{r}

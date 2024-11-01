@@ -1,27 +1,27 @@
 # TACs {#sec-tacs}
 
-A tela TACs exibe uma lista dos TACs relacionados à auditoria do *Gestor*, organizados em ordem alfabética. Nesta tela, é possível gerenciar os TACs, incluindo pesquisa e edição de TACs, além da exibição para o envio e validação de planilhas (@figu-tela06).
+A tela TACs exibe o(s) TAC(s) relacionado(s) ao **Responsável** (@figu-tela02).
 
-::: {#figu-tela06}
+::: {#figu-tela02}
 ```{r}
-#| label: figu-tela06
+#| label: figu-tela02
 #| out-width: ~
-knitr::include_graphics("images/05_tacs/tela06.png")
+knitr::include_graphics("images/02_tacs/tela02.png")
 ```
 Tela TACs
 :::
 
 ## Exibir
-Ao clicar no botão de ação **Exibir**, o usuário com Função de *Gestor* pode visualizar as informações detalhadas dos TACs, incluindo [Submissões](#sec-submissoes), [Responsáveis](#sec-responsaveis), [Nomes alternativos](#sec-nomes) e [Planilhas](#sec-planilhas).
+Ao clicar no botão de ação **Exibir**, o usuário com Função de *Responsável* pode visualizar as informações detalhadas dos TACs, incluindo [Submissões](#sec-submissoes), [Responsáveis](#sec-responsaveis), [Nomes alternativos](#sec-nomes) e [Planilhas](#sec-planilhas).
 
 ### Submissões {#sec-submissoes}
-O usuário *Gestor* pode submeter e validar planilhas (@figu-submissoes). 
+O usuário *Responsável* pode submeter planilhas (@figu-submissoes). 
 
 ::: {#figu-submissoes}
 ```{r}
 #| label: figu-submissoes
 #| out-width: ~
-knitr::include_graphics("images/05_tacs/submissoes.png")
+knitr::include_graphics("images/02_tacs/submissoes.png")
 ```
 Tela Submissões
 :::
@@ -43,30 +43,25 @@ Em caso de recomendações com inconsistências do tipo *Aviso* e *Erro* na mesm
 :::
 
 ### Responsáveis {#sec-responsaveis}
-Nesta aba, o usuário *Gestor* pode visualizar os responsáveis, bem como atribuir um **Responsável** para o TAC (@figu-responsaveis).
+Nesta aba, o usuário *Responsável* pode visualizar os demais responsáveis pelo TAC, quando houver (@figu-responsaveis).
 
 ::: {#figu-responsaveis}
 ```{r}
 #| label: figu-responsaveis
 #| out-width: ~
-knitr::include_graphics("images/05_tacs/responsaveis.png")
+knitr::include_graphics("images/02_tacs/responsaveis.png")
 ```
 Tela Responsáveis
 :::
 
-:::callout-note
-## Nota
-A lista de usuários passíveis de atribuição para determinado TAC corresponde ao rol de usuários **Responsável** relacionados à auditoria do *Gestor*. 
-:::
-
 ### Nomes alternativos {#sec-nomes}
-Nesta aba, o usuário *Gestor* pode visualizar os nomes alternativos do TAC (quando houver) ou clicar no botão **Novo Nome Alternativo** e criar outro nome para o TAC. Também é possível definir um nome alternativo como principal (@figu-nomes).
+Nesta aba, o usuário *Responsável* pode visualizar os nomes alternativos do TAC (quando houver) ou clicar no botão **Novo Nome Alternativo** e criar outro nome para o TAC. Também é possível definir um nome alternativo como principal (@figu-nomes).
 
 ::: {#figu-nomes}
 ```{r}
 #| label: figu-nomes
 #| out-width: ~
-knitr::include_graphics("images/05_tacs/nomes.png")
+knitr::include_graphics("images/02_tacs/nomes.png")
 ```
 Tela Nomes alternativos
 :::
@@ -81,7 +76,7 @@ Se a RIZZO utilizasse "TAC Gongo Soco" em sua planilha e já tivesse criado um n
 :::
 
 ### Planilhas {#sec-planilhas}
-Nesta aba, o usuário *Gestor* pode baixar três tipos de planilhas (@figu-planilhas):
+Nesta aba, o usuário *Responsável* pode baixar três tipos de planilhas (@figu-planilhas):
 
 - *<u>Planilha-modelo em branco</u>*: versão mais recente da planilha-modelo em branco;
 - *<u>Planilha mais recente validada com sucesso</u>*: planilha mais recente com submissão validada;
@@ -91,24 +86,7 @@ Nesta aba, o usuário *Gestor* pode baixar três tipos de planilhas (@figu-plani
 ```{r}
 #| label: figu-planilhas
 #| out-width: ~
-knitr::include_graphics("images/05_tacs/planilhas.png")
+knitr::include_graphics("images/02_tacs/planilhas.png")
 ```
 Tela Planilhas
-:::
-
-## Editar
-O botão de ação **Editar** permite ao usuário *Gestor* modificar as informações de qualquer TAC, com ênfase na alteração da Situação (@figu-editar-tac). 
-
-::: {#figu-editar-tac}
-```{r}
-#| label: figu-editar-tac
-#| out-width: ~
-knitr::include_graphics("images/05_tacs/editar-tac.png")
-```
-Tela Editar
-:::
-
-:::callout-important
-## Atenção
-A alteração de Situação para *Extinta* ou *Encerrada* é irreversível. Além disso, TACs extintos ou encerrados ficam impossibilitados de receber submissões.
 :::
