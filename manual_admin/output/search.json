@@ -204,7 +204,7 @@
     "href": "05_auditorias.html",
     "title": "5  Auditorias",
     "section": "",
-    "text": "5.1 Criar\nO usuário com Função de Instituição Admin pode clicar no botão **Nova Auditoria* e cadastrar a auditoria preenchendo os campos Nome e Código da auditoria. O código deve conter 3 caracteres, sendo os 2 primeiros obrigatoriamente letras (Figura 5.2).",
+    "text": "5.1 Criar\nO usuário com Função de Instituição Admin pode clicar no botão Nova Auditoria e cadastrar a auditoria preenchendo os campos Nome e Código da auditoria. O código deve conter 3 caracteres, sendo os 2 primeiros obrigatoriamente letras (Figura 5.2).",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Auditorias</span>"
     ]

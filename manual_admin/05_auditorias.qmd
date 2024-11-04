@@ -11,7 +11,7 @@ Tela Auditorias
 :::
 
 ## Criar
-O usuário com Função de *Instituição Admin* pode clicar no botão **Nova Auditoria* e cadastrar a auditoria preenchendo os campos Nome e Código da auditoria. O código deve conter 3 caracteres, sendo os 2 primeiros obrigatoriamente letras (@figu-criar-auditoria).
+O usuário com Função de *Instituição Admin* pode clicar no botão **Nova Auditoria** e cadastrar a auditoria preenchendo os campos Nome e Código da auditoria. O código deve conter 3 caracteres, sendo os 2 primeiros obrigatoriamente letras (@figu-criar-auditoria).
 
 ::: {#figu-criar-auditoria}
 ```{r}
