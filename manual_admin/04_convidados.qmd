@@ -26,11 +26,6 @@ No campo Função, ao escolher a opção *Gestor ou Responsável*, as opções d
 
 A principal diferença desta tela em relação à tela [Usuários](#sec-usuarios) é que, aqui, o convite é enviado para o e-mail cadastrado, de forma que existe o histórico acerca da inserção do usuário no Sisvar.
 
-:::callout-note
-## Nota
-O usuário convidado tem até 7 dias para aceitar o convite e criar sua senha.
-:::
-
 ::: {#figu-email}
 ```{r}
 #| label: figu-email
@@ -40,5 +35,15 @@ knitr::include_graphics("images/04_convidados/email.png")
 E-mail convite
 :::
 
+:::callout-note
+## Nota
+O usuário convidado tem até 7 dias para aceitar o convite e criar sua senha.
+:::
+
 ## Excluir convite
 O usuário com perfil de *Instituição Admin* pode excluir qualquer convite da listagem, independentemente do seu status, ao clicar no ícone Excluir.
+
+:::callout-note
+## Nota
+A exclusão de convite Aceito não exclui um usuário. Por outro lado, a exclusão de convite Aguardando impede que o novo usuário se cadastre.
+:::

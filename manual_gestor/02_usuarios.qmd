@@ -1,6 +1,6 @@
 # Usuários {#sec-usuarios}
 
-A tela Usuários exibe uma lista dos usuários relacionados à auditoria do *Gestor*, organizados por Função. Nesta tela, é possível gerenciar os usuários, incluindo busca, visualização e edição de usuários (@figu-tela03).
+A tela Usuários exibe uma lista dos usuários relacionados à auditoria do *Gestor*, organizados por Função. Nesta tela, é possível gerenciar os usuários, incluindo pesquisa, visualização, edição e exclusão de usuários (@figu-tela03).
 
 ::: {#figu-tela03}
 ```{r}
@@ -30,3 +30,11 @@ Tela Usuários
 
 ## Editar
 O botão de ação **Editar** permite ao usuário *Gestor* modificar as informações do usuário *Responsável*, com ênfase na alteração da Função (de *Responsável* para *Gestor*).
+
+## Excluir
+O botão de ação **Excluir** permite ao usuário *Gestor* suprimir usuários *Gestor* e *Responsável*.
+
+:::callout-note
+## Nota
+O botão de ação só é apresentado para os usuários *Gestor* ou *Responsável* que tenham sido convidados pelo próprio *Gestor*.
+:::

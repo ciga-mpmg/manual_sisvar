@@ -64,7 +64,7 @@ knitr::include_graphics("images/07_estruturas_geotecnicas/validar-estrutura.png"
 Tela Validar/Reprovar estrutura geotécnica
 :::
 
-7. O usuário com Função de ***Instituição Admin*** busca a estrutura geotécnica na lista-base e edita suas informações para incluir o complexo minerário/mina.
+7. O usuário com Função de ***Instituição Admin*** pesquisa a estrutura geotécnica na lista-base e edita suas informações para incluir o complexo minerário/mina.
 
 :::callout-note
 ## Nota

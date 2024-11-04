@@ -1,6 +1,6 @@
 # TACs {#sec-tacs}
 
-A tela TACs exibe uma lista dos TACs relacionados à auditoria do *Gestor*, organizados em ordem alfabética. Nesta tela, é possível gerenciar os TACs, incluindo pesquisa e edição de TACs, além da exibição para o envio e validação de planilhas (@figu-tela06).
+A tela TACs exibe uma lista dos TACs relacionados à auditoria do *Gestor*, organizados em ordem alfabética do seu nome. Nesta tela, é possível gerenciar os TACs, incluindo pesquisa e edição de TACs, além da exibição para o envio e validação de planilhas (@figu-tela06).
 
 ::: {#figu-tela06}
 ```{r}
@@ -29,7 +29,7 @@ Tela Submissões
 No campo **Descrição** as planilhas submetidas podem apresentar três diferentes resultados:
 
 - *<u>Cancelada</u>*: quando uma submissão é cancelada antes da finalização do processo de validação.
-- *<u>Descartada</u>*: quando uma submissão é descartada após a conclusão do processo de validação devido a erros que impedem sua validação.
+- *<u>Descartada</u>*: quando uma submissão é descartada após a conclusão do processo de validação em função de erros que impedem sua validação.
 - *<u>Validada</u>*: quando uma submissão é validada após a conclusão do processo de validação sem erros impeditivos.
 
 O processo de validação das planilhas submetidas passa por uma avaliação criteriosa, desde a estrutura do cabeçalho até a última coluna da planilha. As inconsistências encontradas podem ser classificadas como:
@@ -73,11 +73,16 @@ Tela Nomes alternativos
 
 Por padrão, não existe um "nome fantasia" para um TAC. O CIGA criou esses nomes para facilitar a identificação. As auditorias também criaram seus próprios “nomes fantasia”, o que pode resultar em discrepâncias entre os nomes dos TACs cadastrados no CIGA e os utilizados pelas auditorias (que podem usar nomes muito longos, sem acentuação ou até mesmo em inglês).
 
-Neste sentido, para evitar que a validação seja impedida de ocorrer devido a diferenças nos "nomes fantasia", é possível criar nomes alternativos (conhecidos como "_alias_" em inglês). O nome alternativo, assim como o nome fantasia, é único, não sendo possível ocorrer repetição desses nomes no Sisvar.
+Neste sentido, para evitar que a validação seja impedida de ocorrer em função de diferenças nos "nomes fantasia", é possível criar nomes alternativos (conhecidos como "_alias_" em inglês). O nome alternativo, assim como o nome fantasia, é único, não sendo possível ocorrer repetição desses nomes no Sisvar.
 
 :::callout-tip
 ## Exemplo - Nome Alternativo
 Se a RIZZO utilizasse "TAC Gongo Soco" em sua planilha e já tivesse criado um nome alternativo como "Gongo Soco", a SLR, ao assumir esse TAC, não conseguiria utilizar "TAC Gongo Soco" nem "Gongo Soco" em sua planilha. Um novo nome alternativo - ou o próprio valor do campo TAC, na planilha-modelo - deverão ser criados diferentemente aos nomes já definidos no Sisvar.
+:::
+
+:::callout-important
+## Atenção
+TACs com diferentes datas de assinatura e/ou escopos devem ter sua submissão de forma individual no Sisvar.
 :::
 
 ### Planilhas {#sec-planilhas}

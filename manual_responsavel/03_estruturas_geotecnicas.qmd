@@ -46,7 +46,7 @@ Tela adicionar coordenadas
 - Em caso de reprovação, o fluxo retorna automaticamente ao passo 3;
 - Em caso de validação, o fluxo segue para o passo 7.
 
-7. O administrador do sistema busca a estrutura geotécnica na lista-base e edita suas informações para incluir o complexo minerário/mina.
+7. O administrador do sistema pesquisa a estrutura geotécnica na lista-base e edita suas informações para incluir o complexo minerário/mina.
 
 ## Procurar
 O usuário *Responsável* pode localizar uma estrutura geotécnica utilizando a opção **Procurar** e filtrar por: Status, TAC, Nome, Município e Empreendedor (@figu-procurar-estrutura). 

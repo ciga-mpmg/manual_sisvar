@@ -103,9 +103,6 @@ ul.task-list li input[type="checkbox"] {
       </a>
     <div class="sidebar-title mb-0 py-0">
       <a href="./">Sisvar - Manual do Usuário</a> 
-        <div class="sidebar-tools-main">
-    <a href="./Sisvar---Manual-do-Usuário.pdf" title="Download PDF" class="quarto-navigation-tool px-1" aria-label="Download PDF"><i class="bi bi-file-pdf"></i></a>
-</div>
     </div>
       </div>
         <div class="mt-2 flex-shrink-0 align-items-center">
@@ -200,7 +197,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>A tela TACs exibe uma lista dos TACs relacionados à auditoria do <em>Gestor</em>, organizados em ordem alfabética. Nesta tela, é possível gerenciar os TACs, incluindo pesquisa e edição de TACs, além da exibição para o envio e validação de planilhas-modelo (<a href="#figu-tela06" class="quarto-xref">Figura&nbsp;<span>5.1</span></a>).</p>
+<p>A tela TACs exibe uma lista dos TACs relacionados à auditoria do <em>Gestor</em>, organizados em ordem alfabética do seu nome. Nesta tela, é possível gerenciar os TACs, incluindo pesquisa e edição de TACs, além da exibição para o envio e validação de planilhas (<a href="#figu-tela06" class="quarto-xref">Figura&nbsp;<span>5.1</span></a>).</p>
 <div id="figu-tela06" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-figu figure">
 <div aria-describedby="figu-tela06-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -224,7 +221,7 @@ Figura&nbsp;5.1: Tela TACs
 <p>Ao clicar no botão de ação <strong>Exibir</strong>, o usuário com Função de <em>Gestor</em> pode visualizar as informações detalhadas dos TACs, incluindo <a href="#sec-submissoes">Submissões</a>, <a href="#sec-responsaveis">Responsáveis</a>, <a href="#sec-nomes">Nomes alternativos</a> e <a href="#sec-planilhas">Planilhas</a>.</p>
 <section id="sec-submissoes" class="level3" data-number="5.1.1">
 <h3 data-number="5.1.1" class="anchored" data-anchor-id="sec-submissoes"><span class="header-section-number">5.1.1</span> Submissões</h3>
-<p>O usuário <em>Gestor</em> pode submeter e validar planilhas-modelo (<a href="#figu-submissoes" class="quarto-xref">Figura&nbsp;<span>5.2</span></a>).</p>
+<p>O usuário <em>Gestor</em> pode submeter e validar planilhas (<a href="#figu-submissoes" class="quarto-xref">Figura&nbsp;<span>5.2</span></a>).</p>
 <div id="figu-submissoes" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-figu figure">
 <div aria-describedby="figu-submissoes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -246,7 +243,7 @@ Figura&nbsp;5.2: Tela Submissões
 <p>No campo <strong>Descrição</strong> as planilhas submetidas podem apresentar três diferentes resultados:</p>
 <ul>
 <li><em><u>Cancelada</u></em>: quando uma submissão é cancelada antes da finalização do processo de validação.</li>
-<li><em><u>Descartada</u></em>: quando uma submissão é descartada após a conclusão do processo de validação devido a erros que impedem sua validação.</li>
+<li><em><u>Descartada</u></em>: quando uma submissão é descartada após a conclusão do processo de validação em função de erros que impedem sua validação.</li>
 <li><em><u>Validada</u></em>: quando uma submissão é validada após a conclusão do processo de validação sem erros impeditivos.</li>
 </ul>
 <p>O processo de validação das planilhas submetidas passa por uma avaliação criteriosa, desde a estrutura do cabeçalho até a última coluna da planilha. As inconsistências encontradas podem ser classificadas como:</p>
@@ -305,7 +302,7 @@ Nota
 </section>
 <section id="sec-nomes" class="level3" data-number="5.1.3">
 <h3 data-number="5.1.3" class="anchored" data-anchor-id="sec-nomes"><span class="header-section-number">5.1.3</span> Nomes alternativos</h3>
-<p>Nesta aba, o usuário <em>Gestor</em> pode visualizar os nomes alternativos do TAC (quando houver) ou criar um <strong>Nome Alternativo</strong>. Também é possível definir um nome alternativo como principal (<a href="#figu-nomes" class="quarto-xref">Figura&nbsp;<span>5.4</span></a>).</p>
+<p>Nesta aba, o usuário <em>Gestor</em> pode visualizar os nomes alternativos do TAC (quando houver) ou clicar no botão <strong>Novo Nome Alternativo</strong> e criar outro nome para o TAC. Também é possível definir um nome alternativo como principal (<a href="#figu-nomes" class="quarto-xref">Figura&nbsp;<span>5.4</span></a>).</p>
 <div id="figu-nomes" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-figu figure">
 <div aria-describedby="figu-nomes-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
@@ -325,7 +322,7 @@ Figura&nbsp;5.4: Tela Nomes alternativos
 </figure>
 </div>
 <p>Por padrão, não existe um “nome fantasia” para um TAC. O CIGA criou esses nomes para facilitar a identificação. As auditorias também criaram seus próprios “nomes fantasia”, o que pode resultar em discrepâncias entre os nomes dos TACs cadastrados no CIGA e os utilizados pelas auditorias (que podem usar nomes muito longos, sem acentuação ou até mesmo em inglês).</p>
-<p>Neste sentido, para evitar que a validação seja impedida de ocorrer devido a diferenças nos “nomes fantasia”, é possível criar nomes alternativos (conhecidos como “<em>alias</em>” em inglês). O nome alternativo, assim como o nome fantasia, é único, não sendo possível ocorrer repetição desses nomes no Sisvar.</p>
+<p>Neste sentido, para evitar que a validação seja impedida de ocorrer em função de diferenças nos “nomes fantasia”, é possível criar nomes alternativos (conhecidos como “<em>alias</em>” em inglês). O nome alternativo, assim como o nome fantasia, é único, não sendo possível ocorrer repetição desses nomes no Sisvar.</p>
 <div class="callout callout-style-simple callout-tip callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -337,6 +334,19 @@ Exemplo - Nome Alternativo
 </div>
 <div class="callout-body-container callout-body">
 <p>Se a RIZZO utilizasse “TAC Gongo Soco” em sua planilha e já tivesse criado um nome alternativo como “Gongo Soco”, a SLR, ao assumir esse TAC, não conseguiria utilizar “TAC Gongo Soco” nem “Gongo Soco” em sua planilha. Um novo nome alternativo - ou o próprio valor do campo TAC, na planilha-modelo - deverão ser criados diferentemente aos nomes já definidos no Sisvar.</p>
+</div>
+</div>
+<div class="callout callout-style-simple callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Atenção
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>TACs com diferentes datas de assinatura e/ou escopos devem ter sua submissão de forma individual no Sisvar.</p>
 </div>
 </div>
 </section>

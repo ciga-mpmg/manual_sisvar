@@ -1,6 +1,6 @@
 # Usuários {#sec-usuarios}
 
-A tela Usuários exibe uma lista dos usuários cadastrados no Sisvar, organizados por Função. Nesta tela, é possível gerenciar os usuários, incluindo busca, visualização, edição, exclusão e adição de usuários (@figu-tela03).
+A tela Usuários exibe uma lista dos usuários cadastrados no Sisvar, organizados por Função. Nesta tela, é possível gerenciar os usuários, incluindo pesquisa, visualização, edição, exclusão e adição de usuários (@figu-tela03).
 
 ::: {#figu-tela03}
 ```{r}

@@ -17,7 +17,6 @@ book:
   title:  Sisvar - Manual do Usuário
   description: Exemplos práticos de uso
   favicon: assets/ciga-logo.svg
-  downloads: pdf
   sidebar:
     logo: assets/ciga.png
     align: left
@@ -25,13 +24,11 @@ book:
     search: true
   page-footer:
     center: CIGA | Sisvar - Manual do Usuário
-
   chapters:
     - index.qmd
     - 01_dicionario.qmd
     - 02_tacs.qmd
     - 03_estruturas_geotecnicas.qmd
-
 format:
   html:
     theme: [cosmo, assets/custom.scss]
@@ -42,11 +39,3 @@ format:
     linkcolor: "#00353E"
     logo: assets/ciga.png
     css: assets/styles.css
-
-  pdf:
-    toc: true
-    toc-depth: 2
-    papersize: a4
-    mainfont: Arial
-    geometry: [top=30mm, bottom=30mm, left=25mm, right=25mm]
-    linkcolor: "#00353E"

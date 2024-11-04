@@ -1,5 +1,5 @@
 # Convidados {#sec-convidados}
-A tela Convidados exibe uma lista dos usuários relacionados à auditoria do *Gestor* que receberam convites para acessar o Sisvar. Nessa tela, é possível gerenciar informações sobre quem enviou o convite, o status do convite (Aceito ou Aguardando) e, quando aplicável, a data de aceite. Além disso, é possível pesquisar, excluir e enviar convites (@figu-tela04).
+A tela Convidados exibe uma lista dos usuários relacionados à auditoria do *Gestor* que receberam convites para acessar o Sisvar. Nessa tela, é possível gerenciar informações sobre quem enviou o convite, o status do convite (Aguardando ou Aceito) e, quando aplicável, a data de aceite. Além disso, é possível pesquisar, excluir e enviar convites (@figu-tela04).
 
 ::: {#figu-tela04}
 ```{r}
@@ -22,11 +22,6 @@ knitr::include_graphics("images/03_convidados/convite.png")
 Formulário para envio de convite
 :::
 
-:::callout-note
-## Nota
-O usuário convidado tem até 7 dias para aceitar o convite e criar sua senha.
-:::
-
 ::: {#figu-email}
 ```{r}
 #| label: figu-email
@@ -36,5 +31,15 @@ knitr::include_graphics("images/03_convidados/email.png")
 E-mail convite
 :::
 
+:::callout-note
+## Nota
+O usuário convidado tem até 7 dias para aceitar o convite e criar sua senha.
+:::
+
 ## Excluir convite
 O usuário com perfil de *Gestor* pode excluir qualquer convite da listagem, independentemente do seu status, ao clicar no ícone Excluir.
+
+:::callout-note
+## Nota
+A exclusão de convite Aceito não exclui um usuário. Por outro lado, a exclusão de convite Aguardando impede que o novo usuário se cadastre.
+:::

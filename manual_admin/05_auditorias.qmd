@@ -1,5 +1,5 @@
 # Auditorias {#sec-auditorias}
-A tela Auditorias exibe uma lista das auditorias cadastradas no Sisvar, organizadas em ordem alfabética. Nesta tela, é possível gerenciar as auditorias, incluindo busca, edição, exclusão e adição de novas auditorias, além da  exibição dos TACs relacionados a cada auditoria (@figu-tela05).
+A tela Auditorias exibe uma lista das auditorias cadastradas no Sisvar, organizadas em ordem alfabética. Nesta tela, é possível gerenciar as auditorias, incluindo pesquisa, edição, exclusão e adição de novas auditorias, além da  exibição dos TACs relacionados a cada auditoria (@figu-tela05).
 
 ::: {#figu-tela05}
 ```{r}
