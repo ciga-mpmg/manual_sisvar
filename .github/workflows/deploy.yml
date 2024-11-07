@@ -23,7 +23,7 @@ jobs:
         git checkout -b gh-pages
         mkdir -p gestor
         cp -r manual_gestor/docs/* gestor/
-        git add manual_gestor
+        git add gestor
         git commit -m "Deploy manual_gestor"
         git push origin gh-pages --force
 
@@ -32,7 +32,7 @@ jobs:
         git checkout gh-pages
         mkdir -p instituicao
         cp -r manual_instituicao/docs/* instituicao/
-        git add manual_instituicao
+        git add instituicao
         git commit -m "Deploy manual_instituicao"
         git push origin gh-pages --force
 
@@ -41,6 +41,6 @@ jobs:
         git checkout gh-pages
         mkdir -p responsavel
         cp -r manual_responsavel/docs/* responsavel/
-        git add manual_responsavel
+        git add responsavel
         git commit -m "Deploy manual_responsavel"
         git push origin gh-pages --force
