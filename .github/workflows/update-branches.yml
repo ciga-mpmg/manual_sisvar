@@ -25,15 +25,17 @@ jobs:
           # Resetando a branch para garantir que ela esteja vazia
           git reset --hard
 
-      - name: Copy output_gestor to manual_gestor
+      - name: Delete all files except output_gestor and rename it to docs
         run: |
-          # Copia os arquivos de output_gestor para a raiz da branch manual_gestor
-          cp -r manual_gestor/output_gestor/* ./
+          # Apaga tudo na branch
+          rm -rf *
+          # Move a pasta output_gestor para docs
+          mv manual_gestor/output_gestor docs
 
       - name: Commit and push changes to manual_gestor
         run: |
-          git add -A  # Adiciona todas as alterações (apenas os arquivos da pasta output_gestor)
-          git commit -m "Update manual_gestor with the latest output_gestor" || echo "No changes to commit"
+          git add -A  # Adiciona as alterações, que agora são a pasta docs
+          git commit -m "Replace branch content with docs from output_gestor" || echo "No changes to commit"
           git push origin manual_gestor --force  # Usar --force para sobrescrever o conteúdo
 
   update_manual_instituicao:
@@ -55,15 +57,17 @@ jobs:
           # Resetando a branch para garantir que ela esteja vazia
           git reset --hard
 
-      - name: Copy output_instituicao to manual_instituicao
+      - name: Delete all files except output_instituicao and rename it to docs
         run: |
-          # Copia os arquivos de output_instituicao para a raiz da branch manual_instituicao
-          cp -r manual_instituicao/output_instituicao/* ./
+          # Apaga tudo na branch
+          rm -rf *
+          # Move a pasta output_instituicao para docs
+          mv manual_instituicao/output_instituicao docs
 
       - name: Commit and push changes to manual_instituicao
         run: |
-          git add -A  # Adiciona todas as alterações (apenas os arquivos da pasta output_instituicao)
-          git commit -m "Update manual_instituicao with the latest output_instituicao" || echo "No changes to commit"
+          git add -A  # Adiciona as alterações, que agora são a pasta docs
+          git commit -m "Replace branch content with docs from output_instituicao" || echo "No changes to commit"
           git push origin manual_instituicao --force  # Usar --force para sobrescrever o conteúdo
 
   update_manual_responsavel:
@@ -85,13 +89,15 @@ jobs:
           # Resetando a branch para garantir que ela esteja vazia
           git reset --hard
 
-      - name: Copy output_responsavel to manual_responsavel
+      - name: Delete all files except output_responsavel and rename it to docs
         run: |
-          # Copia os arquivos de output_responsavel para a raiz da branch manual_responsavel
-          cp -r manual_responsavel/output_responsavel/* ./
+          # Apaga tudo na branch
+          rm -rf *
+          # Move a pasta output_responsavel para docs
+          mv manual_responsavel/output_responsavel docs
 
       - name: Commit and push changes to manual_responsavel
         run: |
-          git add -A  # Adiciona todas as alterações (apenas os arquivos da pasta output_responsavel)
-          git commit -m "Update manual_responsavel with the latest output_responsavel" || echo "No changes to commit"
+          git add -A  # Adiciona as alterações, que agora são a pasta docs
+          git commit -m "Replace branch content with docs from output_responsavel" || echo "No changes to commit"
           git push origin manual_responsavel --force  # Usar --force para sobrescrever o conteúdo
