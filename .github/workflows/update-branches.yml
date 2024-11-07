@@ -1,0 +1,67 @@
+name: Update Manual Branches
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  update_manual_gestor:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v3
+
+      - name: Copy output_gestor to manual_gestor
+        run: |
+          # Cria ou atualiza a branch manual_gestor
+          git fetch origin
+          git checkout -B manual_gestor
+
+          # Copia os arquivos da pasta output_gestor
+          cp -r manual_gestor/output_gestor/* manual_gestor/
+
+          # Adiciona as alterações, faz o commit e envia para a branch manual_gestor
+          git add .
+          git commit -m "Update manual_gestor with the latest output_gestor"
+          git push origin manual_gestor
+
+  update_manual_instituicao:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v3
+
+      - name: Copy output_instituicao to manual_instituicao
+        run: |
+          # Cria ou atualiza a branch manual_instituicao
+          git fetch origin
+          git checkout -B manual_instituicao
+
+          # Copia os arquivos da pasta output_instituicao
+          cp -r manual_instituicao/output_instituicao/* manual_instituicao/
+
+          # Adiciona as alterações, faz o commit e envia para a branch manual_instituicao
+          git add .
+          git commit -m "Update manual_instituicao with the latest output_instituicao"
+          git push origin manual_instituicao
+
+  update_manual_responsavel:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the repository
+        uses: actions/checkout@v3
+
+      - name: Copy output_responsavel to manual_responsavel
+        run: |
+          # Cria ou atualiza a branch manual_responsavel
+          git fetch origin
+          git checkout -B manual_responsavel
+
+          # Copia os arquivos da pasta output_responsavel
+          cp -r manual_responsavel/output_responsavel/* manual_responsavel/
+
+          # Adiciona as alterações, faz o commit e envia para a branch manual_responsavel
+          git add .
+          git commit -m "Update manual_responsavel with the latest output_responsavel"
+          git push origin manual_responsavel
