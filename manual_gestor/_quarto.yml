@@ -1,6 +1,6 @@
 project:
   type: book
-  output-dir: output_0
+  output-dir: output_gestor
 number-sections: true
 crossref:
   fig-prefix: Figura
