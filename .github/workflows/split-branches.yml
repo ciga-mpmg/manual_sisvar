@@ -1,0 +1,49 @@
+name: Split branches
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  split:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Create manual_gestor branch
+      run: |
+        git checkout -b manual_gestor
+        git rm -rf .
+        git checkout main -- manual_gestor/docs
+        mv manual_gestor/docs/* .
+        git rm -rf manual_gestor
+        git add .
+        git commit -m "Create manual_gestor branch"
+        git push origin manual_gestor --force
+
+    - name: Create manual_instituicao branch
+      run: |
+        git checkout main
+        git checkout -b manual_instituicao
+        git rm -rf .
+        git checkout main -- manual_instituicao/docs
+        mv manual_instituicao/docs/* .
+        git rm -rf manual_instituicao
+        git add .
+        git commit -m "Create manual_instituicao branch"
+        git push origin manual_instituicao --force
+
+    - name: Create manual_responsavel branch
+      run: |
+        git checkout main
+        git checkout -b manual_responsavel
+        git rm -rf .
+        git checkout main -- manual_responsavel/docs
+        mv manual_responsavel/docs/* .
+        git rm -rf manual_responsavel
+        git add .
+        git commit -m "Create manual_responsavel branch"
+        git push origin manual_responsavel --force
