@@ -21,8 +21,8 @@ jobs:
     - name: Deploy manual_gestor
       run: |
         git checkout -b gh-pages
-        mkdir -p manual_gestor
-        cp -r manual_gestor/docs/* manual_gestor/
+        mkdir -p gestor
+        cp -r manual_gestor/docs/* gestor/
         git add manual_gestor
         git commit -m "Deploy manual_gestor"
         git push origin gh-pages --force
@@ -30,8 +30,8 @@ jobs:
     - name: Deploy manual_instituicao
       run: |
         git checkout gh-pages
-        mkdir -p manual_instituicao
-        cp -r manual_instituicao/docs/* manual_instituicao/
+        mkdir -p instituicao
+        cp -r manual_instituicao/docs/* instituicao/
         git add manual_instituicao
         git commit -m "Deploy manual_instituicao"
         git push origin gh-pages --force
@@ -39,8 +39,8 @@ jobs:
     - name: Deploy manual_responsavel
       run: |
         git checkout gh-pages
-        mkdir -p manual_responsavel
-        cp -r manual_responsavel/docs/* manual_responsavel/
+        mkdir -p responsavel
+        cp -r manual_responsavel/docs/* responsavel/
         git add manual_responsavel
         git commit -m "Deploy manual_responsavel"
         git push origin gh-pages --force
