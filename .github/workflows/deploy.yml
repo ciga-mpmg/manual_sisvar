@@ -1,0 +1,46 @@
+name: Deploy GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Git user
+      run: |
+        git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+        git config --global user.name "github-actions[bot]"
+
+    - name: Deploy manual_gestor
+      run: |
+        git checkout -b gh-pages
+        mkdir -p manual_gestor
+        cp -r manual_gestor/docs/* manual_gestor/
+        git add manual_gestor
+        git commit -m "Deploy manual_gestor"
+        git push origin gh-pages --force
+
+    - name: Deploy manual_instituicao
+      run: |
+        git checkout gh-pages
+        mkdir -p manual_instituicao
+        cp -r manual_instituicao/docs/* manual_instituicao/
+        git add manual_instituicao
+        git commit -m "Deploy manual_instituicao"
+        git push origin gh-pages --force
+
+    - name: Deploy manual_responsavel
+      run: |
+        git checkout gh-pages
+        mkdir -p manual_responsavel
+        cp -r manual_responsavel/docs/* manual_responsavel/
+        git add manual_responsavel
+        git commit -m "Deploy manual_responsavel"
+        git push origin gh-pages --force
