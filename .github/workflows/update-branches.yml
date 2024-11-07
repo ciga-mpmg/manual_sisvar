@@ -12,6 +12,11 @@ jobs:
       - name: Check out the repository
         uses: actions/checkout@v3
 
+      - name: Configure Git user
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+
       - name: Copy output_gestor to manual_gestor
         run: |
           # Cria ou atualiza a branch manual_gestor
@@ -32,6 +37,11 @@ jobs:
       - name: Check out the repository
         uses: actions/checkout@v3
 
+      - name: Configure Git user
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+
       - name: Copy output_instituicao to manual_instituicao
         run: |
           # Cria ou atualiza a branch manual_instituicao
@@ -51,6 +61,11 @@ jobs:
     steps:
       - name: Check out the repository
         uses: actions/checkout@v3
+
+      - name: Configure Git user
+        run: |
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
 
       - name: Copy output_responsavel to manual_responsavel
         run: |
