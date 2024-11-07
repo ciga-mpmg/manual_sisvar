@@ -21,18 +21,20 @@ jobs:
         run: |
           git fetch origin
           # Cria ou faz checkout na branch manual_gestor
-          git checkout -B manual_gestor origin/manual_gestor || git checkout --orphan manual_gestor
+          git checkout manual_gestor || git checkout --orphan manual_gestor
+          # Resetando a branch para garantir que ela esteja vazia
+          git reset --hard
 
       - name: Copy output_gestor to manual_gestor
         run: |
-          # Copia apenas os arquivos de output_gestor para a branch manual_gestor
-          cp -r manual_gestor/output_gestor/* ./manual_gestor/
+          # Copia os arquivos de output_gestor para a raiz da branch manual_gestor
+          cp -r manual_gestor/output_gestor/* ./
 
-      - name: Force add and commit changes to manual_gestor
+      - name: Commit and push changes to manual_gestor
         run: |
-          git add -A  # Garante que todas as alterações sejam detectadas
+          git add -A  # Adiciona todas as alterações (apenas os arquivos da pasta output_gestor)
           git commit -m "Update manual_gestor with the latest output_gestor" || echo "No changes to commit"
-          git push origin manual_gestor
+          git push origin manual_gestor --force  # Usar --force para sobrescrever o conteúdo
 
   update_manual_instituicao:
     runs-on: ubuntu-latest
@@ -49,18 +51,20 @@ jobs:
         run: |
           git fetch origin
           # Cria ou faz checkout na branch manual_instituicao
-          git checkout -B manual_instituicao origin/manual_instituicao || git checkout --orphan manual_instituicao
+          git checkout manual_instituicao || git checkout --orphan manual_instituicao
+          # Resetando a branch para garantir que ela esteja vazia
+          git reset --hard
 
       - name: Copy output_instituicao to manual_instituicao
         run: |
-          # Copia apenas os arquivos de output_instituicao para a branch manual_instituicao
-          cp -r manual_instituicao/output_instituicao/* ./manual_instituicao/
+          # Copia os arquivos de output_instituicao para a raiz da branch manual_instituicao
+          cp -r manual_instituicao/output_instituicao/* ./
 
-      - name: Force add and commit changes to manual_instituicao
+      - name: Commit and push changes to manual_instituicao
         run: |
-          git add -A  # Garante que todas as alterações sejam detectadas
+          git add -A  # Adiciona todas as alterações (apenas os arquivos da pasta output_instituicao)
           git commit -m "Update manual_instituicao with the latest output_instituicao" || echo "No changes to commit"
-          git push origin manual_instituicao
+          git push origin manual_instituicao --force  # Usar --force para sobrescrever o conteúdo
 
   update_manual_responsavel:
     runs-on: ubuntu-latest
@@ -77,15 +81,17 @@ jobs:
         run: |
           git fetch origin
           # Cria ou faz checkout na branch manual_responsavel
-          git checkout -B manual_responsavel origin/manual_responsavel || git checkout --orphan manual_responsavel
+          git checkout manual_responsavel || git checkout --orphan manual_responsavel
+          # Resetando a branch para garantir que ela esteja vazia
+          git reset --hard
 
       - name: Copy output_responsavel to manual_responsavel
         run: |
-          # Copia apenas os arquivos de output_responsavel para a branch manual_responsavel
-          cp -r manual_responsavel/output_responsavel/* ./manual_responsavel/
+          # Copia os arquivos de output_responsavel para a raiz da branch manual_responsavel
+          cp -r manual_responsavel/output_responsavel/* ./
 
-      - name: Force add and commit changes to manual_responsavel
+      - name: Commit and push changes to manual_responsavel
         run: |
-          git add -A  # Garante que todas as alterações sejam detectadas
+          git add -A  # Adiciona todas as alterações (apenas os arquivos da pasta output_responsavel)
           git commit -m "Update manual_responsavel with the latest output_responsavel" || echo "No changes to commit"
-          git push origin manual_responsavel
+          git push origin manual_responsavel --force  # Usar --force para sobrescrever o conteúdo
