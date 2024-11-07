@@ -28,10 +28,10 @@ jobs:
           # Copia apenas os arquivos de output_gestor para a branch manual_gestor
           cp -r manual_gestor/output_gestor/* ./manual_gestor/
 
-      - name: Commit and push changes to manual_gestor
+      - name: Force add and commit changes to manual_gestor
         run: |
-          git add .
-          git commit -m "Update manual_gestor with the latest output_gestor"
+          git add -A  # Garante que todas as alterações sejam detectadas
+          git commit -m "Update manual_gestor with the latest output_gestor" || echo "No changes to commit"
           git push origin manual_gestor
 
   update_manual_instituicao:
@@ -56,10 +56,10 @@ jobs:
           # Copia apenas os arquivos de output_instituicao para a branch manual_instituicao
           cp -r manual_instituicao/output_instituicao/* ./manual_instituicao/
 
-      - name: Commit and push changes to manual_instituicao
+      - name: Force add and commit changes to manual_instituicao
         run: |
-          git add .
-          git commit -m "Update manual_instituicao with the latest output_instituicao"
+          git add -A  # Garante que todas as alterações sejam detectadas
+          git commit -m "Update manual_instituicao with the latest output_instituicao" || echo "No changes to commit"
           git push origin manual_instituicao
 
   update_manual_responsavel:
@@ -84,8 +84,8 @@ jobs:
           # Copia apenas os arquivos de output_responsavel para a branch manual_responsavel
           cp -r manual_responsavel/output_responsavel/* ./manual_responsavel/
 
-      - name: Commit and push changes to manual_responsavel
+      - name: Force add and commit changes to manual_responsavel
         run: |
-          git add .
-          git commit -m "Update manual_responsavel with the latest output_responsavel"
+          git add -A  # Garante que todas as alterações sejam detectadas
+          git commit -m "Update manual_responsavel with the latest output_responsavel" || echo "No changes to commit"
           git push origin manual_responsavel
