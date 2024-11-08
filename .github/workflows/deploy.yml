@@ -22,17 +22,19 @@ jobs:
       run: |
         # Cria a branch gh-pages se ela não existir
         git checkout -B gh-pages
+        # Remove todo o conteúdo anterior na gh-pages para evitar dados antigos
+        rm -rf *
 
-    - name: Rename folders and commit
+    - name: Copy content from docs folders
       run: |
-        # Renomeia as pastas conforme necessário
-        mv manual_gestor gestor
-        mv manual_instituicao instituicao
-        mv manual_responsavel responsavel
-        # Adiciona e comita as mudanças
+        # Cria as pastas e copia o conteúdo de cada subpasta docs
+        mkdir -p gestor instituicao responsavel
+        cp -r manual_gestor/docs/* gestor/
+        cp -r manual_instituicao/docs/* instituicao/
+        cp -r manual_responsavel/docs/* responsavel/
+
+    - name: Commit and push changes
+      run: |
         git add gestor instituicao responsavel
-        git commit -m "Deploy manuals"
-
-    - name: Push to gh-pages
-      run: |
+        git commit -m "Deploy manuals from docs folders"
         git push origin gh-pages --force
