@@ -20,10 +20,10 @@ jobs:
 
     - name: Prepare gh-pages branch
       run: |
-        # Cria a branch gh-pages se ela não existir
+        # Cria a branch gh-pages ou a reseta se já existir
         git checkout -B gh-pages
-        # Remove todo o conteúdo anterior na gh-pages para evitar dados antigos
-        rm -rf *
+        # Remove apenas as pastas de destino para manter o repositório intacto
+        rm -rf gestor instituicao responsavel
 
     - name: Copy content from docs folders
       run: |
