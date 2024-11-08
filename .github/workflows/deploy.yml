@@ -18,29 +18,21 @@ jobs:
         git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
         git config --global user.name "github-actions[bot]"
 
-    - name: Deploy manual_gestor
+    - name: Prepare gh-pages branch
       run: |
-        git checkout -b gh-pages
-        mkdir -p gestor
-        cp -r manual_gestor/docs/* gestor/
-        git add gestor
-        git commit -m "Deploy manual_gestor"
-        git push origin gh-pages --force
+        # Cria a branch gh-pages se ela não existir
+        git checkout -B gh-pages
 
-    - name: Deploy manual_instituicao
+    - name: Rename folders and commit
       run: |
-        git checkout gh-pages
-        mkdir -p instituicao
-        cp -r manual_instituicao/docs/* instituicao/
-        git add instituicao
-        git commit -m "Deploy manual_instituicao"
-        git push origin gh-pages --force
+        # Renomeia as pastas conforme necessário
+        mv manual_gestor gestor
+        mv manual_instituicao instituicao
+        mv manual_responsavel responsavel
+        # Adiciona e comita as mudanças
+        git add gestor instituicao responsavel
+        git commit -m "Deploy manuals"
 
-    - name: Deploy manual_responsavel
+    - name: Push to gh-pages
       run: |
-        git checkout gh-pages
-        mkdir -p responsavel
-        cp -r manual_responsavel/docs/* responsavel/
-        git add responsavel
-        git commit -m "Deploy manual_responsavel"
         git push origin gh-pages --force
