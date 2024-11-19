@@ -12,7 +12,7 @@ Tela TACs
 :::
 
 ## Exibir
-Ao clicar no botão de ação **Exibir**, o usuário com Função de *Responsável* pode visualizar as informações detalhadas dos TACs, incluindo [Submissões](#sec-submissoes), [Responsáveis](#sec-responsaveis), [Nomes alternativos](#sec-nomes) e [Planilhas](#sec-planilhas).
+Ao clicar no botão de ação **Exibir**, o usuário com Função de *Responsável* pode visualizar as informações detalhadas dos TACs, incluindo [Submissões](#sec-submissoes), [Responsáveis](#sec-responsaveis), [Nomes alternativos](#sec-nomes), [Planilhas](#sec-planilhas) e [Histórico de avisos](#sec-historico).
 
 ### Submissões {#sec-submissoes}
 O usuário *Responsável* pode submeter planilhas (@figu-submissoes). 
@@ -94,4 +94,16 @@ Nesta aba, o usuário *Responsável* pode baixar três tipos de planilhas (@figu
 knitr::include_graphics("images/02_tacs/planilhas.png")
 ```
 Tela Planilhas
+:::
+
+### Histórico de avisos {#sec-historico}
+Nesta aba, o usuário *Responsável* pode visualizar o histórico de avisos quando houver recomendações com avisos que foram checados (@figu-historico).
+
+::: {#figu-historico}
+```{r}
+#| label: figu-historico
+#| out-width: ~
+knitr::include_graphics("images/02_tacs/historico.png")
+```
+Tela Histórico de avisos
 :::

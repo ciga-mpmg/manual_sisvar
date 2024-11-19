@@ -334,7 +334,7 @@
     "href": "07_estruturas_geotecnicas.html#exibir",
     "title": "7  Estruturas Geotécnicas",
     "section": "7.3 Exibir",
-    "text": "7.3 Exibir\nAo clicar no botão de ação Exibir, o usuário Instituição Admin pode visualizar as informações detalhadas da estrutura geotécnica, incluindo, quando aplicável, o motivo da reprovação, quem e quando a reprovou, os nomes alternativos e o histórico da estrutura geotécnica (Figura 7.6).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 7.6: Tela Exibir estrutura geotécnica",
+    "text": "7.3 Exibir\nAo clicar no botão de ação Exibir, o usuário Instituição Admin pode visualizar as informações detalhadas da estrutura geotécnica, incluindo, quando aplicável, os nomes alternativos, o histórico da estrutura geotécnica e o motivo da reprovação, quem e quando a reprovou (Figura 7.6).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 7.6: Tela Exibir estrutura geotécnica",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Estruturas Geotécnicas</span>"
     ]

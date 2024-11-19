@@ -84,7 +84,7 @@ Tela Procurar estrutura geotécnica
 :::
 
 ## Exibir
-Ao clicar no botão de ação **Exibir**, o usuário *Instituição Admin* pode visualizar as informações detalhadas da estrutura geotécnica, incluindo, quando aplicável, o motivo da reprovação, quem e quando a reprovou, os nomes alternativos e o histórico da estrutura geotécnica (@figu-exibir-estrutura). 
+Ao clicar no botão de ação **Exibir**, o usuário *Instituição Admin* pode visualizar as informações detalhadas da estrutura geotécnica, incluindo, quando aplicável, os nomes alternativos, o histórico da estrutura geotécnica e o motivo da reprovação, quem e quando a reprovou (@figu-exibir-estrutura). 
 
 ::: {#figu-exibir-estrutura}
 ```{r}

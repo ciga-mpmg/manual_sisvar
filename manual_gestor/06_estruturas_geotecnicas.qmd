@@ -1,12 +1,12 @@
 # Estruturas Geotécnicas {#sec-estruturas}
 
-A tela Estruturas Geotécnicas exibe uma lista das estruturas relacionadas à auditoria do *Gestor*. Nesta tela, é possível gerenciar as estruturas geotécnicas, incluindo pesquisa, visualização, edição e adição de coordenadas das estruturas (@figu-tela07).
+A tela Estruturas Geotécnicas exibe uma lista das estruturas relacionadas à auditoria do *Gestor*. Nesta tela, é possível gerenciar as estruturas geotécnicas, incluindo pesquisa, visualização, edição e adição de coordenadas das estruturas (@figu-tela06).
 
-::: {#figu-tela07}
+::: {#figu-tela06}
 ```{r}
 #| label: figu-tela09
 #| out-width: ~
-knitr::include_graphics("images/06_estruturas_geotecnicas/tela07.png")
+knitr::include_graphics("images/06_estruturas_geotecnicas/tela06.png")
 ```
 Tela Estruturas Geotécnicas
 :::
@@ -61,7 +61,7 @@ Tela Procurar estrutura geotécnica
 :::
 
 ## Exibir
-Ao clicar no botão de ação **Exibir**, o usuário *Gestor* pode visualizar as informações detalhadas da estrutura geotécnica, incluindo, quando aplicável, o motivo da reprovação, quem e quando a reprovou (@figu-exibir-estrutura). 
+Ao clicar no botão de ação **Exibir**, o usuário *Gestor* pode visualizar as informações detalhadas da estrutura geotécnica, incluindo o histórico da estrutura e, quando aplicável, o motivo da reprovação, quem e quando a reprovou (@figu-exibir-estrutura). 
 
 ::: {#figu-exibir-estrutura}
 ```{r}

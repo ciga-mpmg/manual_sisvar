@@ -23,7 +23,7 @@ book:
     collapse-level: 1
     search: true
   page-footer:
-    center: CIGA | Sisvar - Manual do Usuário
+    center: CIGA | Sisvar
   chapters:
     - index.qmd
     - 01_dicionario.qmd
