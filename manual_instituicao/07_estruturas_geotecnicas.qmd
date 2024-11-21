@@ -1,12 +1,12 @@
 # Estruturas Geotécnicas {#sec-estruturas}
 
-A tela Estruturas Geotécnicas exibe uma lista das estruturas cadastradas no Sisvar. Nesta tela, é possível gerenciar as estruturas geotécnicas, incluindo pesquisa, visualização, edição e adição de estruturas (@figu-tela07).
+A tela Estruturas Geotécnicas exibe uma lista das estruturas cadastradas no Sisvar. Nesta tela, é possível gerenciar as estruturas geotécnicas, incluindo pesquisa, visualização, edição e adição de estruturas (@figu-tela-estruturas).
 
-::: {#figu-tela07}
+::: {#figu-tela-estruturas}
 ```{r}
 #| label: figu-tela09
 #| out-width: ~
-knitr::include_graphics("images/07_estruturas_geotecnicas/tela07.png")
+knitr::include_graphics("images/07_estruturas_geotecnicas/tela-estruturas.png")
 ```
 Tela Estruturas Geotécnicas
 :::
@@ -15,18 +15,18 @@ Tela Estruturas Geotécnicas
 Para adicionar uma estrutura geotécnica à lista, é imprescindível que os dados estejam corretos, especialmente as coordenadas geográficas. O fluxo de criação de uma nova estrutura geotécnica pode seguir dois caminhos:
 
 ### Botão Nova Estrutura Geotécnica
-O usuário com Função de *Instituição Admin* pode clicar no botão **Nova Estrutura Geotécnica** e criar uma estrutura preenchendo todos os campos obrigatórios do formulário (@figu-criar-estrutura).
+O usuário com Função de *Instituição Admin* pode clicar no botão **Nova Estrutura Geotécnica** e criar uma estrutura preenchendo todos os campos obrigatórios do formulário (@figu-criar-estruturas).
 
 ::: callout-note
 ## Nota
 Ao criar uma estrutura geotécnica e não preencher os campos Latitude e Longitude, ela será automaticamente adicionada à lista de estruturas com pendências.
 :::
 
-::: {#figu-criar-estrutura}
+::: {#figu-criar-estruturas}
 ```{r}
-#| label: figu-criar-estrutura
+#| label: figu-criar-estruturas
 #| out-width: ~
-knitr::include_graphics("images/07_estruturas_geotecnicas/criar-estrutura.png")
+knitr::include_graphics("images/07_estruturas_geotecnicas/criar-estruturas.png")
 ```
 Tela Criar Estrutura Geotécnica
 :::
@@ -36,13 +36,13 @@ Tela Criar Estrutura Geotécnica
 
 2. Após validação da planilha, a lista-base de estruturas geotécnicas do Sisvar passa a constar a nova estrutura.
 
-3. O usuário da auditoria e os usuários com Função de ***Instituição Admin*** recebem um aviso (exclamação vermelha) informando que há estruturas geotécnicas pendentes de revisão (@figu-aviso) (ao expandir a barra de menu, um quadrado vermelho com o número de pendências é exibido).
+3. O usuário da auditoria e os usuários com Função de ***Instituição Admin*** recebem um aviso (exclamação vermelha) informando que há estruturas geotécnicas pendentes de revisão (@figu-aviso-estruturas) (ao expandir a barra de menu, um quadrado vermelho com o número de pendências é exibido).
 
-::: {#figu-aviso}
+::: {#figu-aviso-estruturas}
 ```{r}
-#| label: figu-aviso
+#| label: figu-aviso-estruturas
 #| out-width: ~
-knitr::include_graphics("images/07_estruturas_geotecnicas/aviso.png")
+knitr::include_graphics("images/07_estruturas_geotecnicas/aviso-estruturas.png")
 ```
 Tela aviso
 :::
@@ -51,15 +51,15 @@ Tela aviso
 
 5. O usuário com Função de ***Instituição Admin*** verifica manualmente se as coordenadas fazem sentido (é um local de mineração?).
 
-6. O usuário com Função de ***Instituição Admin*** valida ou não as coordenadas (@figu-validar-estrutura):
+6. O usuário com Função de ***Instituição Admin*** valida ou não as coordenadas (@figu-validar-estruturas):
 - Em caso de reprovação, o fluxo retorna automaticamente ao passo 3;
 - Em caso de validação, o fluxo segue para o passo 7.
 
-::: {#figu-validar-estrutura}
+::: {#figu-validar-estruturas}
 ```{r}
-#| label: figu-validar-estrutura
+#| label: figu-validar-estruturas
 #| out-width: ~
-knitr::include_graphics("images/07_estruturas_geotecnicas/validar-estrutura.png")
+knitr::include_graphics("images/07_estruturas_geotecnicas/validar-estruturas.png")
 ```
 Tela Validar/Reprovar estrutura geotécnica
 :::
@@ -84,25 +84,25 @@ Tela Procurar estrutura geotécnica
 :::
 
 ## Exibir
-Ao clicar no botão de ação **Exibir**, o usuário *Instituição Admin* pode visualizar as informações detalhadas da estrutura geotécnica, incluindo, quando aplicável, os nomes alternativos, o histórico da estrutura geotécnica e o motivo da reprovação, quem e quando a reprovou (@figu-exibir-estrutura). 
+Ao clicar no botão de ação **Exibir**, o usuário *Instituição Admin* pode visualizar as informações detalhadas da estrutura geotécnica, incluindo, quando aplicável, os nomes alternativos, o histórico da estrutura geotécnica e o motivo da reprovação, quem e quando a reprovou (@figu-exibir-estruturas). 
 
-::: {#figu-exibir-estrutura}
+::: {#figu-exibir-estruturas}
 ```{r}
-#| label: figu-exibir-estrutura
+#| label: figu-exibir-estruturas
 #| out-width: ~
-knitr::include_graphics("images/07_estruturas_geotecnicas/exibir-estrutura.png")
+knitr::include_graphics("images/07_estruturas_geotecnicas/exibir-estruturas.png")
 ```
 Tela Exibir estrutura geotécnica
 :::
 
 ## Editar
-O botão de ação **Editar** permite ao usuário *Instituição Admin* modificar as informações de complexo minerário e coordenadas de qualquer estrutura geotécnica (@figu-editar-estrutura).
+O botão de ação **Editar** permite ao usuário *Instituição Admin* modificar as informações de complexo minerário e coordenadas de qualquer estrutura geotécnica (@figu-editar-estruturas).
 
-::: {#figu-editar-estrutura}
+::: {#figu-editar-estruturas}
 ```{r}
-#| label: figu-editar-estrutura
+#| label: figu-editar-estruturas
 #| out-width: ~
-knitr::include_graphics("images/07_estruturas_geotecnicas/editar-estrutura.png")
+knitr::include_graphics("images/07_estruturas_geotecnicas/editar-estruturas.png")
 ```
 Tela Editar estrutura geotécnica
 :::

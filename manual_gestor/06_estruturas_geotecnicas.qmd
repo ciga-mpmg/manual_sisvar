@@ -61,30 +61,15 @@ Tela Procurar estrutura geotécnica
 :::
 
 ## Exibir
-Ao clicar no botão de ação **Exibir**, o usuário *Gestor* pode visualizar as informações detalhadas da estrutura geotécnica, incluindo o [Histórico da estrutura geotécnica](#sec-historico) e, quando aplicável, as [Reprovações](#sec-reprovacoes).
+Ao clicar no botão de ação **Exibir**, o usuário *Gestor* pode visualizar as informações detalhadas da estrutura geotécnica, incluindo, quando aplicável, o histórico da estrutura geotécnica e o motivo da reprovação, quem e quando a reprovou (@figu-exibir-estruturas). 
 
-### Histórico da estrutura geotécnica
-Nesta aba, o usuário *Gestor* pode acessar o histórico da nova estrutura geotécnica adicionada (@figu-historico-estruturas). 
-
-::: {#figu-historico-estruturas}
+::: {#figu-exibir-estruturas}
 ```{r}
-#| label: figu-historico-estruturas
+#| label: figu-exibir-estruturas
 #| out-width: ~
-knitr::include_graphics("images/06_estruturas_geotecnicas/historico-estruturas.png")
+knitr::include_graphics("images/06_estruturas_geotecnicas/exibir-estruturas.png")
 ```
-Tela Histórico da estrutura geotécnica
-:::
-
-### Reprovações
-Nesta aba, o usuário *Gestor* pode visualizar, quando aplicável, o motivo da reprovação, quem e quando a reprovou (@figu-reprovacoes-estruturas). 
-
-::: {#figu-reprovacoes-estruturas}
-```{r}
-#| label: figu-reprovacoes-estruturas
-#| out-width: ~
-knitr::include_graphics("images/06_estruturas_geotecnicas/reprovacoes-estruturas.png")
-```
-Tela Reprovações
+Tela Exibir estrutura geotécnica
 :::
 
 ## Editar

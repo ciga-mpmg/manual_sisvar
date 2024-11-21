@@ -1,14 +1,14 @@
 # Dashboard  {#sec-dashboard}
 
-Nesta tela, são apresentados os principais números de acompanhamento dos TACs e suas recomendações emitidas pelas Auditorias Técnicas Independentes (@figu-tela02). 
+Nesta tela, são apresentados os principais números de acompanhamento dos TACs e suas recomendações emitidas pelas Auditorias Técnicas Independentes (@figu-tela-dashboard). 
 
 O usuário com perfil *Instituição Admin* pode consultar a listagem de **Submissões validadas**, o **Total de recomendações** por TAC e o **Cálculo de Alerta** de forma atualizada a cada nova submissão validada. O sumário de dados referente ao **Total de TACs** por auditoria e ao **Total de Estruturas Geotécnicas** é atualizado, respectivamente, quando da criação de um novo TAC ou a partir das atualizações de dados de estruturas geotécnicas.
 
-::: {#figu-tela02}
+::: {#figu-tela-dashboard}
 ```{r}
-#| label: figu-tela02
+#| label: figu-tela-dashboard
 #| out-width: ~
-knitr::include_graphics("images/02_dashboard/tela02.png")
+knitr::include_graphics("images/02_dashboard/tela-dashboard.png")
 ```
 Tela Dashboard
 :::
