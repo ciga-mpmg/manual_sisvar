@@ -1,13 +1,13 @@
 # Auditoria {#sec-auditorias}
-A tela possui o nome da Auditoria do *Gestor*. Nela é possível visualizar o quantitativo de TACs e Usuários relacionados à sua auditoria, bem como acessar rapidamente a listagem correspondente a essas informações (@figu-tela05).
+A tela possui o nome da Auditoria do *Gestor*. Nela é possível visualizar o quantitativo de TACs e Usuários relacionados à sua auditoria, bem como acessar rapidamente a listagem correspondente a essas informações (@figu-tela-auditorias).
 
-::: {#figu-tela05}
+::: {#figu-tela-auditorias}
 ```{r}
-#| label: figu-tela05
+#| label: figu-tela-auditorias
 #| out-width: ~
-knitr::include_graphics("images/04_auditorias/tela05.png")
+knitr::include_graphics("images/04_auditorias/tela-auditorias.png")
 ```
 Tela Auditoria
 :::
 
-Ao clicar no botão **Conferir** do cartão TACs, o usuário será redirecionado à tela [TACs](#sec-tacs) e serão exibidos os TACs relacionados à auditoria do *Gestor*. Por sua vez, ao clicar no botão **Conferir** do cartão Usuários, o usuário será redirecionado à tela [Usuários](#sec-usuarios) (@figu-tela05).
+Ao clicar no botão **Conferir** do cartão TACs, o usuário será redirecionado à tela [TACs](#sec-tacs) e serão exibidos os TACs relacionados à auditoria do *Gestor*. Por sua vez, ao clicar no botão **Conferir** do cartão Usuários, o usuário será redirecionado à tela [Usuários](#sec-usuarios) (@figu-tela-auditorias).

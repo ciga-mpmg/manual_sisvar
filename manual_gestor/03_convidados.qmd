@@ -1,32 +1,32 @@
 # Convidados {#sec-convidados}
-A tela Convidados exibe uma lista dos usuários relacionados à auditoria do *Gestor* que receberam convites para acessar o Sisvar. Nessa tela, é possível gerenciar informações sobre quem enviou o convite, o status do convite (Aguardando ou Aceito) e, quando aplicável, a data de aceite. Além disso, é possível pesquisar, excluir e enviar convites (@figu-tela04).
+A tela Convidados exibe uma lista dos usuários relacionados à auditoria do *Gestor* que receberam convites para acessar o Sisvar. Nessa tela, é possível gerenciar informações sobre quem enviou o convite, o status do convite (Aguardando ou Aceito) e, quando aplicável, a data de aceite. Além disso, é possível pesquisar, excluir e enviar convites (@figu-tela-convidados).
 
-::: {#figu-tela04}
+::: {#figu-tela-convidados}
 ```{r}
-#| label: figu-tela04
+#| label: figu-tela-convidados
 #| out-width: ~
-knitr::include_graphics("images/03_convidados/tela04.png")
+knitr::include_graphics("images/03_convidados/tela-convidados.png")
 ```
 Tela Convidados
 :::
 
 ## Enviar convite
-O usuário com perfil de *Gestor* pode enviar um **Convite** para as Funções *Gestor* e *Responsável*, preenchendo todos os campos obrigatórios do formulário (@figu-convite).
+O usuário com perfil de *Gestor* pode enviar um **Convite** para as Funções *Gestor* e *Responsável*, preenchendo todos os campos obrigatórios do formulário (@figu-convite-convidados).
 
-::: {#figu-convite}
+::: {#figu-convite-convidados}
 ```{r}
-#| label: figu-convite
+#| label: figu-convite-convidados
 #| out-width: ~
-knitr::include_graphics("images/03_convidados/convite.png")
+knitr::include_graphics("images/03_convidados/convite-convidados.png")
 ```
 Formulário para envio de convite
 :::
 
-::: {#figu-email}
+::: {#figu-email-convidados}
 ```{r}
-#| label: figu-email
+#| label: figu-email-convidados
 #| out-width: ~
-knitr::include_graphics("images/03_convidados/email.png")
+knitr::include_graphics("images/03_convidados/email-convidados.png")
 ```
 E-mail convite
 :::

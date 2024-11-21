@@ -165,7 +165,11 @@ ul.task-list li input[type="checkbox"] {
   <ul>
   <li><a href="#adicionar-estrutura-geotécnica" id="toc-adicionar-estrutura-geotécnica" class="nav-link active" data-scroll-target="#adicionar-estrutura-geotécnica"><span class="header-section-number">6.1</span> Adicionar estrutura geotécnica</a></li>
   <li><a href="#procurar" id="toc-procurar" class="nav-link" data-scroll-target="#procurar"><span class="header-section-number">6.2</span> Procurar</a></li>
-  <li><a href="#exibir" id="toc-exibir" class="nav-link" data-scroll-target="#exibir"><span class="header-section-number">6.3</span> Exibir</a></li>
+  <li><a href="#exibir" id="toc-exibir" class="nav-link" data-scroll-target="#exibir"><span class="header-section-number">6.3</span> Exibir</a>
+  <ul class="collapse">
+  <li><a href="#histórico-da-estrutura-geotécnica" id="toc-histórico-da-estrutura-geotécnica" class="nav-link" data-scroll-target="#histórico-da-estrutura-geotécnica"><span class="header-section-number">6.3.1</span> Histórico da estrutura geotécnica</a></li>
+  <li><a href="#reprovações" id="toc-reprovações" class="nav-link" data-scroll-target="#reprovações"><span class="header-section-number">6.3.2</span> Reprovações</a></li>
+  </ul></li>
   <li><a href="#editar" id="toc-editar" class="nav-link" data-scroll-target="#editar"><span class="header-section-number">6.4</span> Editar</a></li>
   </ul>
 </nav>
@@ -192,21 +196,21 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>A tela Estruturas Geotécnicas exibe uma lista das estruturas relacionadas à auditoria do <em>Gestor</em>. Nesta tela, é possível gerenciar as estruturas geotécnicas, incluindo pesquisa, visualização, edição e adição de coordenadas das estruturas (<a href="#figu-tela06" class="quarto-xref">Figura&nbsp;<span>6.1</span></a>).</p>
-<div id="figu-tela06" class="quarto-float quarto-figure quarto-figure-center anchored">
+<p>A tela Estruturas Geotécnicas exibe uma lista das estruturas relacionadas à auditoria do <em>Gestor</em>. Nesta tela, é possível gerenciar as estruturas geotécnicas, incluindo pesquisa, visualização, edição e adição de coordenadas das estruturas (<a href="#figu-tela-estruturas" class="quarto-xref">Figura&nbsp;<span>6.1</span></a>).</p>
+<div id="figu-tela-estruturas" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-figu figure">
-<div aria-describedby="figu-tela06-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="figu-tela-estruturas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="images/06_estruturas_geotecnicas/tela06.png" class="img-fluid figure-img" width="669"></p>
+<p><img src="images/06_estruturas_geotecnicas/tela-estruturas.png" class="img-fluid figure-img" width="669"></p>
 </figure>
 </div>
 </div>
 </div>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-tela06-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-tela-estruturas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figura&nbsp;6.1: Tela Estruturas Geotécnicas
 </figcaption>
 </figure>
@@ -217,43 +221,43 @@ Figura&nbsp;6.1: Tela Estruturas Geotécnicas
 <ol type="1">
 <li><p>O usuário da auditoria (<strong><em>Gestor</em></strong> ou <strong><em>Responsável</em></strong>) submete uma planilha com a nova estrutura geotécnica, preenchendo os campos <code>estrutura_nao_cadastrada</code> e <code>municipio_estrutura_nao_cadastrada</code>.</p></li>
 <li><p>Após validação da planilha, a lista-base de estruturas geotécnicas do Sisvar passa a constar a nova estrutura.</p></li>
-<li><p>O usuário da auditoria (<strong><em>Gestor</em></strong> ou <strong><em>Responsável</em></strong>) e o administrador do sistema recebem um aviso (exclamação vermelha) informando que há estruturas geotécnicas pendentes de revisão (<a href="#figu-aviso" class="quarto-xref">Figura&nbsp;<span>6.2</span></a>) (ao expandir a barra de menu, um quadrado vermelho com o número de pendências é exibido).</p></li>
+<li><p>O usuário da auditoria (<strong><em>Gestor</em></strong> ou <strong><em>Responsável</em></strong>) e o administrador do sistema recebem um aviso (exclamação vermelha) informando que há estruturas geotécnicas pendentes de revisão (<a href="#figu-aviso-estruturas" class="quarto-xref">Figura&nbsp;<span>6.2</span></a>) (ao expandir a barra de menu, um quadrado vermelho com o número de pendências é exibido).</p></li>
 </ol>
-<div id="figu-aviso" class="quarto-float quarto-figure quarto-figure-center anchored">
+<div id="figu-aviso-estruturas" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-figu figure">
-<div aria-describedby="figu-aviso-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="figu-aviso-estruturas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="images/06_estruturas_geotecnicas/aviso.png" class="img-fluid figure-img" width="754"></p>
+<p><img src="images/06_estruturas_geotecnicas/aviso-estruturas.png" class="img-fluid figure-img" width="754"></p>
 </figure>
 </div>
 </div>
 </div>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-aviso-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-aviso-estruturas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figura&nbsp;6.2: Tela aviso
 </figcaption>
 </figure>
 </div>
 <ol start="4" type="1">
-<li>O usuário da auditoria (<strong><em>Gestor</em></strong> ou <strong><em>Responsável</em></strong>) preenche as coordenadas (<a href="#figu-criar-estrutura" class="quarto-xref">Figura&nbsp;<span>6.3</span></a>). Há uma validação, numérica, para as coordenadas referente aos limites do estado de Minas Gerais;</li>
+<li>O usuário da auditoria (<strong><em>Gestor</em></strong> ou <strong><em>Responsável</em></strong>) preenche as coordenadas (<a href="#figu-adicionar-estruturas" class="quarto-xref">Figura&nbsp;<span>6.3</span></a>). Há uma validação, numérica, para as coordenadas referente aos limites do estado de Minas Gerais;</li>
 </ol>
-<div id="figu-criar-estrutura" class="quarto-float quarto-figure quarto-figure-center anchored">
+<div id="figu-adicionar-estruturas" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-figu figure">
-<div aria-describedby="figu-criar-estrutura-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="figu-adicionar-estruturas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="images/06_estruturas_geotecnicas/criar-estrutura.png" class="img-fluid figure-img" width="748"></p>
+<p><img src="images/06_estruturas_geotecnicas/adicionar-estruturas.png" class="img-fluid figure-img" width="748"></p>
 </figure>
 </div>
 </div>
 </div>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-criar-estrutura-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-adicionar-estruturas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figura&nbsp;6.3: Tela adicionar coordenadas
 </figcaption>
 </figure>
@@ -272,21 +276,21 @@ Figura&nbsp;6.3: Tela adicionar coordenadas
 </section>
 <section id="procurar" class="level2" data-number="6.2">
 <h2 data-number="6.2" class="anchored" data-anchor-id="procurar"><span class="header-section-number">6.2</span> Procurar</h2>
-<p>O usuário <em>Gestor</em> pode localizar uma estrutura geotécnica utilizando a opção <strong>Procurar</strong> e filtrar por: Status, TAC, Nome, Município e Empreendedor (<a href="#figu-procurar-estrutura" class="quarto-xref">Figura&nbsp;<span>6.4</span></a>).</p>
-<div id="figu-procurar-estrutura" class="quarto-float quarto-figure quarto-figure-center anchored">
+<p>O usuário <em>Gestor</em> pode localizar uma estrutura geotécnica utilizando a opção <strong>Procurar</strong> e filtrar por: Status, TAC, Nome, Município e Empreendedor (<a href="#figu-procurar-estruturas" class="quarto-xref">Figura&nbsp;<span>6.4</span></a>).</p>
+<div id="figu-procurar-estruturas" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-figu figure">
-<div aria-describedby="figu-procurar-estrutura-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="figu-procurar-estruturas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="images/06_estruturas_geotecnicas/procurar-estrutura.png" class="img-fluid figure-img" width="748"></p>
+<p><img src="images/06_estruturas_geotecnicas/procurar-estruturas.png" class="img-fluid figure-img" width="748"></p>
 </figure>
 </div>
 </div>
 </div>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-procurar-estrutura-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-procurar-estruturas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 Figura&nbsp;6.4: Tela Procurar estrutura geotécnica
 </figcaption>
 </figure>
@@ -294,29 +298,55 @@ Figura&nbsp;6.4: Tela Procurar estrutura geotécnica
 </section>
 <section id="exibir" class="level2" data-number="6.3">
 <h2 data-number="6.3" class="anchored" data-anchor-id="exibir"><span class="header-section-number">6.3</span> Exibir</h2>
-<p>Ao clicar no botão de ação <strong>Exibir</strong>, o usuário <em>Gestor</em> pode visualizar as informações detalhadas da estrutura geotécnica, incluindo o histórico da estrutura e, quando aplicável, o motivo da reprovação, quem e quando a reprovou (<a href="#figu-exibir-estrutura" class="quarto-xref">Figura&nbsp;<span>6.5</span></a>).</p>
-<div id="figu-exibir-estrutura" class="quarto-float quarto-figure quarto-figure-center anchored">
+<p>Ao clicar no botão de ação <strong>Exibir</strong>, o usuário <em>Gestor</em> pode visualizar as informações detalhadas da estrutura geotécnica, incluindo o <a href="#sec-historico">Histórico da estrutura geotécnica</a> e, quando aplicável, as <a href="#sec-reprovacoes">Reprovações</a>.</p>
+<section id="histórico-da-estrutura-geotécnica" class="level3" data-number="6.3.1">
+<h3 data-number="6.3.1" class="anchored" data-anchor-id="histórico-da-estrutura-geotécnica"><span class="header-section-number">6.3.1</span> Histórico da estrutura geotécnica</h3>
+<p>Nesta aba, o usuário <em>Gestor</em> pode acessar o histórico da nova estrutura geotécnica adicionada (<a href="#figu-historico-estruturas" class="quarto-xref">Figura&nbsp;<span>6.5</span></a>).</p>
+<div id="figu-historico-estruturas" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-figu figure">
-<div aria-describedby="figu-exibir-estrutura-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="figu-historico-estruturas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="images/06_estruturas_geotecnicas/exibir-estrutura.png" class="img-fluid figure-img" width="749"></p>
+<p><img src="images/06_estruturas_geotecnicas/historico-estruturas.png" class="img-fluid figure-img" width="641"></p>
 </figure>
 </div>
 </div>
 </div>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-exibir-estrutura-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;6.5: Tela Exibir estrutura geotécnica
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-historico-estruturas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;6.5: Tela Histórico da estrutura geotécnica
 </figcaption>
 </figure>
 </div>
 </section>
+<section id="reprovações" class="level3" data-number="6.3.2">
+<h3 data-number="6.3.2" class="anchored" data-anchor-id="reprovações"><span class="header-section-number">6.3.2</span> Reprovações</h3>
+<p>Nesta aba, o usuário <em>Gestor</em> pode visualizar, quando aplicável, o motivo da reprovação, quem e quando a reprovou (<a href="#figu-reprovacoes-estruturas" class="quarto-xref">Figura&nbsp;<span>6.6</span></a>).</p>
+<div id="figu-reprovacoes-estruturas" class="quarto-float quarto-figure quarto-figure-center anchored">
+<figure class="quarto-float quarto-float-figu figure">
+<div aria-describedby="figu-reprovacoes-estruturas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div class="cell">
+<div class="cell-output-display">
+<div>
+<figure class="figure">
+<p><img src="images/06_estruturas_geotecnicas/reprovacoes-estruturas.png" class="img-fluid figure-img" width="658"></p>
+</figure>
+</div>
+</div>
+</div>
+</div>
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-reprovacoes-estruturas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;6.6: Tela Reprovações
+</figcaption>
+</figure>
+</div>
+</section>
+</section>
 <section id="editar" class="level2" data-number="6.4">
 <h2 data-number="6.4" class="anchored" data-anchor-id="editar"><span class="header-section-number">6.4</span> Editar</h2>
-<p>O botão de ação <strong>Editar</strong> permite ao usuário <em>Gestor</em> modificar as informações de coordenadas de qualquer estrutura geotécnica (<a href="#figu-editar-estrutura" class="quarto-xref">Figura&nbsp;<span>6.6</span></a>).</p>
+<p>O botão de ação <strong>Editar</strong> permite ao usuário <em>Gestor</em> modificar as informações de coordenadas de qualquer estrutura geotécnica (<a href="#figu-editar-estruturas" class="quarto-xref">Figura&nbsp;<span>6.7</span></a>).</p>
 <div class="callout callout-style-simple callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
@@ -330,21 +360,21 @@ Nota
 <p>O usuário <em>Gestor</em> poderá editar as coordenadas; no entanto, a aprovação depende do administrador do sistema.</p>
 </div>
 </div>
-<div id="figu-editar-estrutura" class="quarto-float quarto-figure quarto-figure-center anchored">
+<div id="figu-editar-estruturas" class="quarto-float quarto-figure quarto-figure-center anchored">
 <figure class="quarto-float quarto-float-figu figure">
-<div aria-describedby="figu-editar-estrutura-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+<div aria-describedby="figu-editar-estruturas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
 <div class="cell">
 <div class="cell-output-display">
 <div>
 <figure class="figure">
-<p><img src="images/06_estruturas_geotecnicas/editar-estrutura.png" class="img-fluid figure-img" width="748"></p>
+<p><img src="images/06_estruturas_geotecnicas/editar-estruturas.png" class="img-fluid figure-img" width="748"></p>
 </figure>
 </div>
 </div>
 </div>
 </div>
-<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-editar-estrutura-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
-Figura&nbsp;6.6: Tela Editar estrutura geotécnica
+<figcaption class="quarto-float-caption-bottom quarto-float-caption quarto-float-figu" id="figu-editar-estruturas-caption-0ceaefa1-69ba-4598-a22c-09a6ac19f8ca">
+Figura&nbsp;6.7: Tela Editar estrutura geotécnica
 </figcaption>
 </figure>
 </div>

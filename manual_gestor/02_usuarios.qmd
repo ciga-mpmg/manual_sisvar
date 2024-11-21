@@ -1,12 +1,12 @@
 # Usuários {#sec-usuarios}
 
-A tela Usuários exibe uma lista dos usuários relacionados à auditoria do *Gestor*, organizados por Função. Nesta tela, é possível gerenciar os usuários, incluindo pesquisa, visualização, edição e exclusão de usuários (@figu-tela03).
+A tela Usuários exibe uma lista dos usuários relacionados à auditoria do *Gestor*, organizados por Função. Nesta tela, é possível gerenciar os usuários, incluindo pesquisa, visualização, edição e exclusão de usuários (@figu-tela-usuarios).
 
-::: {#figu-tela03}
+::: {#figu-tela-usuarios}
 ```{r}
-#| label: figu-tela03
+#| label: figu-tela-usuarios
 #| out-width: ~
-knitr::include_graphics("images/02_usuarios/tela03.png")
+knitr::include_graphics("images/02_usuarios/tela-usuarios.png")
 ```
 Tela Usuários
 :::
@@ -15,15 +15,15 @@ Tela Usuários
 O usuário com perfil de *Gestor* pode localizar um usuário da sua auditoria utilizando a Barra de Pesquisa **Procurar**. Ele pode visualizar as Funções *Gestor* e *Responsável*.
 
 ## Exibir
-Ao clicar no botão de ação **Exibir**, o usuário *Gestor* pode visualizar as informações detalhadas apenas dos usuários *Responsáveis*, incluindo E-mail, Auditoria, Função, Convite (indicando data e quem adicionou o usuário) e TACs associados (@figu-exibir-usuario).
+Ao clicar no botão de ação **Exibir**, o usuário *Gestor* pode visualizar as informações detalhadas apenas dos usuários *Responsáveis*, incluindo E-mail, Auditoria, Função, Convite (indicando data e quem adicionou o usuário) e TACs associados (@figu-exibir-usuarios).
 
 O usuário *Gestor* também pode **Adicionar** outros TACs para o usuário *Responsável*.
 
-::: {#figu-exibir-usuario}
+::: {#figu-exibir-usuarios}
 ```{r}
-#| label: figu-exibir-usuario
+#| label: figu-exibir-usuarios
 #| out-width: ~
-knitr::include_graphics("images/02_usuarios/exibir-usuario.png")
+knitr::include_graphics("images/02_usuarios/exibir-usuarios.png")
 ```
 Tela Usuários
 :::
