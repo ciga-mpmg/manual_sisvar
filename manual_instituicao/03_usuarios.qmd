@@ -1,35 +1,35 @@
 # Usuários {#sec-usuarios}
 
-A tela Usuários exibe uma lista dos usuários cadastrados no Sisvar, organizados por Função. Nesta tela, é possível gerenciar os usuários, incluindo pesquisa, visualização, edição, exclusão e adição de usuários (@figu-tela03).
+A tela Usuários exibe uma lista dos usuários cadastrados no Sisvar, organizados por Função. Nesta tela, é possível gerenciar os usuários, incluindo pesquisa, visualização, edição, exclusão e adição de usuários (@figu-tela-usuarios).
 
-::: {#figu-tela03}
+::: {#figu-tela-usuarios}
 ```{r}
-#| label: figu-tela03
+#| label: figu-tela-usuarios
 #| out-width: ~
-knitr::include_graphics("images/03_usuarios/tela03.png")
+knitr::include_graphics("images/03_usuarios/tela-usuarios.png")
 ```
 Tela Usuários
 :::
 
 ## Criar
-O usuário com Função de *Instituição Admin* pode clicar no botão **Novo Usuário** para criar um usuário preenchendo os campos obrigatórios do formulário. A senha deve possuir no mínimo 6 caracteres e incluir uma combinação de letras e números (@figu-criar-usuario).
+O usuário com Função de *Instituição Admin* pode clicar no botão **Novo Usuário** para criar um usuário preenchendo os campos obrigatórios do formulário. A senha deve possuir no mínimo 6 caracteres e incluir uma combinação de letras e números (@figu-criar-usuarios).
 
-::: {#figu-criar-usuario}
+::: {#figu-criar-usuarios}
 ```{r}
-#| label: figu-criar-usuario
+#| label: figu-criar-usuarios
 #| out-width: ~
-knitr::include_graphics("images/03_usuarios/criar-usuario.png")
+knitr::include_graphics("images/03_usuarios/criar-usuarios.png")
 ```
 Criar Usuário
 :::
 
-Se o novo usuário criado for do tipo *Instituição*, o Admin também pode revogar o privilégio de Administrador deste usuário logo após o processo de criação (@figu-revogar-usuario).
+Se o novo usuário criado for do tipo *Instituição*, o Admin também pode revogar o privilégio de Administrador deste usuário logo após o processo de criação (@figu-revogar-usuarios).
 
-::: {#figu-revogar-usuario}
+::: {#figu-revogar-usuarios}
 ```{r}
-#| label: figu-revogar-usuario
+#| label: figu-revogar-usuarios
 #| out-width: ~
-knitr::include_graphics("images/03_usuarios/revogar-usuario.png")
+knitr::include_graphics("images/03_usuarios/revogar-usuarios.png")
 ```
 Revogar privilégio 'Admin' de Usuário
 :::

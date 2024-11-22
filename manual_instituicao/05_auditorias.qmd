@@ -1,23 +1,23 @@
 # Auditorias {#sec-auditorias}
-A tela Auditorias exibe uma lista das auditorias cadastradas no Sisvar, organizadas em ordem alfabética. Nesta tela, é possível gerenciar as auditorias, incluindo pesquisa, edição, exclusão e adição de novas auditorias, além da  exibição dos TACs relacionados a cada auditoria (@figu-tela05).
+A tela Auditorias exibe uma lista das auditorias cadastradas no Sisvar, organizadas em ordem alfabética. Nesta tela, é possível gerenciar as auditorias, incluindo pesquisa, edição, exclusão e adição de novas auditorias, além da  exibição dos TACs relacionados a cada auditoria (@figu-tela-auditorias).
 
-::: {#figu-tela05}
+::: {#figu-tela-auditorias}
 ```{r}
-#| label: figu-tela05
+#| label: figu-tela-auditorias
 #| out-width: ~
-knitr::include_graphics("images/05_auditorias/tela05.png")
+knitr::include_graphics("images/05_auditorias/tela-auditorias.png")
 ```
 Tela Auditorias
 :::
 
 ## Criar
-O usuário com Função de *Instituição Admin* pode clicar no botão **Nova Auditoria** e cadastrar a auditoria preenchendo os campos Nome e Código da auditoria. O código deve conter 3 caracteres, sendo os 2 primeiros obrigatoriamente letras (@figu-criar-auditoria).
+O usuário com Função de *Instituição Admin* pode clicar no botão **Nova Auditoria** e cadastrar a auditoria preenchendo os campos Nome e Código da auditoria. O código deve conter 3 caracteres, sendo os 2 primeiros obrigatoriamente letras (@figu-criar-auditorias).
 
-::: {#figu-criar-auditoria}
+::: {#figu-criar-auditorias}
 ```{r}
-#| label: figu-criar-auditoria
+#| label: figu-criar-auditorias
 #| out-width: ~
-knitr::include_graphics("images/05_auditorias/criar-auditoria.png")
+knitr::include_graphics("images/05_auditorias/criar-auditorias.png")
 ```
 Criar Auditoria
 :::

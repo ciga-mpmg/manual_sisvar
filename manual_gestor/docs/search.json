@@ -244,7 +244,7 @@
     "href": "06_estruturas_geotecnicas.html#exibir",
     "title": "6  Estruturas Geotécnicas",
     "section": "6.3 Exibir",
-    "text": "6.3 Exibir\nAo clicar no botão de ação Exibir, o usuário Gestor pode visualizar as informações detalhadas da estrutura geotécnica, incluindo o Histórico da estrutura geotécnica e, quando aplicável, as Reprovações.\n\n6.3.1 Histórico da estrutura geotécnica\nNesta aba, o usuário Gestor pode acessar o histórico da nova estrutura geotécnica adicionada (Figura 6.5).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 6.5: Tela Histórico da estrutura geotécnica\n\n\n\n\n\n6.3.2 Reprovações\nNesta aba, o usuário Gestor pode visualizar, quando aplicável, o motivo da reprovação, quem e quando a reprovou (Figura 6.6).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 6.6: Tela Reprovações",
+    "text": "6.3 Exibir\nAo clicar no botão de ação Exibir, o usuário Gestor pode visualizar as informações detalhadas da estrutura geotécnica, incluindo, quando aplicável, o histórico da estrutura geotécnica e o motivo da reprovação, quem e quando a reprovou (Figura 6.5).\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 6.5: Tela Exibir estrutura geotécnica",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Estruturas Geotécnicas</span>"
     ]
@@ -254,7 +254,7 @@
     "href": "06_estruturas_geotecnicas.html#editar",
     "title": "6  Estruturas Geotécnicas",
     "section": "6.4 Editar",
-    "text": "6.4 Editar\nO botão de ação Editar permite ao usuário Gestor modificar as informações de coordenadas de qualquer estrutura geotécnica (Figura 6.7).\n\n\n\n\n\n\nNota\n\n\n\nO usuário Gestor poderá editar as coordenadas; no entanto, a aprovação depende do administrador do sistema.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 6.7: Tela Editar estrutura geotécnica",
+    "text": "6.4 Editar\nO botão de ação Editar permite ao usuário Gestor modificar as informações de coordenadas de qualquer estrutura geotécnica (Figura 6.6).\n\n\n\n\n\n\nNota\n\n\n\nO usuário Gestor poderá editar as coordenadas; no entanto, a aprovação depende do administrador do sistema.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nFigura 6.6: Tela Editar estrutura geotécnica",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>Estruturas Geotécnicas</span>"
     ]

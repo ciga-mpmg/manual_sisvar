@@ -1,27 +1,27 @@
 # TACs {#sec-tacs}
 
-A tela TACs exibe o(s) TAC(s) relacionado(s) ao **Responsável** (@figu-tela02).
+A tela TACs exibe o(s) TAC(s) relacionado(s) ao **Responsável** (@figu-tela-tacs).
 
-::: {#figu-tela02}
+::: {#figu-tela-tacs}
 ```{r}
-#| label: figu-tela02
+#| label: figu-tela-tacs
 #| out-width: ~
-knitr::include_graphics("images/02_tacs/tela02.png")
+knitr::include_graphics("images/02_tacs/tela-tacs.png")
 ```
 Tela TACs
 :::
 
 ## Exibir
-Ao clicar no botão de ação **Exibir**, o usuário com Função de *Responsável* pode visualizar as informações detalhadas dos TACs, incluindo [Submissões](#sec-submissoes), [Responsáveis](#sec-responsaveis), [Nomes alternativos](#sec-nomes), [Planilhas](#sec-planilhas) e [Histórico de avisos](#sec-historico).
+Ao clicar no botão de ação **Exibir**, o usuário com Função de *Responsável* pode visualizar as informações detalhadas dos TACs, incluindo [Submissões](#sec-submissoes-tacs), [Responsáveis](#sec-responsaveis-tacs), [Nomes alternativos](#sec-nomes-tacs), [Planilhas](#sec-planilhas) e [Histórico de avisos](#sec-historico-tacs).
 
-### Submissões {#sec-submissoes}
-O usuário *Responsável* pode submeter planilhas (@figu-submissoes). 
+### Submissões {#sec-submissoes-tacs}
+O usuário *Responsável* pode submeter planilhas (@figu-submissoes-tacs). 
 
-::: {#figu-submissoes}
+::: {#figu-submissoes-tacs}
 ```{r}
-#| label: figu-submissoes
+#| label: figu-submissoes-tacs
 #| out-width: ~
-knitr::include_graphics("images/02_tacs/submissoes.png")
+knitr::include_graphics("images/02_tacs/submissoes-tacs.png")
 ```
 Tela Submissões
 :::
@@ -42,26 +42,26 @@ O processo de validação das planilhas submetidas passa por uma avaliação cri
 Em caso de recomendações com inconsistências do tipo *Aviso* e *Erro* na mesma submissão, o procedimento segue o caso mais restritivo, ou seja, ***Erro***.
 :::
 
-### Responsáveis {#sec-responsaveis}
-Nesta aba, o usuário *Responsável* pode visualizar os demais responsáveis pelo TAC, quando houver (@figu-responsaveis).
+### Responsáveis {#sec-responsaveis-tacs}
+Nesta aba, o usuário *Responsável* pode visualizar os demais responsáveis pelo TAC, quando houver (@figu-responsaveis-tacs).
 
-::: {#figu-responsaveis}
+::: {#figu-responsaveis-tacs}
 ```{r}
-#| label: figu-responsaveis
+#| label: figu-responsaveis-tacs
 #| out-width: ~
-knitr::include_graphics("images/02_tacs/responsaveis.png")
+knitr::include_graphics("images/02_tacs/responsaveis-tacs.png")
 ```
 Tela Responsáveis
 :::
 
 ### Nomes alternativos {#sec-nomes}
-Nesta aba, o usuário *Responsável* pode visualizar os nomes alternativos do TAC (quando houver) ou clicar no botão **Novo Nome Alternativo** e criar outro nome para o TAC. Também é possível definir um nome alternativo como principal (@figu-nomes).
+Nesta aba, o usuário *Responsável* pode visualizar os nomes alternativos do TAC (quando houver) ou clicar no botão **Novo Nome Alternativo** e criar outro nome para o TAC. Também é possível definir um nome alternativo como principal (@figu-nomes-tacs).
 
-::: {#figu-nomes}
+::: {#figu-nomes-tacs}
 ```{r}
-#| label: figu-nomes
+#| label: figu-nomes-tacs
 #| out-width: ~
-knitr::include_graphics("images/02_tacs/nomes.png")
+knitr::include_graphics("images/02_tacs/nomes-tacs.png")
 ```
 Tela Nomes alternativos
 :::
@@ -80,30 +80,30 @@ Se a RIZZO utilizasse "TAC Gongo Soco" em sua planilha e já tivesse criado um n
 TACs com diferentes datas de assinatura e/ou escopos devem ter sua submissão de forma individual no Sisvar.
 :::
 
-### Planilhas {#sec-planilhas}
-Nesta aba, o usuário *Responsável* pode baixar três tipos de planilhas (@figu-planilhas):
+### Planilhas {#sec-planilhas-tacs}
+Nesta aba, o usuário *Responsável* pode baixar três tipos de planilhas (@figu-planilhas-tacs):
 
 - *<u>Planilha-modelo em branco</u>*: versão mais recente da planilha-modelo em branco;
 - *<u>Planilha mais recente validada com sucesso</u>*: planilha mais recente com submissão validada;
 - *<u>Planilha de conversão de IDs</u>*: planilha que relaciona o ID do TAC com o ID CIGA.
 
-::: {#figu-planilhas}
+::: {#figu-planilhas-tacs}
 ```{r}
-#| label: figu-planilhas
+#| label: figu-planilhas-tacs
 #| out-width: ~
-knitr::include_graphics("images/02_tacs/planilhas.png")
+knitr::include_graphics("images/02_tacs/planilhas-tacs.png")
 ```
 Tela Planilhas
 :::
 
-### Histórico de avisos {#sec-historico}
-Nesta aba, o usuário *Responsável* pode visualizar o histórico de avisos quando houver recomendações com avisos que foram checados (@figu-historico).
+### Histórico de avisos {#sec-historico-tacs}
+Nesta aba, o usuário *Responsável* pode visualizar o histórico de avisos quando houver recomendações com avisos que foram checados (@figu-historico-tacs).
 
-::: {#figu-historico}
+::: {#figu-historico-tacs}
 ```{r}
-#| label: figu-historico
+#| label: figu-historico-tacs
 #| out-width: ~
-knitr::include_graphics("images/02_tacs/historico.png")
+knitr::include_graphics("images/02_tacs/historico-tacs.png")
 ```
 Tela Histórico de avisos
 :::

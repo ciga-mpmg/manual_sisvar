@@ -12,25 +12,25 @@ Tela Empreendedores
 :::
 
 ## Criar
-O usuário com Função de *Instituição Admin* pode clicar no botão **Novo Empreendedor** e criar um empreendedor preenchendo o campo obrigatório "Nome" do formulário (@figu-criar-empreendedor).
+O usuário com Função de *Instituição Admin* pode clicar no botão **Novo Empreendedor** e criar um empreendedor preenchendo o campo obrigatório "Nome" do formulário (@figu-criar-empreendedores).
 
-::: {#figu-criar-empreendedor}
+::: {#figu-criar-empreendedores}
 ```{r}
-#| label: figu-criar-empreendedor
+#| label: figu-criar-empreendedores
 #| out-width: ~
-knitr::include_graphics("images/08_empreendedores/criar-empreendedor.png")
+knitr::include_graphics("images/08_empreendedores/criar-empreendedores.png")
 ```
 Criar Empreendedores
 :::
 
 ## Exibir
-Ao clicar no botão de ação **Exibir**, o usuário *Instituição Admin* pode criar um **Nome Alternativo** para o TAC (@figu-nomealternativo). O sistema reconhecerá, durante a validação das planilhas, tanto o nome principal quanto o nome alternativo, sendo possível definir o novo nome criado como o principal.
+Ao clicar no botão de ação **Exibir**, o usuário *Instituição Admin* pode criar um **Nome Alternativo** para o TAC (@figu-nome-empreendedores). O sistema reconhecerá, durante a validação das planilhas, tanto o nome principal quanto o nome alternativo, sendo possível definir o novo nome criado como o principal.
 
-::: {#figu-nomealternativo}
+::: {#figu-nome-empreendedores}
 ```{r}
-#| label: figu-nomealternativo
+#| label: figu-nome-empreendedores
 #| out-width: ~
-knitr::include_graphics("images/08_empreendedores/nomealternativo.png")
+knitr::include_graphics("images/08_empreendedores/nome-empreendedores.png")
 ```
 Novo Nome Alternativo
 :::

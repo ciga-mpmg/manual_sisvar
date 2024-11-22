@@ -1,23 +1,23 @@
 # Convidados {#sec-convidados}
-A tela Convidados exibe uma lista dos usuários que receberam convites para acessar o Sisvar. Nessa tela, é possível gerenciar informações sobre quem enviou o convite, o status do convite (Aceito ou Aguardando) e, quando aplicável, a data de aceite. Além disso, é possível pesquisar, excluir e enviar convites (@figu-tela04).
+A tela Convidados exibe uma lista dos usuários que receberam convites para acessar o Sisvar. Nessa tela, é possível gerenciar informações sobre quem enviou o convite, o status do convite (Aceito ou Aguardando) e, quando aplicável, a data de aceite. Além disso, é possível pesquisar, excluir e enviar convites (@figu-tela-convidados).
 
-::: {#figu-tela04}
+::: {#figu-tela-convidados}
 ```{r}
-#| label: figu-tela04
+#| label: figu-tela-convidados
 #| out-width: ~
-knitr::include_graphics("images/04_convidados/tela04.png")
+knitr::include_graphics("images/04_convidados/tela-convidados.png")
 ```
 Tela Convidados
 :::
 
 ## Enviar convite
-O usuário com perfil de *Instituição Admin* pode clicar no botão **Novo convite** e enviar o convite preenchendo os campos obrigatórios do formulário (@figu-convite). Todas as opções de Função estão disponíveis para esse usuário.
+O usuário com perfil de *Instituição Admin* pode clicar no botão **Novo convite** e enviar o convite preenchendo os campos obrigatórios do formulário (@figu-convite-convidados). Todas as opções de Função estão disponíveis para esse usuário.
 
-::: {#figu-convite}
+::: {#figu-convite-convidados}
 ```{r}
-#| label: figu-convite
+#| label: figu-convite-convidados
 #| out-width: ~
-knitr::include_graphics("images/04_convidados/convite.png")
+knitr::include_graphics("images/04_convidados/convite-convidados.png")
 ```
 Formulário para envio de convite
 :::
@@ -26,11 +26,11 @@ No campo Função, ao escolher a opção *Gestor ou Responsável*, as opções d
 
 A principal diferença desta tela em relação à tela [Usuários](#sec-usuarios) é que, aqui, o convite é enviado para o e-mail cadastrado, de forma que existe o histórico acerca da inserção do usuário no Sisvar.
 
-::: {#figu-email}
+::: {#figu-email-convidados}
 ```{r}
-#| label: figu-email
+#| label: figu-email-convidados
 #| out-width: ~
-knitr::include_graphics("images/04_convidados/email.png")
+knitr::include_graphics("images/04_convidados/email-convidados.png")
 ```
 E-mail convite
 :::
