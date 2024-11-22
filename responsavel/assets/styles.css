@@ -1,0 +1,94 @@
+/* css styles */
+
+/* alterar fonte do título */
+h1.title {
+  font-size: 30px;
+  font-family: arial;
+  font-weight: bold;
+  color: #003B4d;
+  text-align: left;
+}
+
+h2.anchored {
+  font-size: 24px;
+  font-family: arial;
+  font-weight: bold;
+  color: #003B4d;
+  text-align: left;
+}
+
+h3.anchored {
+  font-size: 22px;
+  font-family: arial;
+  color: #003B4d;
+  text-align: left;
+}
+
+/* alterar cor dos números dos títulos */
+.header-section-number {
+  color: #003B4d;
+}
+
+
+/* alterar alinhamento figuras */
+.quarto-figure-center>figure>p,
+.quarto-figure-center>figure>div {
+  text-align: left;
+}
+
+.figure-img {
+  margin-bottom: 1px !important;
+}
+
+/* alterar parágrafo */
+p {
+  display: block;
+  margin-block-start: 5px;
+  margin-block-end: 10px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+/* alterar texto inaativo menu esquerdo */
+.sidebar-navigation a {
+  color: #003B4d;
+}
+
+/* alterar texto ativo menu esquerdo */
+div.sidebar-item-container .active,
+div.sidebar-item-container .show>.nav-link,
+div.sidebar-item-container .sidebar-link>code {
+  color: #003B4d;
+  font-weight: bold;
+}
+
+/* alterar texto inativo menu direito */
+.sidebar .toc-actions ul li a,
+.sidebar .quarto-code-links ul li a,
+.sidebar .quarto-other-links ul li a,
+.sidebar .quarto-alternate-notebooks ul li a,
+.sidebar .quarto-alternate-formats ul li a,
+.sidebar nav[role=doc-toc]>ul li a {
+  line-height: 1.1rem;
+  padding-bottom: .2rem;
+  padding-top: .2rem;
+  color: #003B4d !important;
+}
+
+/* alterar texto ativo menu direito */
+.sidebar nav[role=doc-toc] ul>li>a.active,
+.sidebar nav[role=doc-toc] ul>li>ul>li>a.active {
+  border-left: 1px solid #003B4d;
+  color: #003B4d !important;
+  font-weight: bold;
+}
+
+
+
+/* change Font
+@font-face {
+  font-family: "FiraCode";
+  src: url("font/FiraCode-Regular.ttf");
+}
+*/
