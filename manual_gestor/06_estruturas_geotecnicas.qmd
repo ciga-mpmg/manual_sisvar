@@ -44,9 +44,11 @@ Tela adicionar coordenadas
 
 6. O administrador do sistema valida ou não as coordenadas:
 - Em caso de reprovação, o fluxo retorna automaticamente ao passo 3;
-- Em caso de validação, o fluxo segue para o passo 7.
+- Em caso de validação, o fluxo segue para os passos 7 e 8.
 
-7. O administrador do sistema pesquisa a estrutura geotécnica na lista-base e edita suas informações para incluir o complexo minerário/mina.
+7. O usuário com Função de ***Instituição Admin*** pesquisa a estrutura geotécnica na lista-base e edita suas informações para incluir o **Complexo minerário/mina**.
+
+8. O usuário com Função de ***Instituição Admin*** verifica se a estrutura geotécnica está no [**Sistema de Gestão de Segurança de Barragem de Mineração (SIGBM)**](https://app.anm.gov.br/SIGBM/Publico/GerenciarPublico){.external target="_blank"} e, caso positivo, inclui o **ID SIGBM**.
 
 ## Procurar
 O usuário *Gestor* pode localizar uma estrutura geotécnica utilizando a opção **Procurar** e filtrar por: Status, TAC, Nome, Município e Empreendedor (@figu-procurar-estruturas). 

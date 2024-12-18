@@ -53,7 +53,7 @@ Tela aviso
 
 6. O usuário com Função de ***Instituição Admin*** valida ou não as coordenadas (@figu-validar-estruturas):
 - Em caso de reprovação, o fluxo retorna automaticamente ao passo 3;
-- Em caso de validação, o fluxo segue para o passo 7.
+- Em caso de validação, o fluxo segue para os passos 7 e 8.
 
 ::: {#figu-validar-estruturas}
 ```{r}
@@ -64,7 +64,9 @@ knitr::include_graphics("images/07_estruturas_geotecnicas/validar-estruturas.png
 Tela Validar/Reprovar estrutura geotécnica
 :::
 
-7. O usuário com Função de ***Instituição Admin*** pesquisa a estrutura geotécnica na lista-base e edita suas informações para incluir o complexo minerário/mina.
+7. O usuário com Função de ***Instituição Admin*** pesquisa a estrutura geotécnica na lista-base e edita suas informações para incluir o **Complexo minerário/mina**.
+
+8. O usuário com Função de ***Instituição Admin*** verifica se a estrutura geotécnica está no [**Sistema de Gestão de Segurança de Barragem de Mineração (SIGBM)**](https://app.anm.gov.br/SIGBM/Publico/GerenciarPublico){.external target="_blank"} e, caso positivo, inclui o **ID SIGBM**.
 
 :::callout-note
 ## Nota
@@ -72,19 +74,19 @@ A edição de complexo minerário/mina pode ser realizada a qualquer momento, em
 :::
 
 ## Procurar
-O usuário *Instituição Admin* pode localizar uma estrutura geotécnica utilizando a opção **Procurar** e filtrar por: Status, TAC, Nome, Município e Empreendedor (@figu-procurar-estrutura). 
+O usuário *Instituição Admin* pode localizar uma estrutura geotécnica utilizando a opção **Procurar** e filtrar por: Status, TAC, Nome, Município e Empreendedor (@figu-procurar-estruturas). 
 
-::: {#figu-procurar-estrutura}
+::: {#figu-procurar-estruturas}
 ```{r}
-#| label: figu-procurar-estrutura
+#| label: figu-procurar-estruturas
 #| out-width: ~
-knitr::include_graphics("images/07_estruturas_geotecnicas/procurar-estrutura.png")
+knitr::include_graphics("images/07_estruturas_geotecnicas/procurar-estruturas.png")
 ```
 Tela Procurar estrutura geotécnica
 :::
 
 ## Exibir
-Ao clicar no botão de ação **Exibir**, o usuário *Instituição Admin* pode visualizar as informações detalhadas da estrutura geotécnica, incluindo, quando aplicável, os nomes alternativos, o histórico da estrutura geotécnica e o motivo da reprovação, quem e quando a reprovou (@figu-exibir-estruturas). 
+Ao clicar no botão de ação **Exibir**, o usuário *Instituição Admin* pode visualizar as informações detalhadas da estrutura geotécnica, incluindo, quando aplicável, os Nomes alternativos, o Histórico da estrutura geotécnica, as Reprovações e as Notas da estrutura geotécnica (@figu-exibir-estruturas). 
 
 ::: {#figu-exibir-estruturas}
 ```{r}
@@ -96,7 +98,7 @@ Tela Exibir estrutura geotécnica
 :::
 
 ## Editar
-O botão de ação **Editar** permite ao usuário *Instituição Admin* modificar as informações de complexo minerário e coordenadas de qualquer estrutura geotécnica (@figu-editar-estruturas).
+O botão de ação **Editar** permite ao usuário *Instituição Admin* modificar as informações de Complexo minerário, Coordenadas geográficas e ID SIGBM de qualquer estrutura geotécnica (@figu-editar-estruturas).
 
 ::: {#figu-editar-estruturas}
 ```{r}
