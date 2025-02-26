@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Sisvar - Manual do Usuário",
+    "title": "Sisvar - Manual do Usuário - Perfil Instituição",
     "section": "",
     "text": "Prefácio\nO Sistema de Atualização e Validação de Recomendações (Sisvar) foi desenvolvido para simplificar a submissão e validação das planilhas de recomendações das Auditorias Técnicas Independentes. Este Manual do Usuário tem como objetivo apresentar os recursos e funcionalidades do Sisvar aos usuários com perfil de Instituição Admin, por meio de um guia ilustrado passo a passo, focado em casos de uso, proporcionando acesso rápido e fácil às informações.",
     "crumbs": [
@@ -14,7 +14,7 @@
     "href": "01_dicionario.html",
     "title": "1  Dicionário",
     "section": "",
-    "text": "1.1 Ícone Exibir\nO ícone Exibir permite ao usuário obter informações detalhadas sobre um item específico (Figura 1.1).",
+    "text": "1.1 Ícone Exibir\nEste dicionário fornece uma descrição geral das principais ações disponíveis no sistema, auxiliando os usuários a compreenderem os ícones e botões para navegar e realizar tarefas com facilidade.\nO ícone Exibir permite ao usuário obter informações detalhadas sobre um item específico (Figura 1.1).",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dicionário</span>"
     ]
@@ -114,7 +114,7 @@
     "href": "03_usuarios.html",
     "title": "3  Usuários",
     "section": "",
-    "text": "3.1 Criar\nO usuário com Função de Instituição Admin pode clicar no botão Novo Usuário para criar um usuário preenchendo os campos obrigatórios do formulário. A senha deve possuir no mínimo 6 caracteres e incluir uma combinação de letras e números (Figura 3.2).\nSe o novo usuário criado for do tipo Instituição, o Admin também pode revogar o privilégio de Administrador deste usuário logo após o processo de criação (Figura 3.3).",
+    "text": "3.1 Criar\nA tela Usuários exibe uma lista dos usuários cadastrados no Sisvar, organizados por Função. Nesta tela, é possível gerenciar os usuários, incluindo pesquisa, visualização, edição, exclusão e adição de usuários (Figura 3.1).\nO usuário com Função de Instituição Admin pode clicar no botão Novo Usuário para criar um usuário preenchendo os campos obrigatórios do formulário. A senha deve possuir no mínimo 6 caracteres e incluir uma combinação de letras e números (Figura 3.2).\nSe o novo usuário criado for do tipo Instituição, o Admin também pode revogar o privilégio de Administrador deste usuário logo após o processo de criação (Figura 3.3).",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Usuários</span>"
     ]
@@ -174,7 +174,7 @@
     "href": "04_convidados.html",
     "title": "4  Convidados",
     "section": "",
-    "text": "4.1 Enviar convite\nO usuário com perfil de Instituição Admin pode clicar no botão Novo convite e enviar o convite preenchendo os campos obrigatórios do formulário (Figura 4.2). Todas as opções de Função estão disponíveis para esse usuário.\nNo campo Função, ao escolher a opção Gestor ou Responsável, as opções do campo Auditoria serão exibidas conforme cadastradas na tela Auditorias.\nA principal diferença desta tela em relação à tela Usuários é que, aqui, o convite é enviado para o e-mail cadastrado, de forma que existe o histórico acerca da inserção do usuário no Sisvar.",
+    "text": "4.1 Enviar convite\nA tela Convidados exibe uma lista dos usuários que receberam convites para acessar o Sisvar. Nessa tela, é possível gerenciar informações sobre quem enviou o convite, o status do convite (Aceito ou Aguardando) e, quando aplicável, a data de aceite. Além disso, é possível pesquisar, excluir e enviar convites (Figura 4.1).\nO usuário com perfil de Instituição Admin pode clicar no botão Novo convite e enviar o convite preenchendo os campos obrigatórios do formulário (Figura 4.2). Todas as opções de Função estão disponíveis para esse usuário.\nNo campo Função, ao escolher a opção Gestor ou Responsável, as opções do campo Auditoria serão exibidas conforme cadastradas na tela Auditorias.\nA principal diferença desta tela em relação à tela Usuários é que, aqui, o convite é enviado para o e-mail cadastrado, de forma que existe o histórico acerca da inserção do usuário no Sisvar.",
     "crumbs": [
       "<span class='chapter-number'>4</span>  <span class='chapter-title'>Convidados</span>"
     ]
@@ -204,7 +204,7 @@
     "href": "05_auditorias.html",
     "title": "5  Auditorias",
     "section": "",
-    "text": "5.1 Criar\nO usuário com Função de Instituição Admin pode clicar no botão Nova Auditoria e cadastrar a auditoria preenchendo os campos Nome e Código da auditoria. O código deve conter 3 caracteres, sendo os 2 primeiros obrigatoriamente letras (Figura 5.2).",
+    "text": "5.1 Criar\nA tela Auditorias exibe uma lista das auditorias cadastradas no Sisvar, organizadas em ordem alfabética. Nesta tela, é possível gerenciar as auditorias, incluindo pesquisa, edição, exclusão e adição de novas auditorias, além da exibição dos TACs relacionados a cada auditoria (Figura 5.1).\nO usuário com Função de Instituição Admin pode clicar no botão Nova Auditoria e cadastrar a auditoria preenchendo os campos Nome e Código da auditoria. O código deve conter 3 caracteres, sendo os 2 primeiros obrigatoriamente letras (Figura 5.2).",
     "crumbs": [
       "<span class='chapter-number'>5</span>  <span class='chapter-title'>Auditorias</span>"
     ]
@@ -254,7 +254,7 @@
     "href": "06_tacs.html",
     "title": "6  TACs",
     "section": "",
-    "text": "6.1 Criar\nO usuário com Função de Instituição Admin pode clicar no botão Novo TAC e criar um TAC preenchendo todos os campos obrigatórios do formulário. O código deve conter 3 caracteres, sendo os 2 primeiros obrigatoriamente letras (Figura 6.2).\nO campo Data de Assinatura refere-se à data de assinatura do TAC. Quando preenchido, durante o processo de validação das planilhas, o Sisvar checará se a data de abertura da recomendação é anterior à data de assinatura do TAC.\nO campo TAC Referência consiste em uma lista de nomes de TACs preenchidos no Sistema de Cadastro de TACs. Ele serve para, caso necessário, juntar todos os dados de um TAC.",
+    "text": "6.1 Criar\nA tela TACs exibe uma lista dos TACs cadastrados no Sisvar, organizados em ordem alfabética. Nesta tela, é possível gerenciar os TACs, incluindo pesquisa, edição, exclusão e adição de novos TACs, além da exibição para o envio e validação de planilhas (Figura 6.1).\nO usuário com Função de Instituição Admin pode clicar no botão Novo TAC e criar um TAC preenchendo todos os campos obrigatórios do formulário. O código deve conter 3 caracteres, sendo os 2 primeiros obrigatoriamente letras (Figura 6.2).\nO campo Data de Assinatura refere-se à data de assinatura do TAC. Quando preenchido, durante o processo de validação das planilhas, o Sisvar checará se a data de abertura da recomendação é anterior à data de assinatura do TAC.\nO campo TAC Referência consiste em uma lista de nomes de TACs preenchidos no Sistema de Cadastro de TACs. Ele serve para, caso necessário, juntar todos os dados de um TAC.",
     "crumbs": [
       "<span class='chapter-number'>6</span>  <span class='chapter-title'>TACs</span>"
     ]
@@ -304,7 +304,7 @@
     "href": "07_estruturas_geotecnicas.html",
     "title": "7  Estruturas Geotécnicas",
     "section": "",
-    "text": "7.1 Criar\nPara adicionar uma estrutura geotécnica à lista, é imprescindível que os dados estejam corretos, especialmente as coordenadas geográficas. O fluxo de criação de uma nova estrutura geotécnica pode seguir dois caminhos:",
+    "text": "7.1 Criar\nA tela Estruturas Geotécnicas exibe uma lista das estruturas cadastradas no Sisvar. Nesta tela, é possível gerenciar as estruturas geotécnicas, incluindo pesquisa, visualização, edição e adição de estruturas (Figura 7.1).\nPara adicionar uma estrutura geotécnica à lista, é imprescindível que os dados estejam corretos, especialmente as coordenadas geográficas. O fluxo de criação de uma nova estrutura geotécnica pode seguir dois caminhos:",
     "crumbs": [
       "<span class='chapter-number'>7</span>  <span class='chapter-title'>Estruturas Geotécnicas</span>"
     ]
@@ -354,7 +354,7 @@
     "href": "08_empreendedores.html",
     "title": "8  Empreendedores",
     "section": "",
-    "text": "8.1 Criar\nO usuário com Função de Instituição Admin pode clicar no botão Novo Empreendedor e criar um empreendedor preenchendo o campo obrigatório “Nome” do formulário (Figura 8.2).",
+    "text": "8.1 Criar\nA tela Empreendedores exibe uma lista dos empreendedores cadastrados no Sisvar, seguindo a nomenclatura do Sistema de Gestão de Segurança de Barragem de Mineração (SIGBM). Nesta tela, é possível gerenciar os empreendedores, incluindo pesquisa, visualização, edição, exclusão e adição de empreendedores (Figura 8.1).\nO usuário com Função de Instituição Admin pode clicar no botão Novo Empreendedor e criar um empreendedor preenchendo o campo obrigatório “Nome” do formulário (Figura 8.2).",
     "crumbs": [
       "<span class='chapter-number'>8</span>  <span class='chapter-title'>Empreendedores</span>"
     ]

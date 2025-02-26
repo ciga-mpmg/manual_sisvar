@@ -2,7 +2,7 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Sisvar - Manual do Usuário",
+    "title": "Sisvar - Manual do Usuário - Perfil Responsável",
     "section": "",
     "text": "Prefácio\nO Sistema de Atualização e Validação de Recomendações (Sisvar) foi desenvolvido para simplificar a submissão e validação das planilhas de recomendações das Auditorias Técnicas Independentes. Este Manual do Usuário tem como objetivo apresentar os recursos e funcionalidades do Sisvar aos usuários com perfil de Responsável, por meio de um guia ilustrado passo a passo, focado em casos de uso, proporcionando acesso rápido e fácil às informações.",
     "crumbs": [
@@ -14,7 +14,7 @@
     "href": "01_dicionario.html",
     "title": "1  Dicionário",
     "section": "",
-    "text": "1.1 Ícone Exibir\nO ícone Exibir permite ao usuário obter informações detalhadas sobre um item específico (Figura 1.1).",
+    "text": "1.1 Ícone Exibir\nEste dicionário fornece uma descrição geral das principais ações disponíveis no sistema, auxiliando os usuários a compreenderem os ícones e botões para navegar e realizar tarefas com facilidade.\nO ícone Exibir permite ao usuário obter informações detalhadas sobre um item específico (Figura 1.1).",
     "crumbs": [
       "<span class='chapter-number'>1</span>  <span class='chapter-title'>Dicionário</span>"
     ]
@@ -104,7 +104,7 @@
     "href": "02_tacs.html",
     "title": "2  TACs",
     "section": "",
-    "text": "2.1 Exibir\nAo clicar no botão de ação Exibir, o usuário com Função de Responsável pode visualizar as informações detalhadas dos TACs, incluindo Submissões, Responsáveis, Nomes alternativos, Planilhas e Histórico de avisos.",
+    "text": "2.1 Exibir\nA tela TACs exibe o(s) TAC(s) relacionado(s) ao Responsável (Figura 2.1).\nAo clicar no botão de ação Exibir, o usuário com Função de Responsável pode visualizar as informações detalhadas dos TACs, incluindo Submissões, Responsáveis, Nomes alternativos, Planilhas e Histórico de avisos.",
     "crumbs": [
       "<span class='chapter-number'>2</span>  <span class='chapter-title'>TACs</span>"
     ]
@@ -124,7 +124,7 @@
     "href": "03_estruturas_geotecnicas.html",
     "title": "3  Estruturas Geotécnicas",
     "section": "",
-    "text": "3.1 Adicionar estrutura geotécnica\nPara adicionar uma estrutura geotécnica à lista, é imprescindível que os dados estejam corretos, especialmente as coordenadas geográficas. O fluxo de adição de uma nova estrutura geotécnica inicia-se com o preenchimento da planilha-modelo:",
+    "text": "3.1 Adicionar estrutura geotécnica\nA tela Estruturas Geotécnicas exibe uma lista das estruturas relacionadas ao(s) TAC(s) do Responsável. Nesta tela, é possível gerenciar as estruturas geotécnicas, incluindo pesquisa, visualização, edição e adição de coordenadas das estruturas (Figura 3.1).\nPara adicionar uma estrutura geotécnica à lista, é imprescindível que os dados estejam corretos, especialmente as coordenadas geográficas. O fluxo de adição de uma nova estrutura geotécnica inicia-se com o preenchimento da planilha-modelo:",
     "crumbs": [
       "<span class='chapter-number'>3</span>  <span class='chapter-title'>Estruturas Geotécnicas</span>"
     ]

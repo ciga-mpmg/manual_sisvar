@@ -3,18 +3,20 @@ project:
   output-dir: docs
 number-sections: true
 crossref:
+  chapters: true
   fig-prefix: Figura
   custom:
     - kind: float
       reference-prefix: Figura
       key: figu
+      latex-env: Figura
 execute:
   echo: false
   warning: false
   message: false
 callout-appearance: simple
 book:
-  title:  Sisvar - Manual do Usuário
+  title:  Sisvar - Manual do Usuário - Perfil Responsável
   description: Exemplos práticos de uso
   favicon: assets/ciga-logo.svg
   sidebar:
@@ -39,3 +41,16 @@ format:
     linkcolor: "#00353E"
     logo: assets/ciga.png
     css: assets/styles.css
+  pdf:
+    documentclass: report
+    mainfont: Arial
+    geometry:
+      - margin=2.5cm
+    toc: true
+    toc-title: "Sumário"
+    toc-depth: 3
+    colorlinks: true
+    latex-engine: xelatex
+    header-includes:
+      - \renewcommand{\chaptername}{Capítulo}
+      - \renewcommand{\thechapter}{\arabic{chapter}}
